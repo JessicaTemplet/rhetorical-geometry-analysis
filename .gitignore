@@ -6,10 +6,12 @@
 # Pipeline manifest (proprietary)
 pipeline_manifest.md
 
+# App (proprietary — contains pipeline wiring)
+app/
+
 # Pipeline implementation files — add your paths below.
 # Examples:
 #   pipeline/
 #   *.py
 #   veritas_memoria/
 #   rhetorical_wavelet.py
-
