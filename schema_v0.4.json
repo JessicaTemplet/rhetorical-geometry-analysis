@@ -1,8 +1,8 @@
 {
   "schema_version": "0.4",
-  "locked": false,
-  "locked_date": null,
-  "locking_authority": null,
+  "locked": true,
+  "locked_date": "2026-04-25",
+  "locking_authority": "ANALYST-001",
   "changelog": {
     "0.3_to_0.4": [
       "Added unattributed_agency to secondary_tags allowed values",
@@ -218,7 +218,7 @@
       "uncomfortable_output_direction_b": { "type": "string", "notes": "Documented example of a case where this rule would classify a false claim as true or ambiguous — the uncomfortable output on the side that risks under-flagging falsehood" },
       "kill_switch": {
         "type": "string",
-        "notes": "Required. A single sentence stating the specific observable data point that would force the analyst to declare this rule miscalibrated rather than the document anomalous. The kill switch must name a concrete, checkable condition — not a general category of failure. Example: 'If a known non-contentious historical fact such as the ratification date of a treaty triggers all four bridge signals, the manifold zone assignments are miscalibrated and this rule is falsified.'"
+        "notes": "Required. A single sentence stating the specific observable data point that would force the analyst to declare this rule miscalibrated rather than the document anomalous."
       },
       "falsifiability_confirmed": { "type": "boolean", "notes": "True only if both uncomfortable outputs were documented, the kill switch was defined, and neither caused the rule to be discarded or silently modified" },
       "modifications_after_test": { "type": "string or null", "notes": "Required if rule was modified after seeing the uncomfortable outputs or defining the kill switch; must state what changed and why" }
