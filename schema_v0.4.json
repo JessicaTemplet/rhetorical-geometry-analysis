@@ -1,0 +1,241 @@
+{
+  "schema_version": "0.4",
+  "locked": false,
+  "locked_date": null,
+  "locking_authority": null,
+  "changelog": {
+    "0.3_to_0.4": [
+      "Added unattributed_agency to secondary_tags allowed values",
+      "Added relational_proposition fields to proposition_table",
+      "Added independent_genesis requirement to anchor_registry (RULE-005 update)",
+      "Updated document_metadata to replace preregistration hash mechanism with public repository fields",
+      "Added kill_switch field to each falsifiability_record entry",
+      "Added unattributed_agency to secondary_tags per session discussion"
+    ]
+  },
+
+  "document_metadata": {
+    "_description": "Top-level metadata for the document under analysis and the preregistration record covering this analysis.",
+    "fields": {
+      "document_id": { "type": "string", "format": "DOC-YYYYMMDD-NNN" },
+      "common_name": { "type": "string", "notes": "Human-readable title" },
+      "primary_source_url": { "type": "string", "notes": "Canonical archive link" },
+      "date_of_document": { "type": "ISO 8601 date", "notes": "Date the source document was produced, not analysis date" },
+      "date_of_analysis": { "type": "ISO 8601 datetime", "notes": "UTC" },
+      "analyst_id": { "type": "string", "notes": "Anonymized; used for disagreement protocol only" },
+      "extraction_pass": { "type": "integer", "notes": "1 = raw extraction, 2+ = reviewed passes" },
+      "preregistration_repo_url": {
+        "type": "string",
+        "notes": "URL of the public GitHub repository holding the preregistration record. Replaces the prior hash mechanism. Public commit timestamp is the tamper-evident proof that priors were filed before analysis began.",
+        "value": "https://github.com/JessicaTemplet/rhetorical-geometry-analysis"
+      },
+      "preregistration_commit_hash": {
+        "type": "string",
+        "notes": "The specific git commit hash of the first commit to the preregistration repo, before any document was touched analytically. This is the immutable chain-of-custody anchor."
+      },
+      "preregistration_status": {
+        "type": "enum",
+        "allowed_values": ["confirmed", "pending", "not_applicable"],
+        "notes": "Set to confirmed once the preregistration commit is live and the analyst has not yet begun analysis of this document. Schema violation to set confirmed after analysis has begun."
+      }
+    }
+  },
+
+  "anchor_registry": {
+    "_description": "One record per anchor used in this analysis. Anchors must be registered here before any proposition may reference them. No proposition may be analyzed without at least one anchor mapping.",
+    "fields": {
+      "anchor_id": { "type": "string", "format": "ANC-NNN" },
+      "anchor_text": { "type": "string", "notes": "Verbatim statement of the anchor claim" },
+      "anchor_classification": {
+        "type": "enum",
+        "allowed_values": [
+          "mathematical_truth",
+          "direct_empirical_record",
+          "primary_source_attestation",
+          "scientific_consensus"
+        ]
+      },
+      "classification_source": { "type": "string", "notes": "Citation or description of what establishes this as an anchor" },
+      "chain_length_from_governance_zone": {
+        "type": "integer",
+        "notes": "Number of inferential steps from the mathematical governance zone (r=0). Mathematical truths = 0. All other classifications require an integer — estimation is required, null is not permitted. If chain length cannot be estimated even approximately, the claim does not meet the bar for the anchor registry."
+      },
+      "chain_length_confidence": { "type": "enum", "allowed_values": ["exact", "estimated", "contested"] },
+      "independent_genesis": {
+        "type": "object",
+        "notes": "Required for all anchors. Documents whether at least one source establishing this anchor originates outside the administrative chain of command of the document under analysis.",
+        "fields": {
+          "independent_source_exists": { "type": "boolean" },
+          "independent_source_citation": { "type": "string or null", "notes": "Required if independent_source_exists is true. Citation of the independent source." },
+          "genesis_confidence_weight": {
+            "type": "enum",
+            "allowed_values": ["full", "reduced", "minimal"],
+            "notes": "full = at least one fully independent source exists. reduced = only sources within the same administrative chain exist; anchor is flagged but not disqualified; analyst must document the absence in the anchor record. minimal = provenance is unclear; anchor requires elevated scrutiny and a confidence_flag record."
+          },
+          "genesis_note": { "type": "string or null", "notes": "Required when independent_source_exists is false. Must state the nature of the institutional dependency and why independent corroboration is unavailable." }
+        }
+      },
+      "notes": { "type": "string or null", "notes": "Optional. Caveats about scope or limits of this anchor." }
+    },
+    "anchor_classification_definitions": {
+      "mathematical_truth": "Formally provable, exogenous to all human manifolds. chain_length = 0, chain_length_confidence = exact.",
+      "direct_empirical_record": "Primary source documentation of a physical event (signed treaty, congressional record, census count).",
+      "primary_source_attestation": "First-person statement in a primary document verifiable against the document itself without interpretation.",
+      "scientific_consensus": "Proposition with no credible dissenting peer review at time of document production. chain_length must be estimated, chain_length_confidence = estimated."
+    },
+    "validation_rules": [
+      "If chain_length_from_governance_zone cannot be estimated even approximately, the claim does not meet the bar for the anchor registry. A genuinely unmeasurable chain length is a disqualification signal, not a null case.",
+      "If independent_genesis.independent_source_exists is false, genesis_confidence_weight must be reduced or minimal and genesis_note must be populated.",
+      "Anchors with genesis_confidence_weight = reduced are valid but must be noted in the analysis confidence_flags."
+    ]
+  },
+
+  "proposition_table": {
+    "_description": "One record per proposition extracted from the source document.",
+    "fields": {
+      "proposition_id": { "type": "string", "format": "P-NNN; sub-propositions use P-NNN-a, P-NNN-b, etc." },
+      "verbatim_source_text": { "type": "string", "notes": "Exact quote from source document. No paraphrase permitted." },
+      "source_location": { "type": "string", "notes": "Page, paragraph, line, or section reference" },
+      "normalized_claim": { "type": "string", "notes": "Analyst restatement in unambiguous language for graph encoding" },
+      "is_compound": { "type": "boolean", "notes": "True if proposition bundles more than one independently evaluable claim" },
+      "compound_resolution": { "type": "object or null", "notes": "Required if is_compound = true. See compound_resolution schema below." },
+      "is_relational": {
+        "type": "boolean",
+        "notes": "True if this proposition's truth value depends on the relationship between two other propositions rather than on an independent anchor. A relational proposition asserts something about how two claims relate — e.g., that one implies, contradicts, or qualifies another."
+      },
+      "relational_resolution": {
+        "type": "object or null",
+        "notes": "Required if is_relational = true.",
+        "fields": {
+          "parent_proposition_a": { "type": "string", "notes": "proposition_id of the first parent proposition" },
+          "parent_proposition_b": { "type": "string", "notes": "proposition_id of the second parent proposition" },
+          "relation_type": {
+            "type": "enum",
+            "allowed_values": ["implies", "contradicts", "qualifies", "presupposes", "amplifies"],
+            "notes": "The structural relationship this proposition asserts between its two parents"
+          },
+          "relational_note": { "type": "string", "notes": "Analyst statement of what the relationship claim is and why it cannot be evaluated against an anchor directly" }
+        }
+      },
+      "primary_classification": { "type": "enum", "notes": "Singular. See allowed values below." },
+      "secondary_tags": {
+        "type": "array of enum",
+        "max_items": 3,
+        "notes": "Maximum 3. If more than 3 are required, the proposition must be decomposed via compound_resolution instead. See allowed values below."
+      },
+      "anchor_mappings": { "type": "array of anchor_id", "notes": "Which anchors this proposition is evaluated against. At least one required. Relational propositions map to the anchors of their parent propositions." },
+      "geodesic_distance_from_anchor": { "type": "float or null", "notes": "Null until graph computation pass is complete" },
+      "edge_sign": { "type": "enum", "allowed_values": ["positive", "negative", "unsigned"], "notes": "Relationship to mapped anchor" },
+      "stress_energy_contribution": { "type": "float or null", "notes": "T_uv contribution; null until field computation pass is complete" },
+      "confidence_flag_id": { "type": "string or null", "notes": "Links to a record in confidence_flags if flagged" }
+    },
+    "primary_classification_allowed_values": {
+      "anchored_true": "Directly supported by registered anchor, short geodesic chain.",
+      "anchored_false": "Directly contradicted by registered anchor.",
+      "inferentially_true": "True but dependent on long inferential chain from anchor; elevated fragility.",
+      "inferentially_false": "False via long inferential chain.",
+      "bridge_narrative": "Geometrically identified as boundary node with bidirectional T_uv load; primary classification is used when bridge structure is the defining characteristic of the proposition.",
+      "ambiguous": "Cannot be classified without additional resolution; must have a corresponding confidence_flag record.",
+      "out_of_scope": "Not addressable by registered anchors; noted but excluded from graph computation."
+    },
+    "secondary_tags_allowed_values": {
+      "contextually_misleading": "Technically true but placed or framed to imply a false inference.",
+      "selective_omission": "True by itself but material context has been removed.",
+      "false_precision": "Quantitative claim stated with more precision than the evidence supports.",
+      "bridge_adjacent": "Not itself a bridge narrative but structurally dependent on one.",
+      "bridge_narrative": "Carries bridge structural characteristics alongside an independent primary classification; used when the proposition has a classifiable primary identity but also functions as a load-bearing boundary node.",
+      "unattributed_agency": "The proposition describes an action, decision, or outcome but does not name the agent responsible. The omission of the subject is the rhetorical move — passive construction or nominalization is used to remove accountability from the claim while preserving its apparent factual content."
+    },
+    "compound_resolution_schema": {
+      "decomposition_required": { "type": "boolean" },
+      "sub_propositions": { "type": "array of proposition_id", "notes": "e.g. ['P-NNN-a', 'P-NNN-b']" },
+      "decomposition_note": { "type": "string", "notes": "Analyst statement of what was separated and why" },
+      "primary_classification_basis": { "type": "string", "notes": "Which sub-proposition drives the parent's primary classification, or 'composite' if no single sub-proposition is dominant" }
+    }
+  },
+
+  "graph_structure": {
+    "_description": "Poincare disk graph encoding the manifold structure of the document.",
+    "fields": {
+      "nodes": { "type": "array", "notes": "One entry per proposition plus one per anchor" },
+      "edges": { "type": "array", "notes": "Signed edges encoding support and contradiction relationships" },
+      "manifold_zone_assignments": {
+        "type": "object",
+        "notes": "Nodes grouped by Poincare zone: governance, stable, contested, boundary"
+      },
+      "fragmentation_detected": { "type": "boolean", "notes": "True if graph resolves into incompatible metric spaces" },
+      "polarization_detected": { "type": "boolean", "notes": "True if two positions found within one shared manifold" },
+      "bridge_narrative_candidates": { "type": "array of proposition_id", "notes": "Highest-stress boundary nodes identified prior to geometric summary" }
+    }
+  },
+
+  "geometric_summary": {
+    "_description": "Narrative description of the manifold structure. No verdict field. No conclusion field. No classification of rhetor intent.",
+    "fields": {
+      "manifold_description": { "type": "string", "notes": "Shape of the belief space the document constructs" },
+      "anchor_cluster_summary": { "type": "string", "notes": "How anchored claims organize in the space" },
+      "highest_stress_region": { "type": "string", "notes": "Where T_uv is largest; described geometrically" },
+      "least_stable_truth_candidate": { "type": "string or null", "notes": "True claim with longest inferential chain; most vulnerable to bridge injection" },
+      "most_stable_false_candidate": { "type": "string or null", "notes": "False claim sitting closest to governance zone by geodesic measure" },
+      "analyst_notes": { "type": "string or null", "notes": "Optional. Non-binding. Explicitly outside the geometric summary. Any content here must not contain interpretive conclusions about intent, judgment, or verdict. Schema violation if it does." },
+      "reader_interpretation_note": {
+        "type": "string",
+        "locked": true,
+        "notes": "Verbatim-locked. Any deviation is a schema violation caught by the audit trail.",
+        "value": "This summary describes geometric structure only. Classification of intent or moral judgment is left to the reader."
+      }
+    }
+  },
+
+  "confidence_flags": {
+    "_description": "One record per flagged proposition.",
+    "fields": {
+      "flag_id": { "type": "string", "format": "FLAG-NNN" },
+      "proposition_id": { "type": "string", "notes": "Reference to flagged proposition" },
+      "ambiguity_source": {
+        "type": "enum",
+        "allowed_values": ["textual", "classificatory"],
+        "notes": "Mutually exclusive per record. If both apply, two records are created, one per type."
+      },
+      "ambiguity_description": { "type": "string", "notes": "Analyst statement of the specific ambiguity" },
+      "resolution_attempted": { "type": "boolean" },
+      "resolution_description": { "type": "string or null", "notes": "If attempted, what was proposed" },
+      "resolution_status": { "type": "enum", "allowed_values": ["resolved", "unresolved", "escalated_to_disagreement_protocol"] }
+    },
+    "ambiguity_source_definitions": {
+      "textual": "The source text itself is unclear, incomplete, or admits multiple grammatical readings; classification requires disambiguating the text itself, not just the claim.",
+      "classificatory": "The source text is clear; analysts disagree on which classification category applies."
+    }
+  },
+
+  "falsifiability_record": {
+    "_description": "Top-level field. One entry per extraction rule applied during analysis. This field constitutes the auditable record that the bidirectional falsifiability test was executed, and that a kill switch was defined before analysis began. The record must be populated before the analysis pass is committed.",
+    "enforcement": "An analysis pass may not be committed if any applied rule has falsifiability_confirmed = false and no modifications_after_test entry explaining the discrepancy.",
+    "fields": {
+      "rule_id": { "type": "string", "format": "RULE-NNN; matches the rule identifier in the methodology document" },
+      "rule_summary": { "type": "string", "notes": "One-sentence statement of what the rule does" },
+      "uncomfortable_output_direction_a": { "type": "string", "notes": "Documented example of a case where this rule would classify a true claim as false or ambiguous — the uncomfortable output on the side that risks over-flagging truth" },
+      "uncomfortable_output_direction_b": { "type": "string", "notes": "Documented example of a case where this rule would classify a false claim as true or ambiguous — the uncomfortable output on the side that risks under-flagging falsehood" },
+      "kill_switch": {
+        "type": "string",
+        "notes": "Required. A single sentence stating the specific observable data point that would force the analyst to declare this rule miscalibrated rather than the document anomalous. The kill switch must name a concrete, checkable condition — not a general category of failure. Example: 'If a known non-contentious historical fact such as the ratification date of a treaty triggers all four bridge signals, the manifold zone assignments are miscalibrated and this rule is falsified.'"
+      },
+      "falsifiability_confirmed": { "type": "boolean", "notes": "True only if both uncomfortable outputs were documented, the kill switch was defined, and neither caused the rule to be discarded or silently modified" },
+      "modifications_after_test": { "type": "string or null", "notes": "Required if rule was modified after seeing the uncomfortable outputs or defining the kill switch; must state what changed and why" }
+    }
+  },
+
+  "audit_trail": {
+    "_description": "Top-level field. Immutable append-only log. Covers all post-commit writes to any field in any other section after the initial extraction pass is committed.",
+    "fields": {
+      "audit_id": { "type": "string", "format": "AUD-NNN, sequential" },
+      "timestamp": { "type": "ISO 8601 datetime", "notes": "UTC" },
+      "analyst_id": { "type": "string", "notes": "Who made the change" },
+      "target_field_path": { "type": "string", "notes": "Dot-path to changed field, e.g., proposition_table.P-042.primary_classification" },
+      "prior_value": { "type": "any", "notes": "Value before change" },
+      "new_value": { "type": "any", "notes": "Value after change" },
+      "change_reason": { "type": "string", "notes": "Required" },
+      "triggered_by": { "type": "enum", "allowed_values": ["disagreement_protocol", "graph_computation", "analyst_correction", "anchor_registry_update"] }
+    }
+  }
+}
