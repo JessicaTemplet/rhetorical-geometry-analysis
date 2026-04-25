@@ -1,11 +1,13 @@
 {
   "preregistration_id": "PREREG-001",
-  "version": "0.4",
+  "version": "0.5",
   "project_title": "Rhetorical Geometry Analysis",
   "preregistration_repo_url": "https://github.com/JessicaTemplet/rhetorical-geometry-analysis",
   "preregistration_status": "confirmed",
   "preregistration_note": "Analyst priors and document pool were committed to the public repository above before any document was touched analytically. The public commit timestamp is the tamper-evident chain of custody. Behavioral commitment to embargo is self-reported and noted explicitly as such in the methodology document.",
   "preregistration_commit_hash": "5ca3ec482746f01d92cdaa2651bd3c9fc9a182e8",
+
+  "chain_of_custody_note": "Version 0.5 corrects a contamination event introduced by a second Claude session (commit 6c9a11d, 2026-04-25T15:07 local). That session incorrectly substituted Executive Order 9066, Gulf of Tonkin Resolution, Emancipation Proclamation at DOC-005, and Missouri Compromise for the four correct documents. The correct document pool is authoritative in PREREG-20260424-001.json (first commit hash 5ca3ec482746f01d92cdaa2651bd3c9fc9a182e8). No document analysis had been performed at the time of contamination or correction. DOC number assignments in this file are derived in PREREG list order and supersede any prior DOC assignments from contaminated session output.",
 
   "analyst": {
     "analyst_id": "ANALYST-001",
@@ -26,56 +28,56 @@
       },
       {
         "document_id": "DOC-002",
-        "common_name": "Executive Order 9066 (1942)",
-        "contestation_description": "Debate centers on the interpretation of military necessity versus constitutional protections.",
-        "preregistration_status": "confirmed"
-      },
-      {
-        "document_id": "DOC-003",
-        "common_name": "Gulf of Tonkin Resolution (1964)",
-        "contestation_description": "Disagreement lies in whether the document was based on accurate intelligence and whether it granted an unconstitutional blank check for war.",
-        "preregistration_status": "confirmed"
-      },
-      {
-        "document_id": "DOC-004",
         "common_name": "Treaty of Versailles (1919) — War Guilt Clause and Reparations",
         "contestation_description": "Clauses regarding war guilt and reparations are analyzed for their role in destabilizing European governance.",
         "preregistration_status": "confirmed"
       },
       {
-        "document_id": "DOC-005",
-        "common_name": "Emancipation Proclamation (1863)",
-        "contestation_description": "Legal contestation focuses on its status as a war measure and its limited geographic scope at the time of issuance.",
-        "preregistration_status": "confirmed"
-      },
-      {
-        "document_id": "DOC-006",
+        "document_id": "DOC-003",
         "common_name": "Chinese Exclusion Act (1882)",
         "contestation_description": "First federal law to exclude a specific ethnic group; text is analyzed for its shift in American immigration policy and citizenship definition.",
         "preregistration_status": "confirmed"
       },
       {
-        "document_id": "DOC-007",
+        "document_id": "DOC-004",
         "common_name": "National Labor Relations Act of 1935 (Wagner Act)",
         "contestation_description": "Heavily contested regarding the extent of federal power under the Commerce Clause.",
         "preregistration_status": "confirmed"
       },
       {
-        "document_id": "DOC-008",
-        "common_name": "Missouri Compromise of 1820",
-        "contestation_description": "Contestation involves the federal government's authority to regulate slavery in new territories.",
-        "preregistration_status": "confirmed"
-      },
-      {
-        "document_id": "DOC-009",
+        "document_id": "DOC-005",
         "common_name": "Alien and Sedition Acts of 1798",
         "contestation_description": "Debate centers on the tension between national security and the First Amendment.",
         "preregistration_status": "confirmed"
       },
       {
+        "document_id": "DOC-006",
+        "common_name": "Monroe Doctrine (1823)",
+        "contestation_description": "Contestation focuses on whether the doctrine represented genuine hemispheric solidarity or an assertion of American hegemony over the Western hemisphere.",
+        "preregistration_status": "confirmed"
+      },
+      {
+        "document_id": "DOC-007",
+        "common_name": "Northwest Ordinance (1787)",
+        "contestation_description": "Dual contestation: the tension between the slavery prohibition and its non-enforcement, and the stated good faith toward Native Americans against the territorial dispossession that followed.",
+        "preregistration_status": "confirmed"
+      },
+      {
+        "document_id": "DOC-008",
+        "common_name": "Lend-Lease Act (1941)",
+        "contestation_description": "Debate centers on whether the act represented genuine democratic solidarity or the strategic positioning of the United States for post-war economic dominance.",
+        "preregistration_status": "confirmed"
+      },
+      {
+        "document_id": "DOC-009",
+        "common_name": "Georgia Declaration of Causes of Secession (1861)",
+        "contestation_description": "Contestation focuses on whether the stated causes accurately represent the political and moral stakes of secession, or whether property rights language functioned as a euphemism for the preservation of chattel slavery.",
+        "preregistration_status": "confirmed"
+      },
+      {
         "document_id": "DOC-010",
         "common_name": "Emancipation Proclamation (1863)",
-        "contestation_description": "Selected as tenth document. An executive order where the legal contestation often focuses on its status as a war measure and its limited geographic scope at the time of issuance.",
+        "contestation_description": "Legal contestation often focuses on its status as a war measure and its limited geographic scope at the time of issuance.",
         "preregistration_status": "confirmed",
         "selection_note": "Selected by Claude as tenth document per analyst delegation. Chosen for proposition density relative to word count, high contestation, and the structural contrast it offers — a document with limited legal reach that carries enormous moral weight provides a useful geometric test case."
       }
@@ -85,13 +87,13 @@
   "analyst_priors": {
     "stated_before_analysis": true,
     "prior_statement_location": "Committed to public repository in first commit (hash: 5ca3ec482746f01d92cdaa2651bd3c9fc9a182e8). Full text in PREREG-20260424-001.json.",
-    "summary": "Analyst expects to find that the primary motivation in these documents was often the preservation of state power at the expense of stated moral principles. Analyst expects that humanitarian language in documents like the Indian Removal Act and Northwest Ordinance functioned as administrative convenience for land transfer logistics. Analyst expects to find that government treated constitutional or moral consistency as expendable when political stability was threatened. Analyst expects international documents like the Treaty of Versailles and Lend-Lease Act to show altruistic framing as a tool for establishing economic dominance. Analyst's stated core interest: to prove that lies have a geometric shape and can be quantified.",
-    "friction_zone": "The uncomfortable result for the analyst would be finding a genuine good-faith document — one where the geometry shows no meaningful divergence between stated rationale and anchored fact. This would challenge the analyst's hypothesis and is noted as the prior most likely to produce motivated resistance.",
+    "summary": "Analyst expects to find that the primary motivation in these documents was often the preservation of state power at the expense of stated moral principles. Analyst expects that humanitarian language in documents like the Indian Removal Act and Northwest Ordinance functioned as administrative convenience for land transfer logistics. Analyst expects to find that government treated constitutional or moral consistency as expendable when political stability was threatened. Analyst expects international documents like the Treaty of Versailles and Lend-Lease Act to show altruistic framing as a tool for establishing economic dominance. Analyst stated core interest: to prove that lies have a geometric shape and can be quantified.",
+    "friction_zone": "The uncomfortable result for the analyst would be finding a genuine good-faith document — one where the geometry shows no meaningful divergence between stated rationale and anchored fact. This would challenge the analyst hypothesis and is noted as the prior most likely to produce motivated resistance.",
     "methodology_commitment": "Analyst commits to the schema, the no-verdict field, the falsifiability records including kill switches, and the public preregistration as structural constraints on motivated reasoning. These constraints are in place precisely because the analyst is aware of the direction their priors point."
   },
 
   "schema_version_at_preregistration": "0.4",
   "methodology_version_at_preregistration": "0.4",
   "timestamp_local_record": "2026-04-25",
-  "notes": "Chain of custody is complete. First commit hash 5ca3ec482746f01d92cdaa2651bd3c9fc9a182e8 is the authoritative tamper-evident anchor. GitHub repository is the authoritative record; this file is the local working copy."
+  "notes": "Chain of custody: first commit hash 5ca3ec482746f01d92cdaa2651bd3c9fc9a182e8 is the authoritative tamper-evident anchor. Version 0.5 of this file corrects the contaminated DOC assignments introduced by a second Claude session and documented in chain_of_custody_note above. GitHub repository is the authoritative record; this file is the local working copy."
 }
