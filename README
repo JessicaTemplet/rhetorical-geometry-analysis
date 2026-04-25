@@ -1,0 +1,71 @@
+
+# Rhetorical Geometry Analysis
+
+A geometric analysis of contested historical government documents using hyperbolic manifold embedding, signed proposition graphs, and adversarial stability testing derived from the VeritasMemoria field theory framework.
+
+## What This Is
+
+This project applies mathematical tools — Poincaré disk embedding, signed graph Laplacians, and the stress-energy tensor T_μν — to analyze the rhetorical structure of historical U.S. government documents. The goal is to make the geometric shape of true and false claims visible without rendering a verdict. The geometry produces structure. The reader draws conclusions.
+
+## What This Is Not
+
+This is not a political argument. It is not a verdict on the authors of these documents or the governments that produced them. The output schema contains no verdict field by design. The `reader_interpretation_note` field in every analysis output is verbatim-locked to the following text and cannot be altered:
+
+> "This summary describes geometric structure only. Classification of intent or moral judgment is left to the reader."
+
+## Methodology Commitments
+
+**Full public transparency.** Every file in this repository — including the researcher's priors, methodology, extraction rules, and analysis outputs — is public from the moment it is committed. Nothing is sealed, embargoed, or withheld. Tamper evidence is provided by the git commit history.
+
+**Preregistration before analysis.** The researcher's priors and methodology commitments are committed to this repository before any document is analyzed. The commit timestamp is the proof of sequence.
+
+**No verdict field.** The output schema (v0.3, locked 2026-04-24) contains no field for conclusion, verdict, or classification of intent.
+
+**Bidirectional falsifiability.** Every extraction rule must be tested against both directions of uncomfortable output before it is locked. The falsifiability record is a required top-level field in every analysis output.
+
+**Random document selection.** The ten documents were selected from a pre-defined candidate pool using a random number generator after the pool criteria were locked. Document selection was not made by the researcher after seeing the pool.
+
+## Repository Structure
+
+```
+rhetorical-geometry-analysis/
+├── README.md                          — this file
+├── schema/
+│   ├── schema_v0.3_locked.json        — output schema, locked 2026-04-24
+│   └── preregistration_spec.json      — preregistration record format spec
+├── preregistration/
+│   └── PREREG-20260424-001.json       — researcher priors (committed before analysis)
+├── methodology/
+│   └── (extraction rules, added after rule design, before analysis)
+└── analysis/
+    └── (one subdirectory per document, populated during analysis)
+```
+
+## Commit Sequence
+
+The integrity of this project depends on the order of commits being verifiable in the public record.
+
+1. **First commit** — schema, preregistration spec, README, researcher priors (PREREG-20260424-001.json with methodology_commitment marked pending)
+2. **Second commit** — extraction rules locked; PREREG-20260424-001.json updated with methodology_commitment and anchor_commitment filled in
+3. **Analysis commits** — one commit per document analysis, in the order determined by the random selection sequence
+
+Any deviation from this sequence is visible in the git history and constitutes a methodology violation.
+
+## Documents Under Analysis
+
+Selected from a pre-defined candidate pool. Final ten determined by random number generator.
+
+1. Indian Removal Act of 1830
+2. Treaty of Versailles (War Guilt Clause, Article 231)
+3. Chinese Exclusion Act of 1882
+4. Wagner Act (National Labor Relations Act) of 1935
+5. Alien and Sedition Acts of 1798
+6. Monroe Doctrine (1823)
+7. Northwest Ordinance of 1787
+8. Lend-Lease Act of 1941
+9. Georgia Declaration of Causes of Secession (1861)
+10. [Tenth document — to be confirmed]
+
+## Researcher
+
+Anonymous by design. Positionality and priors are fully disclosed in `preregistration/PREREG-20260424-001.json`.

@@ -1,0 +1,89 @@
+{
+  "preregistration_id": "PREREG-20260424-001",
+  "preregistration_type": "project_level",
+  "document_scope": "all_ten",
+  "document_ids_covered": [
+    "Indian Removal Act of 1830",
+    "Treaty of Versailles",
+    "Chinese Exclusion Act",
+    "Wagner Act",
+    "Alien and Sedition Acts",
+    "Monroe Doctrine",
+    "Northwest Ordinance",
+    "Lend-Lease Act",
+    "Georgia Declaration of Causes of Secession"
+  ],
+  "analyst_id": "ANALYST-001",
+  "filing_timestamp": "2026-04-25T01:09:32Z",
+  "filing_note": "Priors committed before extraction rules are written and before any document is analyzed in an analytical capacity. methodology_commitment field will be populated after rule design is locked and before first document analysis begins. That update will be a second commit to this file. Both commits will be public and timestamped.",
+
+  "document_familiarity": {
+    "Indian Removal Act of 1830": "general_historical_familiarity",
+    "Treaty of Versailles": "general_historical_familiarity",
+    "Chinese Exclusion Act": "general_historical_familiarity",
+    "Wagner Act": "general_historical_familiarity",
+    "Alien and Sedition Acts": "general_historical_familiarity",
+    "Monroe Doctrine": "general_historical_familiarity",
+    "Northwest Ordinance": "general_historical_familiarity",
+    "Lend-Lease Act": "general_historical_familiarity",
+    "Georgia Declaration of Causes of Secession": "general_historical_familiarity"
+  },
+
+  "stated_priors": {
+
+    "researcher_positionality_statement": "Researcher Positionality & Priors Statement — Project: Randomly Selected Analysis of Contentious Political Documents — Date: April 2026",
+
+    "geographic_context": {
+      "location": "Mississippi, United States",
+      "influence": "As a researcher in the Deep South, I am physically situated within the geography defined by several of the candidate documents (e.g., Indian Removal Act, Georgia Declaration of Causes). This proximity may create a subconscious bias toward or against regional narratives. My prior is a heightened sensitivity to the tension between state and federal authority."
+    },
+
+    "professional_background_and_lived_experience": {
+      "legal_administrative": "My 15+ years of experience in the legal field has conditioned me to view governmental text through the lens of documentary discovery. I approach text with a prior that language is often chosen to mitigate liability, obscure intent, or create strategic ambiguity.",
+      "personal_stake": "I have a personal stake in believing that a rigorous audit can reveal a singular truth, which may conflict with the inherently subjective nature of political contestation or proving that a lie has a geometric shape.",
+      "villain_narrative_confidence": "I am 85% certain that in at least 7 of the 10 selected documents, but most likely all of them, the bridge narrative was an intentional obfuscation used to mask raw power dynamics.",
+      "comfort_zone": "I would feel most intellectually validated if my audit proves that the governmental authors were acting in bad faith or with hidden agendas.",
+      "friction_zone": "I would feel most uncomfortable if the evidence suggests a document was a genuine, high-minded attempt at a least-bad solution, as this challenges my professional skepticism of administrative power."
+    },
+
+    "per_document_priors": {
+      "Indian Removal Act of 1830": "The bridge narrative was built on the concept of benevolent separation as a means of preservation. This narrative transformed a policy of forced dispossession into one of paternalistic protection.",
+      "Treaty of Versailles": "Centered on moral accountability as a prerequisite for global stability where the war guilt clauses were framed not as vengeance but as the necessary legal foundation for extracting reparations to rebuild a shattered Europe.",
+      "Chinese Exclusion Act": "Justified through the lens of protecting the dignity of free labor and domestic economic security by framing the exclusion of a specific ethnic group as a necessary administrative safeguard against the perceived threat of non-assimilable competition.",
+      "Wagner Act": "Used the narrative of industrial peace to justify federal intervention in private business by arguing that the legal protection of collective bargaining was the only way to prevent violent labor unrest from obstructing the flow of interstate commerce.",
+      "Alien and Sedition Acts": "Presented as essential national defense measures intended to protect the fragile Republic from foreign subversion and internal treason during a period of undeclared naval war with France.",
+      "Monroe Doctrine": "Utilized a narrative of hemispheric solidarity and mutual security to frame an expansion of American influence as a defensive shield intended to protect the newly independent nations of the Americas from European monarchical interference.",
+      "Northwest Ordinance": "Framed as a blueprint for orderly and enlightened expansion where the inclusion of both a prohibition on slavery and a promise of good faith toward Native Americans was meant to establish the moral and legal superiority of the new federal government.",
+      "Lend-Lease Act": "Sold to the public as the great arsenal of democracy which allowed the United States to remain technically neutral while providing the material support necessary to prevent the collapse of allied nations and keep the conflict away from American shores.",
+      "Georgia Declaration of Causes of Secession": "Relied on a narrative of violated compact and constitutional betrayal where the state argued that the federal government had abandoned its duty to protect private property and regional interests thereby forcing a return to independent sovereignty."
+    },
+
+    "expected_primary_finding": "The primary motivation in these documents was often the preservation of the state at the expense of its stated moral principles. The language of protection and justice frequently functioned as a legal or rhetorical mask for the consolidation of power or the mitigation of immediate political crises.",
+
+    "expected_finding_by_cluster": {
+      "indigenous_land_documents": "Indian Removal Act and Northwest Ordinance: The humanitarian language regarding the protection of indigenous tribes was often an administrative convenience designed to manage the logistics of land transfer. The authors were likely fully aware that the promised protections were unenforceable or secondary to the goal of territorial expansion. The documents provided a legal veneer of consent for actions that were effectively coerced, which allowed the government to maintain a self-image of a rule-of-law society while engaging in systematic dispossession.",
+      "labor_and_exclusion_documents": "Chinese Exclusion Act and Wagner Act: The government was willing to sacrifice the principle of universal rights to appease specific powerful domestic interest groups. The exclusion of an entire ethnic group or the restructuring of labor laws was less about high-minded ideals of economic stability and more about a calculated political trade to prevent internal social collapse. This suggests the government viewed constitutional or moral consistency as a luxury that can be discarded when the stability of the reigning political order is threatened.",
+      "international_documents": "Treaty of Versailles and Lend-Lease Act: The stated goals of global peace or the defense of democracy were secondary to the establishment of economic dominance. These documents were engineered to create a state of dependency that favored the architects of the agreements. The altruistic framing was a tool for creating a global hierarchy that prioritized the strategic and financial interests of the writing parties over the long-term stability of the nations they claimed to be helping.",
+      "fragility_of_democratic_contract": "Alien and Sedition Acts and Georgia Declaration of Causes: These could reveal the extreme fragility of the democratic contract — how quickly the language of liberty and rights is abandoned when a group perceives its cultural or political influence is waning. For those in power, the law is often viewed not as a fixed moral compass but as a flexible instrument to be reshaped in order to suppress dissent or protect entrenched systems of inequality. The text of a document is often the last line of defense for a policy that has already been decided by the exercise of raw power."
+    },
+
+    "stated_interest": "My only interest in the results is to prove that lies have a geometric shape and can be quantified."
+  },
+
+  "personal_stake_disclosure": {
+    "geographic": "Mississippi resident. Physically situated within the geography defined by several candidate documents including the Indian Removal Act and Georgia Declaration of Causes.",
+    "professional": "15+ years in the legal field. Conditioned to approach text with the assumption that language is chosen to mitigate liability, obscure intent, or create strategic ambiguity.",
+    "military": "Former U.S. Army. Stationed at Ft. Benning, Georgia. Georgia is one of the analysis documents. Assessed as not materially affecting the Georgia analysis but disclosed.",
+    "regional_identity": "Deep South residency. Heightened sensitivity to state vs. federal authority tensions. Explicitly excluded Mississippi as a document choice due to direct geographic and political proximity."
+  },
+
+  "methodology_commitment": {
+    "status": "pending",
+    "note": "Extraction rules (RULE-NNN identifiers) will be added here after rule design is locked and before the first document analysis begins. This field will be updated in a second commit to this file. The second commit timestamp must predate the timestamp of any analysis output."
+  },
+
+  "anchor_commitment": {
+    "status": "pending",
+    "note": "Anchor registry will be populated here after rule design is locked and before the first document analysis begins. Updated in the same second commit as methodology_commitment."
+  }
+}
