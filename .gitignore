@@ -1,0 +1,15 @@
+# Pipeline — proprietary implementation, not for public distribution.
+# The methodology, schema, and rules are public. The pipeline is not.
+# Researchers and institutions seeking access to the pipeline
+# should contact the analyst directly.
+
+# Pipeline manifest (proprietary)
+pipeline_manifest.md
+
+# Pipeline implementation files — add your paths below.
+# Examples:
+#   pipeline/
+#   *.py
+#   veritas_memoria/
+#   rhetorical_wavelet.py
+
