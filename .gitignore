@@ -9,6 +9,9 @@ pipeline_manifest.md
 # App (proprietary — contains pipeline wiring)
 app/
 
+# Source documents committed directly for verifiability.
+# All documents are US federal government or public domain materials.
+
 # Pipeline implementation files — add your paths below.
 # Examples:
 #   pipeline/
