@@ -1,0 +1,822 @@
+{
+  "schema_version": "0.4",
+  "document_metadata": {
+    "document_id": "DOC-17980625-005",
+    "common_name": "Alien and Sedition Acts (1798) — Alien Friends Act, Alien Enemies Act, Sedition Act",
+    "primary_source_url": "https://avalon.law.yale.edu/18th_century/alien.asp",
+    "date_of_document": "1798-06-25",
+    "date_of_analysis": "2026-04-27T00:00:00Z",
+    "analyst_id": "ANALYST-001",
+    "extraction_pass": 1,
+    "preregistration_repo_url": "https://github.com/JessicaTemplet/rhetorical-geometry-analysis",
+    "preregistration_commit_hash": "5ca3ec482746f01d92cdaa2651bd3c9fc9a182e8",
+    "preregistration_status": "confirmed",
+    "analyst_prior_note": "Pool asymmetry disclosed in methodology_v0.4.md. Document contains three of the four Alien and Sedition Acts: Alien Friends Act (June 25, 1798), Alien Enemies Act (July 6, 1798), Sedition Act (July 14, 1798); the Naturalization Act (June 18, 1798) is not in this file. Prior: The Alien Enemies Act is the one constitutionally durable provision — targeting nationals of declared-war enemies is legally established doctrine that remains in force. The Alien Friends Act concentrates unreviewable executive power in alien removal decisions. The Sedition Act is anchored_false on its constitutional compatibility claim — it was used exclusively against Republican newspaper editors, all 14+ prosecutions targeted political critics of Adams. The Sedition Act's expiration date (March 3, 1801, the final day of Adams's term) is analytically significant: it reveals the Act was designed to benefit Adams specifically and expire before Jefferson could use it. The 'improvement over English seditious libel' framing (truth as defense, jury determines law) is contextually_misleading because the standard 'false, scandalous and malicious' was applied to political opinion, not verifiable factual claims. Analyst expects anchored_false on all justificatory and constitutional compatibility claims, anchored_true on the Alien Enemies Act provisions. Extraction performed by Claude per bias-control protocol. Wavelet scoring not available this pass."
+  },
+  "anchor_registry": [
+    {
+      "anchor_id": "ANC-001",
+      "anchor_text": "The Alien Friends Act was enacted June 25, 1798; the Alien Enemies Act July 6, 1798; the Sedition Act July 14, 1798. The Acts were passed by the Federalist-controlled 5th Congress during the Quasi-War with France. The Alien Friends Act expired by its own terms on June 25, 1800. The Sedition Act expired on March 3, 1801. The Alien Enemies Act remains in force (as amended) to the present day.",
+      "anchor_classification": "direct_empirical_record",
+      "classification_source": "Statutes at Large, 5th Congress, Session 2: Alien Friends Act, Ch. 58 (1798); Alien Enemies Act, Ch. 66 (1798); Sedition Act, Ch. 74 (1798). All are public laws self-evidencing as to dates and content.",
+      "chain_length_from_governance_zone": 1,
+      "chain_length_confidence": "exact",
+      "independent_genesis": {
+        "independent_source_exists": true,
+        "independent_source_citation": "Statutes at Large is a public congressional record and self-evidencing.",
+        "genesis_confidence_weight": "full",
+        "genesis_note": null
+      },
+      "notes": "Foundational enactment anchor. The differential durability of the three Acts (Alien Enemies Act survives; Alien Friends and Sedition expire) is itself a geometric signal."
+    },
+    {
+      "anchor_id": "ANC-002",
+      "anchor_text": "The First Amendment to the United States Constitution, ratified December 15, 1791, provides: 'Congress shall make no law...abridging the freedom of speech, or of the press.' The First Congress's debates on the Bill of Rights include contemporaneous statements by Madison and others on the intended scope of free press protection. The Sedition Act was enacted seven years after the First Amendment's ratification.",
+      "anchor_classification": "primary_source_attestation",
+      "classification_source": "First Amendment, US Constitution (1791). Congressional Register, 1st Congress, debates on the Bill of Rights (1789). Annals of Congress, 5th Congress, debates on Alien and Sedition Acts (1798).",
+      "chain_length_from_governance_zone": 1,
+      "chain_length_confidence": "exact",
+      "independent_genesis": {
+        "independent_source_exists": true,
+        "independent_source_citation": "The Constitution and the First Amendment are public constitutional instruments self-evidencing as to their text. The Congressional debates are public records independent of the Adams administration that enacted the Acts.",
+        "genesis_confidence_weight": "full",
+        "genesis_note": null
+      },
+      "notes": "Evaluates P-003 (Sedition Act consistent with First Amendment). The constitutional text is the primary standard; the Congressional debates provide interpretive context."
+    },
+    {
+      "anchor_id": "ANC-003",
+      "anchor_text": "The Virginia Resolutions (December 1798, drafted by James Madison) and Kentucky Resolutions (November 1798, drafted by Thomas Jefferson) declared the Alien and Sedition Acts unconstitutional, arguing that the Sedition Act violated the First Amendment and that the Alien Friends Act violated due process principles. Madison's 'Report of 1800' elaborated these objections in detail. These are contemporaneous constitutional challenges by two of the principal framers of the Constitution and the Bill of Rights.",
+      "anchor_classification": "primary_source_attestation",
+      "classification_source": "Virginia Resolutions, December 24, 1798 (Journal of the Virginia House of Delegates, 1798-99); Kentucky Resolutions, November 16, 1798 (Kentucky House Journal, 1798); James Madison, Report of 1800 (Journal of the Virginia House of Delegates, January 1800).",
+      "chain_length_from_governance_zone": 1,
+      "chain_length_confidence": "exact",
+      "independent_genesis": {
+        "independent_source_exists": true,
+        "independent_source_citation": "The Virginia and Kentucky Resolutions originate from state governments entirely outside the federal executive chain of command of the Adams administration. Madison and Jefferson were the principal framers of the relevant constitutional provisions, making their contemporaneous constitutional interpretation the strongest available independent record.",
+        "genesis_confidence_weight": "full",
+        "genesis_note": null
+      },
+      "notes": "Evaluates P-003 (Sedition Act constitutional compatibility) and P-001-b (Alien Friends Act due process). These constitute the strongest contemporaneous independent legal assessment."
+    },
+    {
+      "anchor_id": "ANC-004",
+      "anchor_text": "At least 14 people were indicted under the Sedition Act, and at least 10 were convicted. All prosecutions targeted Republican newspaper editors, political pamphleteers, and critics of the Adams administration. No Federalist was prosecuted for criticism of the Republican opposition or of Jefferson. Notably prosecuted: Benjamin Franklin Bache (Philadelphia Aurora), Matthew Lyon (congressman and newspaper editor), James Callender, Thomas Cooper. No prosecution targeted any demonstrably false factual claim; all targeted political criticism and opinion.",
+      "anchor_classification": "direct_empirical_record",
+      "classification_source": "James Morton Smith, Freedom's Fetters: The Alien and Sedition Laws and American Civil Liberties (Cornell University Press, 1956) — the authoritative independent scholarly study of the prosecutorial record; John C. Miller, Crisis in Freedom: The Alien and Sedition Acts (Little, Brown, 1951).",
+      "chain_length_from_governance_zone": 2,
+      "chain_length_confidence": "estimated",
+      "independent_genesis": {
+        "independent_source_exists": true,
+        "independent_source_citation": "Smith (1956) and Miller (1951) are independent academic scholarship. Court records of the prosecutions are public judicial records independent of the executive branch that brought the prosecutions.",
+        "genesis_confidence_weight": "full",
+        "genesis_note": null
+      },
+      "notes": "Evaluates P-004 (truth defense and jury determination protect genuine free expression). The prosecutorial record demonstrates the Acts' exclusive application to political opinion rather than false factual claims."
+    },
+    {
+      "anchor_id": "ANC-005",
+      "anchor_text": "In New York Times Co. v. Sullivan (376 U.S. 254, 1964), the Supreme Court stated: 'Although the Sedition Act was never tested in this Court, the attack upon its validity has carried the day in the court of history. Fines levied in its prosecution were repaid by Act of Congress on the ground that it was unconstitutional.' Thomas Jefferson pardoned all persons convicted under the Sedition Act upon taking office in 1801. Congress subsequently refunded fines paid under the Act. The Sedition Act expired March 3, 1801 — the final day of Adams's term — before Jefferson, who had condemned it, could use it against Federalists.",
+      "anchor_classification": "primary_source_attestation",
+      "classification_source": "New York Times Co. v. Sullivan, 376 U.S. 254, 276 (1964); Act of July 4, 1840 (Congress refunding Callender fine); Adrienne Koch and Harry Ammon, 'The Virginia and Kentucky Resolutions: An Episode in Jefferson's and Madison's Defense of Civil Liberties,' William and Mary Quarterly (1948).",
+      "chain_length_from_governance_zone": 1,
+      "chain_length_confidence": "exact",
+      "independent_genesis": {
+        "independent_source_exists": true,
+        "independent_source_citation": "New York Times v. Sullivan is a Supreme Court decision constituting the strongest available independent judicial record. The 1840 Congressional refund is a public law self-evidencing as to Congress's retroactive assessment of the Act's constitutionality.",
+        "genesis_confidence_weight": "full",
+        "genesis_note": null
+      },
+      "notes": "Evaluates P-003 (First Amendment compatibility) and P-005 (expiration date as emergency measure framing). The expiration date coinciding with Adams's term end is documented in the enactment record and is historically significant."
+    }
+  ],
+  "proposition_table": [
+    {
+      "proposition_id": "P-001",
+      "verbatim_source_text": "it shall be lawful for the President of the United States at any time during the continuance of this act, to order all such aliens as he shall judge dangerous to the peace and safety of the United States, or shall have reasonable grounds to suspect are concerned in any treasonable or secret machinations against the government thereof, to depart out of the territory of the United States",
+      "source_location": "Alien Friends Act, Section 1",
+      "normalized_claim": "The President may expel any alien he personally judges dangerous to peace and safety, or suspects of treasonable machinations, without judicial review or specified evidentiary standard.",
+      "is_compound": true,
+      "compound_resolution": {
+        "decomposition_required": true,
+        "sub_propositions": [
+          "P-001-a",
+          "P-001-b"
+        ],
+        "decomposition_note": "RULE-004 Pathway 1. P-001-a (the federal government has authority to expel aliens from the country: legal_statutory, anchored_true — plenary power over immigration and foreign nationals is legally established) and P-001-b (the 'shall judge dangerous' standard provides meaningful procedural constraints protecting aliens from arbitrary removal: normative_stable, anchored_false — the Act vests unreviewable discretion in the President with no judicial review requirement, no specification of evidence standard, and conviction merely requiring the alien's presence after the order) are independently evaluable.",
+        "primary_classification_basis": "P-001-b"
+      },
+      "is_relational": false,
+      "relational_resolution": null,
+      "primary_classification": "anchored_false",
+      "secondary_tags": [
+        "contextually_misleading"
+      ],
+      "anchor_mappings": [
+        "ANC-001",
+        "ANC-003"
+      ],
+      "geodesic_distance_from_anchor": null,
+      "edge_sign": "negative",
+      "stress_energy_contribution": 0.3,
+      "confidence_flag_id": null
+    },
+    {
+      "proposition_id": "P-001-a",
+      "verbatim_source_text": "it shall be lawful for the President of the United States at any time during the continuance of this act, to order all such aliens as he shall judge dangerous to the peace and safety of the United States...to depart out of the territory of the United States",
+      "source_location": "Alien Friends Act, Section 1",
+      "normalized_claim": "The federal government has authority to expel alien non-citizens from the United States.",
+      "is_compound": false,
+      "compound_resolution": null,
+      "is_relational": false,
+      "relational_resolution": null,
+      "primary_classification": "anchored_true",
+      "secondary_tags": [],
+      "anchor_mappings": [
+        "ANC-001"
+      ],
+      "geodesic_distance_from_anchor": null,
+      "edge_sign": "positive",
+      "stress_energy_contribution": 0.3,
+      "confidence_flag_id": null
+    },
+    {
+      "proposition_id": "P-001-b",
+      "verbatim_source_text": "all such aliens as he shall judge dangerous to the peace and safety of the United States, or shall have reasonable grounds to suspect are concerned in any treasonable or secret machinations against the government thereof",
+      "source_location": "Alien Friends Act, Section 1",
+      "normalized_claim": "The standard for alien expulsion under this Act ('shall judge dangerous' or 'reasonable grounds to suspect') provides meaningful procedural constraints against arbitrary executive removal of aliens.",
+      "is_compound": false,
+      "compound_resolution": null,
+      "is_relational": false,
+      "relational_resolution": null,
+      "primary_classification": "anchored_false",
+      "secondary_tags": [
+        "contextually_misleading"
+      ],
+      "anchor_mappings": [
+        "ANC-001",
+        "ANC-003"
+      ],
+      "geodesic_distance_from_anchor": null,
+      "edge_sign": "negative",
+      "stress_energy_contribution": 0.3,
+      "confidence_flag_id": null
+    },
+    {
+      "proposition_id": "P-002",
+      "verbatim_source_text": "whenever there shall be a declared war between the United States and any foreign nation or government, or any invasion or predatory incursion shall be perpetrated, attempted, or threatened against the territory of the United States...all natives, citizens, denizens, or subjects of the hostile nation or government, being males of the age of fourteen years and upwards, who shall be within the United States, and not actually naturalized, shall be liable to be apprehended, restrained, secured and removed, as alien enemies",
+      "source_location": "Alien Enemies Act, Section 1",
+      "normalized_claim": "In the event of declared war or invasion, male nationals of the hostile country who are present in the United States and not naturalized may be apprehended, restrained, and removed.",
+      "is_compound": false,
+      "compound_resolution": null,
+      "is_relational": false,
+      "relational_resolution": null,
+      "primary_classification": "anchored_true",
+      "secondary_tags": [],
+      "anchor_mappings": [
+        "ANC-001"
+      ],
+      "geodesic_distance_from_anchor": null,
+      "edge_sign": "positive",
+      "stress_energy_contribution": 0.3,
+      "confidence_flag_id": null
+    },
+    {
+      "proposition_id": "P-003",
+      "verbatim_source_text": "if any person shall write, print, utter or publish...any false, scandalous and malicious writing or writings against the government of the United States, or either house of the Congress of the United States, or the President of the United States, with intent to defame the said government...or to bring them, or either of them, into contempt or disrepute...then such person, being thereof convicted...shall be punished by a fine not exceeding two thousand dollars, and by imprisonment not exceeding two years",
+      "source_location": "Sedition Act, Section 2",
+      "normalized_claim": "Criminalizing the publication of false, scandalous, and malicious writings against the US government and President is consistent with the First Amendment guarantee of freedom of speech and of the press.",
+      "is_compound": false,
+      "compound_resolution": null,
+      "is_relational": false,
+      "relational_resolution": null,
+      "primary_classification": "anchored_false",
+      "secondary_tags": [],
+      "anchor_mappings": [
+        "ANC-002",
+        "ANC-003",
+        "ANC-005"
+      ],
+      "geodesic_distance_from_anchor": null,
+      "edge_sign": "negative",
+      "stress_energy_contribution": 0.3,
+      "confidence_flag_id": null
+    },
+    {
+      "proposition_id": "P-004",
+      "verbatim_source_text": "it shall be lawful for the defendant, upon the trial of the cause, to give in evidence in his defence, the truth of the matter contained in publication charged as a libel. And the jury who shall try the cause, shall have a right to determine the law and the fact, under the direction of the court, as in other cases.",
+      "source_location": "Sedition Act, Section 3",
+      "normalized_claim": "The truth defense and jury determination provisions of Section 3 protect genuine free expression by ensuring only demonstrably false speech is criminalized, representing an improvement over English common law seditious libel.",
+      "is_compound": false,
+      "compound_resolution": null,
+      "is_relational": false,
+      "relational_resolution": null,
+      "primary_classification": "anchored_false",
+      "secondary_tags": [
+        "contextually_misleading"
+      ],
+      "anchor_mappings": [
+        "ANC-004"
+      ],
+      "geodesic_distance_from_anchor": null,
+      "edge_sign": "negative",
+      "stress_energy_contribution": 0.3,
+      "confidence_flag_id": null
+    },
+    {
+      "proposition_id": "P-005",
+      "verbatim_source_text": "this act shall continue and be in force until the third day of March, one thousand eight hundred and one, and no longer",
+      "source_location": "Sedition Act, Section 4",
+      "normalized_claim": "The Sedition Act's fixed expiration date (March 3, 1801) indicates it is a temporary emergency measure proportionate to the Quasi-War crisis, not a permanent curtailment of First Amendment rights.",
+      "is_compound": false,
+      "compound_resolution": null,
+      "is_relational": false,
+      "relational_resolution": null,
+      "primary_classification": "anchored_false",
+      "secondary_tags": [
+        "contextually_misleading"
+      ],
+      "anchor_mappings": [
+        "ANC-001",
+        "ANC-005"
+      ],
+      "geodesic_distance_from_anchor": null,
+      "edge_sign": "negative",
+      "stress_energy_contribution": 0.3,
+      "confidence_flag_id": "FLAG-001"
+    },
+    {
+      "proposition_id": "P-006-rel",
+      "verbatim_source_text": "it shall be lawful for the President...to order all such aliens as he shall judge dangerous [Alien Friends Act, Sec. 1]; any false, scandalous and malicious writing...with intent to defame [Sedition Act, Sec. 2]; this act shall continue...until the third day of March, one thousand eight hundred and one [Sedition Act, Sec. 4]",
+      "source_location": "Alien Friends Act Section 1; Sedition Act Sections 2 and 4",
+      "normalized_claim": "The Alien Friends Act's executive-discretion standard and the Sedition Act's 'false, scandalous and malicious' criminalization framing are structurally positioned to suppress political opposition to the Adams administration while using legally neutral procedural language (presidential judgment, truth defense, jury determination, temporary duration) to insulate these measures from constitutional challenge.",
+      "is_compound": false,
+      "compound_resolution": null,
+      "is_relational": true,
+      "relational_resolution": {
+        "parent_proposition_a": "P-001-b",
+        "parent_proposition_b": "P-003",
+        "relation_type": "insulates",
+        "relational_note": "The truth defense (P-004) and the expiration date (P-005) together supply procedural legitimacy framing that insulates the core speech criminalization claim (P-003) and the unreviewable executive expulsion standard (P-001-b) from constitutional challenge. P-004's 'truth as defense' framing implies only false speech is at risk, when the prosecutorial record (ANC-004) shows exclusively political opinion was targeted. P-005's 'temporary measure' framing implies proportionality, when the expiration date coincides precisely with the end of Adams's term (ANC-005), revealing the temporal limitation as politically rather than constitutionally designed. These procedural legitimacy claims (truth defense + temporary duration) function as a bridge: anchored at the intersection of legally partial claims and false constitutional compatibility assertions. Bridge narrative candidacy flagged. Signal 3 deferred to pipeline."
+      },
+      "primary_classification": "bridge_narrative",
+      "secondary_tags": [
+        "contextually_misleading"
+      ],
+      "anchor_mappings": [
+        "ANC-003",
+        "ANC-004",
+        "ANC-005"
+      ],
+      "geodesic_distance_from_anchor": null,
+      "edge_sign": "negative",
+      "stress_energy_contribution": 0.3,
+      "confidence_flag_id": "FLAG-001"
+    }
+  ],
+  "graph_structure": {
+    "nodes": [
+      {
+        "id": "ANC-001",
+        "type": "anchor",
+        "label": "ANC-001",
+        "classification": "direct_empirical_record",
+        "r": 0.3333,
+        "theta": 0.0,
+        "geodesic_distance": 0.6931,
+        "zone": "governance",
+        "blocked": false
+      },
+      {
+        "id": "ANC-002",
+        "type": "anchor",
+        "label": "ANC-002",
+        "classification": "primary_source_attestation",
+        "r": 0.3333,
+        "theta": 1.2566,
+        "geodesic_distance": 0.6931,
+        "zone": "governance",
+        "blocked": false
+      },
+      {
+        "id": "ANC-003",
+        "type": "anchor",
+        "label": "ANC-003",
+        "classification": "primary_source_attestation",
+        "r": 0.3333,
+        "theta": 2.5133,
+        "geodesic_distance": 0.6931,
+        "zone": "governance",
+        "blocked": false
+      },
+      {
+        "id": "ANC-004",
+        "type": "anchor",
+        "label": "ANC-004",
+        "classification": "direct_empirical_record",
+        "r": 0.6667,
+        "theta": 3.7699,
+        "geodesic_distance": 1.6094,
+        "zone": "governance",
+        "blocked": false
+      },
+      {
+        "id": "ANC-005",
+        "type": "anchor",
+        "label": "ANC-005",
+        "classification": "primary_source_attestation",
+        "r": 0.3333,
+        "theta": 5.0265,
+        "geodesic_distance": 0.6931,
+        "zone": "governance",
+        "blocked": false
+      },
+      {
+        "id": "P-001",
+        "type": "proposition",
+        "label": "P-001",
+        "classification": "anchored_false",
+        "secondary_tags": [
+          "contextually_misleading"
+        ],
+        "verbatim": "it shall be lawful for the President of the United States at any time during the continuance of this act, to order all such aliens as he shall judge dangerous to the peace and safety of the United States, or shall have reasonable grounds to suspect are concerned in any treasonable or secret machinations against the government thereof, to depart out of the territory of the United States",
+        "normalized": "The President may expel any alien he personally judges dangerous to peace and safety, or suspects of treasonable machinations, without judicial review or specified evidentiary standard.",
+        "stress": 0.3,
+        "r": 0.77,
+        "theta": 0.0,
+        "geodesic_distance": 2.0407,
+        "zone": "temporal_knowledge",
+        "blocked": false
+      },
+      {
+        "id": "P-001-a",
+        "type": "proposition",
+        "label": "P-001-a",
+        "classification": "anchored_true",
+        "secondary_tags": [],
+        "verbatim": "it shall be lawful for the President of the United States at any time during the continuance of this act, to order all such aliens as he shall judge dangerous to the peace and safety of the United States...to depart out of the territory of the United States",
+        "normalized": "The federal government has authority to expel alien non-citizens from the United States.",
+        "stress": 0.3,
+        "r": 0.3633,
+        "theta": 0.7854,
+        "geodesic_distance": 0.7614,
+        "zone": "governance",
+        "blocked": true
+      },
+      {
+        "id": "P-001-b",
+        "type": "proposition",
+        "label": "P-001-b",
+        "classification": "anchored_false",
+        "secondary_tags": [
+          "contextually_misleading"
+        ],
+        "verbatim": "all such aliens as he shall judge dangerous to the peace and safety of the United States, or shall have reasonable grounds to suspect are concerned in any treasonable or secret machinations against the government thereof",
+        "normalized": "The standard for alien expulsion under this Act ('shall judge dangerous' or 'reasonable grounds to suspect') provides meaningful procedural constraints against arbitrary executive removal of aliens.",
+        "stress": 0.3,
+        "r": 0.77,
+        "theta": 1.5708,
+        "geodesic_distance": 2.0407,
+        "zone": "temporal_knowledge",
+        "blocked": true
+      },
+      {
+        "id": "P-002",
+        "type": "proposition",
+        "label": "P-002",
+        "classification": "anchored_true",
+        "secondary_tags": [],
+        "verbatim": "whenever there shall be a declared war between the United States and any foreign nation or government, or any invasion or predatory incursion shall be perpetrated, attempted, or threatened against the territory of the United States...all natives, citizens, denizens, or subjects of the hostile nation or government, being males of the age of fourteen years and upwards, who shall be within the United States, and not actually naturalized, shall be liable to be apprehended, restrained, secured and removed, as alien enemies",
+        "normalized": "In the event of declared war or invasion, male nationals of the hostile country who are present in the United States and not naturalized may be apprehended, restrained, and removed.",
+        "stress": 0.3,
+        "r": 0.3633,
+        "theta": 2.3562,
+        "geodesic_distance": 0.7614,
+        "zone": "governance",
+        "blocked": true
+      },
+      {
+        "id": "P-003",
+        "type": "proposition",
+        "label": "P-003",
+        "classification": "anchored_false",
+        "secondary_tags": [],
+        "verbatim": "if any person shall write, print, utter or publish...any false, scandalous and malicious writing or writings against the government of the United States, or either house of the Congress of the United States, or the President of the United States, with intent to defame the said government...or to bring them, or either of them, into contempt or disrepute...then such person, being thereof convicted...shall be punished by a fine not exceeding two thousand dollars, and by imprisonment not exceeding two years",
+        "normalized": "Criminalizing the publication of false, scandalous, and malicious writings against the US government and President is consistent with the First Amendment guarantee of freedom of speech and of the press.",
+        "stress": 0.3,
+        "r": 0.77,
+        "theta": 3.1416,
+        "geodesic_distance": 2.0407,
+        "zone": "temporal_knowledge",
+        "blocked": false
+      },
+      {
+        "id": "P-004",
+        "type": "proposition",
+        "label": "P-004",
+        "classification": "anchored_false",
+        "secondary_tags": [
+          "contextually_misleading"
+        ],
+        "verbatim": "it shall be lawful for the defendant, upon the trial of the cause, to give in evidence in his defence, the truth of the matter contained in publication charged as a libel. And the jury who shall try the cause, shall have a right to determine the law and the fact, under the direction of the court, as in other cases.",
+        "normalized": "The truth defense and jury determination provisions of Section 3 protect genuine free expression by ensuring only demonstrably false speech is criminalized, representing an improvement over English common law seditious libel.",
+        "stress": 0.3,
+        "r": 0.82,
+        "theta": 3.927,
+        "geodesic_distance": 2.3136,
+        "zone": "temporal_knowledge",
+        "blocked": false
+      },
+      {
+        "id": "P-005",
+        "type": "proposition",
+        "label": "P-005",
+        "classification": "anchored_false",
+        "secondary_tags": [
+          "contextually_misleading"
+        ],
+        "verbatim": "this act shall continue and be in force until the third day of March, one thousand eight hundred and one, and no longer",
+        "normalized": "The Sedition Act's fixed expiration date (March 3, 1801) indicates it is a temporary emergency measure proportionate to the Quasi-War crisis, not a permanent curtailment of First Amendment rights.",
+        "stress": 0.3,
+        "r": 0.77,
+        "theta": 4.7124,
+        "geodesic_distance": 2.0407,
+        "zone": "temporal_knowledge",
+        "blocked": true
+      },
+      {
+        "id": "P-006-rel",
+        "type": "proposition",
+        "label": "P-006-rel",
+        "classification": "bridge_narrative",
+        "secondary_tags": [
+          "contextually_misleading"
+        ],
+        "verbatim": "it shall be lawful for the President...to order all such aliens as he shall judge dangerous [Alien Friends Act, Sec. 1]; any false, scandalous and malicious writing...with intent to defame [Sedition Act, Sec. 2]; this act shall continue...until the third day of March, one thousand eight hundred and one [Sedition Act, Sec. 4]",
+        "normalized": "The Alien Friends Act's executive-discretion standard and the Sedition Act's 'false, scandalous and malicious' criminalization framing are structurally positioned to suppress political opposition to the Adams administration while using legally neutral procedural language (presidential judgment, truth defense, jury determination, temporary duration) to insulate these measures from constitutional challenge.",
+        "stress": 0.3,
+        "r": 0.77,
+        "theta": 5.4978,
+        "geodesic_distance": 2.0407,
+        "zone": "rationale",
+        "blocked": false
+      }
+    ],
+    "edges": [
+      {
+        "source": "P-001",
+        "target": "ANC-001",
+        "sign": "negative",
+        "weight": 0.3
+      },
+      {
+        "source": "P-001",
+        "target": "ANC-003",
+        "sign": "negative",
+        "weight": 0.3
+      },
+      {
+        "source": "P-001-a",
+        "target": "ANC-001",
+        "sign": "positive",
+        "weight": 0.3
+      },
+      {
+        "source": "P-001-b",
+        "target": "ANC-001",
+        "sign": "negative",
+        "weight": 0.3
+      },
+      {
+        "source": "P-001-b",
+        "target": "ANC-003",
+        "sign": "negative",
+        "weight": 0.3
+      },
+      {
+        "source": "P-002",
+        "target": "ANC-001",
+        "sign": "positive",
+        "weight": 0.3
+      },
+      {
+        "source": "P-003",
+        "target": "ANC-002",
+        "sign": "negative",
+        "weight": 0.3
+      },
+      {
+        "source": "P-003",
+        "target": "ANC-003",
+        "sign": "negative",
+        "weight": 0.3
+      },
+      {
+        "source": "P-003",
+        "target": "ANC-005",
+        "sign": "negative",
+        "weight": 0.3
+      },
+      {
+        "source": "P-004",
+        "target": "ANC-004",
+        "sign": "negative",
+        "weight": 0.3
+      },
+      {
+        "source": "P-005",
+        "target": "ANC-001",
+        "sign": "negative",
+        "weight": 0.3
+      },
+      {
+        "source": "P-005",
+        "target": "ANC-005",
+        "sign": "negative",
+        "weight": 0.3
+      },
+      {
+        "source": "P-006-rel",
+        "target": "ANC-003",
+        "sign": "negative",
+        "weight": 0.3
+      },
+      {
+        "source": "P-006-rel",
+        "target": "ANC-004",
+        "sign": "negative",
+        "weight": 0.3
+      },
+      {
+        "source": "P-006-rel",
+        "target": "ANC-005",
+        "sign": "negative",
+        "weight": 0.3
+      }
+    ],
+    "manifold_zone_assignments": {
+      "governance": [
+        "ANC-001",
+        "ANC-002",
+        "ANC-003",
+        "ANC-004",
+        "ANC-005",
+        "P-001-a",
+        "P-002"
+      ],
+      "rationale": [
+        "P-006-rel"
+      ],
+      "work_knowledge": [],
+      "temporal_knowledge": [
+        "P-001",
+        "P-001-b",
+        "P-003",
+        "P-004",
+        "P-005"
+      ]
+    },
+    "adaptive_zone_boundaries": {
+      "governance": 0.55,
+      "false_attractor": 0.72
+    },
+    "node_radii": {
+      "ANC-001": 0.3333,
+      "ANC-002": 0.3333,
+      "ANC-003": 0.3333,
+      "ANC-004": 0.6667,
+      "ANC-005": 0.3333,
+      "P-001-a": 0.3633,
+      "P-001-b": 0.77,
+      "P-002": 0.3633,
+      "P-003": 0.77,
+      "P-004": 0.82,
+      "P-005": 0.77,
+      "P-001": 0.77,
+      "P-006-rel": 0.77
+    },
+    "fragmentation_detected": true,
+    "polarization_detected": true,
+    "bridge_narrative_candidates": [
+      "P-006-rel"
+    ],
+    "false_attractor_candidates": [
+      "P-001",
+      "P-001-b",
+      "P-003",
+      "P-004",
+      "P-005"
+    ],
+    "contradiction_pairs": [
+      {
+        "node_a": "P-002",
+        "node_b": "P-005"
+      },
+      {
+        "node_a": "P-002",
+        "node_b": "P-001-b"
+      },
+      {
+        "node_a": "P-001-a",
+        "node_b": "P-005"
+      }
+    ]
+  },
+  "geometric_summary": {
+    "manifold_description": "8 propositions placed on hyperbolic manifold. 2 governance-anchored (GOVERNANCE zone), 1 bridge_narrative candidate(s) (RATIONALE zone), 5 anchored_false attractor(s) (TEMPORAL_KNOWLEDGE zone), 0 ambiguous/contested (WORK/TEMPORAL zones). 4 proposition(s) in contradiction-blocked pairs. Fiedler value lambda2 = 0.1849 CoherenceState(zone='work_knowledge', timestamp='2026-04-29T02:44:57.830934+00:00', lambda2=0.0, lambda2_delta=0.0, lambda2_stable=False, lambda2_sufficient=False, mean_sheaf_consistency=0.0, sheaf_su",
+    "anchor_cluster_summary": "5 anchor(s) registered at governance zone (r=0). Contradiction-blocked pairs detected — see confidence_flags.",
+    "highest_stress_region": "P-001 (stress=0.300)",
+    "least_stable_truth_candidate": "P-001-a",
+    "most_stable_false_candidate": "P-001",
+    "bridge_narrative_geometry_note": "1 bridge narrative candidate(s) detected at RATIONALE zone boundary. Bidirectional T_mu_nu load present. ExpressionResult(expressed_nodes=['ANC-001', 'ANC-002', 'ANC-003', 'ANC-004', 'ANC-005', 'P-001', 'P-003', 'P-004', 'P-006-rel'], silenced_nodes={'P-001-a': ['[contradiction_block]'], 'P-001-b': ['[co",
+    "structural_tension_note": "1 undeclared tension point(s) detected. See confidence_flags.",
+    "analyst_notes": "",
+    "reader_interpretation_note": "This summary describes geometric structure only. Classification of intent or moral judgment is left to the reader."
+  },
+  "confidence_flags": [
+    {
+      "flag_id": "FLAG-001",
+      "proposition_id": "P-006-rel",
+      "flag_type": "bridge_narrative_candidate",
+      "description": "P-006-rel flagged as bridge_narrative candidate. The combination of P-004 (truth defense / jury determination as procedural legitimacy framing) and P-005 (temporary expiration as emergency proportionality framing) provides a two-part structural insulation for the Sedition Act's core constitutional violation (P-003). The truth defense frame implies only false speech is criminalized, when all prosecutions targeted political opinion (ANC-004). The expiration date frame implies emergency proportionality, when March 3, 1801 is precisely Adams's last day in office (ANC-005) — revealing the temporal limitation as designed to protect Adams, not to protect civil liberties. P-005 additionally flagged independently: the expiration date coincidence is the most structurally significant finding in this document — it converts the 'emergency measure' framing from a constitutional protection argument into direct evidence of political design. This warrants standalone treatment in the geometric analysis. Signal 3 (epistatic suppression) deferred to pipeline.",
+      "severity": "high"
+    },
+    {
+      "flag_id": "CF-CONTRADICTION-P-001-a",
+      "flag_type": "contradiction_detected",
+      "affected_proposition": "P-001-a",
+      "note": "Contradiction pair detected. Contradiction anchored at ANC-001",
+      "severity": "high"
+    },
+    {
+      "flag_id": "CF-CONTRADICTION-P-001-b",
+      "flag_type": "contradiction_detected",
+      "affected_proposition": "P-001-b",
+      "note": "Contradiction pair detected. Contradiction anchored at ANC-001",
+      "severity": "high"
+    },
+    {
+      "flag_id": "CF-CONTRADICTION-P-005",
+      "flag_type": "contradiction_detected",
+      "affected_proposition": "P-005",
+      "note": "Contradiction pair detected. Contradiction anchored at ANC-001",
+      "severity": "high"
+    },
+    {
+      "flag_id": "CF-CONTRADICTION-P-002",
+      "flag_type": "contradiction_detected",
+      "affected_proposition": "P-002",
+      "note": "Contradiction pair detected. Contradiction anchored at ANC-001",
+      "severity": "high"
+    },
+    {
+      "flag_id": "CF-TENSION-P-006-rel",
+      "flag_type": "undeclared_structural_tension",
+      "affected_proposition": "P-006-rel",
+      "note": "Tidal tension detected: unknown",
+      "severity": "medium"
+    },
+    {
+      "flag_id": "CF-SAL-COHERENCE",
+      "flag_type": "coherence_below_threshold",
+      "affected_proposition": null,
+      "note": "SAL coherence gate: should_commit=False. lambda2=unknown",
+      "severity": "medium"
+    },
+    {
+      "flag_id": "CF-CONTRADICTION-P-001-a",
+      "flag_type": "contradiction_detected",
+      "affected_proposition": "P-001-a",
+      "note": "Contradiction pair detected. Contradiction anchored at ANC-001",
+      "severity": "high"
+    },
+    {
+      "flag_id": "CF-CONTRADICTION-P-001-b",
+      "flag_type": "contradiction_detected",
+      "affected_proposition": "P-001-b",
+      "note": "Contradiction pair detected. Contradiction anchored at ANC-001",
+      "severity": "high"
+    },
+    {
+      "flag_id": "CF-CONTRADICTION-P-005",
+      "flag_type": "contradiction_detected",
+      "affected_proposition": "P-005",
+      "note": "Contradiction pair detected. Contradiction anchored at ANC-001",
+      "severity": "high"
+    },
+    {
+      "flag_id": "CF-CONTRADICTION-P-002",
+      "flag_type": "contradiction_detected",
+      "affected_proposition": "P-002",
+      "note": "Contradiction pair detected. Contradiction anchored at ANC-001",
+      "severity": "high"
+    },
+    {
+      "flag_id": "CF-TENSION-P-006-rel",
+      "flag_type": "undeclared_structural_tension",
+      "affected_proposition": "P-006-rel",
+      "note": "Tidal tension detected: unknown",
+      "severity": "medium"
+    },
+    {
+      "flag_id": "CF-SAL-COHERENCE",
+      "flag_type": "coherence_below_threshold",
+      "affected_proposition": null,
+      "note": "SAL coherence gate: should_commit=False. lambda2=unknown",
+      "severity": "medium"
+    },
+    {
+      "flag_id": "CF-CONTRADICTION-P-001-a",
+      "flag_type": "contradiction_detected",
+      "affected_proposition": "P-001-a",
+      "note": "Contradiction pair detected. Contradiction anchored at ANC-001",
+      "severity": "high"
+    },
+    {
+      "flag_id": "CF-CONTRADICTION-P-001-b",
+      "flag_type": "contradiction_detected",
+      "affected_proposition": "P-001-b",
+      "note": "Contradiction pair detected. Contradiction anchored at ANC-001",
+      "severity": "high"
+    },
+    {
+      "flag_id": "CF-CONTRADICTION-P-005",
+      "flag_type": "contradiction_detected",
+      "affected_proposition": "P-005",
+      "note": "Contradiction pair detected. Contradiction anchored at ANC-001",
+      "severity": "high"
+    },
+    {
+      "flag_id": "CF-CONTRADICTION-P-002",
+      "flag_type": "contradiction_detected",
+      "affected_proposition": "P-002",
+      "note": "Contradiction pair detected. Contradiction anchored at ANC-001",
+      "severity": "high"
+    },
+    {
+      "flag_id": "CF-TENSION-P-006-rel",
+      "flag_type": "undeclared_structural_tension",
+      "affected_proposition": "P-006-rel",
+      "note": "Tidal tension detected: unknown",
+      "severity": "medium"
+    },
+    {
+      "flag_id": "CF-SAL-COHERENCE",
+      "flag_type": "coherence_below_threshold",
+      "affected_proposition": null,
+      "note": "SAL coherence gate: should_commit=False. lambda2=unknown",
+      "severity": "medium"
+    }
+  ],
+  "falsifiability_record": [],
+  "audit_trail": [
+    {
+      "module": "rga_pipeline",
+      "status": "started",
+      "timestamp": "2026-04-29T02:44:57.825690",
+      "note": "Pipeline started for DOC-17980625-005"
+    },
+    {
+      "module": "RGAGraphAdapter",
+      "status": "complete",
+      "timestamp": "2026-04-29T02:44:57.826062",
+      "note": "Graph built: 13 nodes, 4 blocked, 6 bridge edges"
+    },
+    {
+      "module": "HSHGeometry",
+      "status": "calibration",
+      "timestamp": "2026-04-29T02:44:57.826062",
+      "note": "Adaptive radii set for 13 nodes. governance_boundary=0.550, false_attractor_boundary=0.720"
+    },
+    {
+      "module": "HSHGeometry",
+      "status": "complete",
+      "timestamp": "2026-04-29T02:44:57.829935",
+      "note": "Fiedler value lambda2=0.1849"
+    },
+    {
+      "module": "StructuralTensionAuditor",
+      "status": "complete",
+      "timestamp": "2026-04-29T02:44:57.829935",
+      "note": "1 tension record(s)"
+    },
+    {
+      "module": "EpistaticGate",
+      "status": "complete",
+      "timestamp": "2026-04-29T02:44:57.830934",
+      "note": "0 latent conflict(s) detected"
+    },
+    {
+      "module": "SALCoherenceLayer",
+      "status": "complete",
+      "timestamp": "2026-04-29T02:44:57.830934",
+      "note": "should_commit=False"
+    },
+    {
+      "module": "rga_pipeline",
+      "status": "complete",
+      "timestamp": "2026-04-29T02:44:57.830934",
+      "note": "Pipeline complete. 19 confidence flag(s). 1 bridge narrative candidate(s)."
+    }
+  ]
+}

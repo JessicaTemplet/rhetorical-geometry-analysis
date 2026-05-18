@@ -1,0 +1,698 @@
+{
+  "schema_version": "0.4",
+  "document_metadata": {
+    "document_id": "DOC-19410311-008",
+    "common_name": "Lend-Lease Act (1941)",
+    "primary_source_url": "https://avalon.law.yale.edu/wwii/lend-lease.asp",
+    "date_of_document": "1941-03-11",
+    "date_of_analysis": "2026-04-27T00:00:00Z",
+    "analyst_id": "ANALYST-001",
+    "extraction_pass": 1,
+    "preregistration_repo_url": "https://github.com/JessicaTemplet/rhetorical-geometry-analysis",
+    "preregistration_commit_hash": "5ca3ec482746f01d92cdaa2651bd3c9fc9a182e8",
+    "preregistration_status": "confirmed",
+    "analyst_prior_note": "Pool asymmetry disclosed in methodology_v0.4.md. The Lend-Lease Act was enacted on March 11, 1941, nine months before Pearl Harbor (December 7, 1941). The United States was formally neutral under the Neutrality Acts of 1935-1937. The bridge_narrative candidate is the 'defense of the United States' title and framing, which positions de facto entry into the Allied war effort as a domestic defense measure, insulating the Act from the constitutional and political constraints of neutrality. The Sec. 3(d) and Sec. 10 non-combat limitations are also analytically significant: they function as a contextually_misleading qualifier that the Act's scale of transfer rendered operationally hollow. Analyst notes that the Act's extraordinary breadth of executive discretion ('the President deems vital to the defense of the United States,' Sec. 3(a)) is a normative_stable grant that functions as a non-falsifiable authority claim; the actual scope of 'defense' was effectively unlimited. Note: wavelet dual-band scoring not available this extraction pass (workspace unavailable); band assignments are analyst-derived from vocabulary analysis."
+  },
+  "anchor_registry": [
+    {
+      "anchor_id": "ANC-001",
+      "anchor_text": "The Lend-Lease Act was enacted on March 11, 1941 (55 Stat. 31). At the time of enactment, the United States was formally neutral and not at war with any power. The Neutrality Act of 1937 (50 Stat. 121) had prohibited the export of arms to belligerents and restricted US financial and commercial relations with warring nations. The Lend-Lease Act was an explicit grant of authority to circumvent these restrictions via the 'lend, lease, or otherwise dispose of' mechanism. Under Lend-Lease, the United States ultimately provided approximately $50.1 billion in materiel to Allied nations (equivalent to approximately $800 billion in 2021 dollars), primarily to Britain and the Soviet Union.",
+      "anchor_classification": "direct_empirical_record",
+      "classification_source": "Lend-Lease Act, Public Law 77-11, 55 Stat. 31 — public law, self-evidencing. Neutrality Act of 1937, 50 Stat. 121 — public law, self-evidencing. Warren Kimball, The Most Unsordid Act: Lend-Lease 1939-1941 (Johns Hopkins University Press, 1969) — independent scholarship. Total Lend-Lease figures documented in the Seventy-Ninth Congress report: Report on Operations Under the Lend-Lease Act (1945).",
+      "chain_length_from_governance_zone": 1,
+      "chain_length_confidence": "exact",
+      "independent_genesis": {
+        "independent_source_exists": true,
+        "independent_source_citation": "The Neutrality Acts and the Lend-Lease Act are public laws self-evidencing as to their content and the tension between them. Kimball (1969) is independent academic scholarship outside the Roosevelt executive administrative chain.",
+        "genesis_confidence_weight": "full",
+        "genesis_note": null
+      },
+      "notes": "Foundational enactment anchor. Establishes legal context (pre-Pearl Harbor neutrality), scale of transfers, and the specific legislative mechanisms evaluated in all propositions below."
+    },
+    {
+      "anchor_id": "ANC-002",
+      "anchor_text": "The Neutrality Acts of 1935, 1936, and 1937 were enacted by Congress to prevent the United States from repeating the patterns of economic and financial entanglement that had drawn the country into World War I. The 1937 Act prohibited arms sales to belligerents, restricted loans to belligerents, and required cash-and-carry for non-arms trade. The Cash and Carry Act of 1939 modified the arms embargo but maintained the prohibition on credit. Roosevelt's December 29, 1940 'arsenal of democracy' radio address publicly framed providing material aid to Britain as essential to US security before the Lend-Lease legislation was formally introduced. Congressional debate on Lend-Lease was extensive; the bill was characterized by opponents (including Senator Robert Taft) as the equivalent of declaring war. The Act passed the House 260-165 and the Senate 60-31, indicating substantial opposition.",
+      "anchor_classification": "direct_empirical_record",
+      "classification_source": "Neutrality Act of 1935, 49 Stat. 1081; Neutrality Act of 1937, 50 Stat. 121; Cash and Carry Act of 1939, 54 Stat. 4 — all public laws, self-evidencing. Congressional Record, 77th Congress, 1st Session (February-March 1941) — public legislative record. Roosevelt's Arsenal of Democracy address, December 29, 1940 (Public Papers of the Presidents) — public record. Wayne Cole, Roosevelt and the Isolationists 1932-1945 (University of Nebraska Press, 1983) — independent scholarship.",
+      "chain_length_from_governance_zone": 1,
+      "chain_length_confidence": "exact",
+      "independent_genesis": {
+        "independent_source_exists": true,
+        "independent_source_citation": "The Neutrality Acts are public laws self-evidencing as to their content. Congressional Record is a public institutional record independent of the Roosevelt executive. Cole (1983) is independent academic scholarship.",
+        "genesis_confidence_weight": "full",
+        "genesis_note": null
+      },
+      "notes": "Evaluates P-001 (defense framing) and P-005-rel (bridge_narrative). The prior neutrality legislative record is essential context for evaluating whether 'defense of the United States' is a genuine characterization of the Act's purpose or a strategic rhetorical frame."
+    },
+    {
+      "anchor_id": "ANC-003",
+      "anchor_text": "Under the Lend-Lease Act, the United States supplied Britain, the Soviet Union, France, China, and other Allied nations with aircraft, tanks, ships, food, and industrial equipment throughout the war. The US Navy began conveying Lend-Lease ships in the North Atlantic from September 1941 onward under 'neutrality patrol' designations, despite the Sec. 3(d) prohibition on convoying by naval vessels. The USS Greer incident (September 4, 1941) and the sinking of the USS Kearny (October 17, 1941) and USS Reuben James (October 31, 1941) — all before Pearl Harbor — established de facto US naval combat operations in the Atlantic against German submarines. By the fall of 1941 the US was effectively engaged in undeclared naval war in the Atlantic.",
+      "anchor_classification": "direct_empirical_record",
+      "classification_source": "Robert Dallek, Franklin D. Roosevelt and American Foreign Policy 1932-1945 (Oxford University Press, 1979) — independent scholarship. The USS Reuben James sinking (October 31, 1941) is documented in Navy Department records and contemporaneous press. The September 1941 neutrality patrol orders are documented in declassified Navy Department records.",
+      "chain_length_from_governance_zone": 2,
+      "chain_length_confidence": "estimated",
+      "independent_genesis": {
+        "independent_source_exists": true,
+        "independent_source_citation": "Dallek (1979) is independent academic scholarship. Navy Department records documenting the Greer and Reuben James incidents are public institutional records independent of the executive legislative administrative chain.",
+        "genesis_confidence_weight": "partial",
+        "genesis_note": "The September 1941 convoying under 'neutrality patrol' designations depends on Navy Department operational records that are documented in secondary scholarship; direct primary record access was not confirmed for this extraction pass."
+      },
+      "notes": "Evaluates P-002 (Sec. 3(d) non-convoying limitation) and P-003 (Sec. 10 non-combat limitation). The actual US naval conduct in the Atlantic by fall 1941 is the empirical test of whether the Sec. 3(d) and Sec. 10 limitations were operative constraints."
+    },
+    {
+      "anchor_id": "ANC-004",
+      "anchor_text": "The United States formally declared war on Japan on December 8, 1941 (one day after Pearl Harbor) and on Germany and Italy on December 11, 1941 (following German and Italian declarations of war on the United States). Between March 11, 1941 and December 7, 1941, the United States provided Lend-Lease aid valued at approximately $1.3 billion. The Act's stated purpose — 'to promote the defense of the United States' — must be evaluated against the question of whether Germany and Japan posed a direct threat to the continental United States in March 1941, as opposed to posing a threat to Allied nations whose defeat would have weakened US strategic position.",
+      "anchor_classification": "direct_empirical_record",
+      "classification_source": "Congressional declaration of war against Japan, December 8, 1941, 55 Stat. 795 — public law, self-evidencing. German and Italian declarations of war, December 11, 1941. Lend-Lease Report No. 1 (June 11, 1941) — congressional report, public record. Gerhard Weinberg, A World at Arms: A Global History of World War II (Cambridge University Press, 1994) — independent scholarship.",
+      "chain_length_from_governance_zone": 1,
+      "chain_length_confidence": "exact",
+      "independent_genesis": {
+        "independent_source_exists": true,
+        "independent_source_citation": "War declarations are public laws self-evidencing as to their dates and terms. Weinberg (1994) is independent academic scholarship.",
+        "genesis_confidence_weight": "full",
+        "genesis_note": null
+      },
+      "notes": "Evaluates P-001 ('defense of the United States'). The nine-month gap between Lend-Lease enactment and Pearl Harbor, combined with the question of what threat Germany posed to the continental US in March 1941, is material to whether 'defense of the United States' is a genuine defense claim or a bridge framing."
+    },
+    {
+      "anchor_id": "ANC-005",
+      "anchor_text": "The Destroyers for Bases Agreement of September 2, 1940 preceded the Lend-Lease Act and transferred 50 US destroyers to Britain in exchange for 99-year leases on British bases in the Western hemisphere. Roosevelt executed this agreement by executive order without Congressional approval, explicitly before the Lend-Lease statutory authority existed. The agreement was characterized as a defense measure despite transferring warships to a belligerent nation. The Attorney General's opinion of August 27, 1940 (AG Jackson) authorized the transfer under existing statutory authority. This provides a direct precedent showing the executive's willingness to characterize military support to Britain as 'defense' prior to the Lend-Lease Act.",
+      "anchor_classification": "primary_source_attestation",
+      "classification_source": "Destroyers for Bases Agreement, Executive Order 8513 (September 3, 1940) — public executive record. Attorney General Robert Jackson opinion of August 27, 1940 — public government record. Philip Goodhart, Fifty Ships That Saved the World (Doubleday, 1965) — independent scholarship.",
+      "chain_length_from_governance_zone": 1,
+      "chain_length_confidence": "exact",
+      "independent_genesis": {
+        "independent_source_exists": true,
+        "independent_source_citation": "The Executive Order is a public record self-evidencing as to its terms. AG Jackson's opinion is a public government document. Goodhart (1965) is independent scholarship.",
+        "genesis_confidence_weight": "full",
+        "genesis_note": null
+      },
+      "notes": "Evaluates P-001 and P-005-rel (bridge_narrative). The Destroyers for Bases Agreement establishes that the 'defense of the United States' framing for material support to Britain was an established executive characterization pattern before the Lend-Lease Act was drafted."
+    }
+  ],
+  "proposition_table": [
+    {
+      "proposition_id": "P-001",
+      "source_location": "Title and preamble",
+      "stress_energy_contribution": 0.3,
+      "verbatim_source_text": "This Act promotes the defense of the United States. (Title: 'An Act to Promote the Defense of the United States')",
+      "normalized_claim": "This Act promotes the defense of the United States. (Title: 'An Act to Promote the Defense of the United States')",
+      "primary_classification": "bridge_narrative",
+      "secondary_tags": [],
+      "anchor_mappings": [
+        "ANC-001",
+        "ANC-002",
+        "ANC-004",
+        "ANC-005"
+      ],
+      "is_compound": false,
+      "is_relational": false,
+      "relational_resolution": null,
+      "geodesic_distance_from_anchor": null,
+      "edge_sign": "unsigned",
+      "confidence_flag_id": null
+    },
+    {
+      "proposition_id": "P-002",
+      "source_location": "Section 3(d)",
+      "stress_energy_contribution": 0.3,
+      "contextual_qualification_note": "Anchored_true for enacted provision. Operational circumvention through 'neutrality patrol' designation documented in ANC-003. The limitation's rhetorical function as a neutrality signal is analytically significant for the bridge_narrative evaluation.",
+      "verbatim_source_text": "Nothing in this Act shall be construed to authorize or to permit the authorization of convoying vessels by naval vessels of the United States. (Section 3(d))",
+      "normalized_claim": "Nothing in this Act shall be construed to authorize or to permit the authorization of convoying vessels by naval vessels of the United States. (Section 3(d))",
+      "primary_classification": "anchored_true",
+      "secondary_tags": [],
+      "anchor_mappings": [
+        "ANC-001",
+        "ANC-003"
+      ],
+      "is_compound": false,
+      "is_relational": false,
+      "relational_resolution": null,
+      "geodesic_distance_from_anchor": null,
+      "edge_sign": "unsigned",
+      "confidence_flag_id": null
+    },
+    {
+      "proposition_id": "P-003",
+      "source_location": "Section 10",
+      "stress_energy_contribution": 0.3,
+      "verbatim_source_text": "Nothing in this Act shall be construed to change existing law relating to the use of the land and naval forces of the United States, except insofar as such use relates to the manufacture, procurement, and repair of defense articles, the communication of information and other noncombatant purposes enumerated in this Act. (Section 10)",
+      "normalized_claim": "Nothing in this Act shall be construed to change existing law relating to the use of the land and naval forces of the United States, except insofar as such use relates to the manufacture, procurement, and repair of defense articles, the communication of information and other noncombatant purposes enumerated in this Act. (Section 10)",
+      "primary_classification": "anchored_false",
+      "secondary_tags": [],
+      "anchor_mappings": [
+        "ANC-001",
+        "ANC-002",
+        "ANC-003",
+        "ANC-005"
+      ],
+      "is_compound": false,
+      "is_relational": false,
+      "relational_resolution": null,
+      "geodesic_distance_from_anchor": null,
+      "edge_sign": "unsigned",
+      "confidence_flag_id": null
+    },
+    {
+      "proposition_id": "P-004",
+      "source_location": "Section 3(a)",
+      "stress_energy_contribution": 0.3,
+      "verbatim_source_text": "The President may authorize aid to any country whose defense the President deems vital to the defense of the United States. (Section 3(a))",
+      "normalized_claim": "The President may authorize aid to any country whose defense the President deems vital to the defense of the United States. (Section 3(a))",
+      "primary_classification": "ambiguous",
+      "secondary_tags": [],
+      "anchor_mappings": [
+        "ANC-001",
+        "ANC-004"
+      ],
+      "is_compound": false,
+      "is_relational": false,
+      "relational_resolution": null,
+      "geodesic_distance_from_anchor": null,
+      "edge_sign": "unsigned",
+      "confidence_flag_id": null
+    },
+    {
+      "proposition_id": "P-005-rel",
+      "source_location": "Structural framing: Title, preamble, Section 3(a), Section 3(d), Section 10",
+      "stress_energy_contribution": 0.3,
+      "verbatim_source_text": "[Relational] The 'defense of the United States' title and framing, combined with the Sec. 3(d) non-convoying and Sec. 10 non-combat limitations, insulate the Lend-Lease Act's function as de facto US entry into the Allied war effort from the constitutional and political constraints of the Neutrality Acts, by positioning the Act as a domestic defense measure rather than a departure from neutrality.",
+      "normalized_claim": "[Relational] The 'defense of the United States' title and framing, combined with the Sec. 3(d) non-convoying and Sec. 10 non-combat limitations, insulate the Lend-Lease Act's function as de facto US entry into the Allied war effort from the constitutional and political constraints of the Neutrality Acts, by positioning the Act as a domestic defense measure rather than a departure from neutrality.",
+      "primary_classification": "bridge_narrative",
+      "secondary_tags": [],
+      "anchor_mappings": [
+        "ANC-001",
+        "ANC-002",
+        "ANC-003",
+        "ANC-004",
+        "ANC-005"
+      ],
+      "is_compound": false,
+      "is_relational": true,
+      "relational_resolution": {
+        "parent_proposition_a": "P-001",
+        "parent_proposition_b": "P-002",
+        "relation_type": "implies",
+        "relational_note": "Non-convoying and non-combat limitations create appearance of formal neutrality preservation, diverting scrutiny from the Act's function as Neutrality Act circumvention"
+      },
+      "geodesic_distance_from_anchor": null,
+      "edge_sign": "unsigned",
+      "confidence_flag_id": null
+    }
+  ],
+  "graph_structure": {
+    "nodes": [
+      {
+        "id": "ANC-001",
+        "type": "anchor",
+        "label": "ANC-001",
+        "classification": "direct_empirical_record",
+        "r": 0.3333,
+        "theta": 0.0,
+        "geodesic_distance": 0.6931,
+        "zone": "governance",
+        "blocked": false
+      },
+      {
+        "id": "ANC-002",
+        "type": "anchor",
+        "label": "ANC-002",
+        "classification": "direct_empirical_record",
+        "r": 0.3333,
+        "theta": 1.2566,
+        "geodesic_distance": 0.6931,
+        "zone": "governance",
+        "blocked": false
+      },
+      {
+        "id": "ANC-003",
+        "type": "anchor",
+        "label": "ANC-003",
+        "classification": "direct_empirical_record",
+        "r": 0.6667,
+        "theta": 2.5133,
+        "geodesic_distance": 1.6094,
+        "zone": "governance",
+        "blocked": false
+      },
+      {
+        "id": "ANC-004",
+        "type": "anchor",
+        "label": "ANC-004",
+        "classification": "direct_empirical_record",
+        "r": 0.3333,
+        "theta": 3.7699,
+        "geodesic_distance": 0.6931,
+        "zone": "governance",
+        "blocked": false
+      },
+      {
+        "id": "ANC-005",
+        "type": "anchor",
+        "label": "ANC-005",
+        "classification": "primary_source_attestation",
+        "r": 0.3333,
+        "theta": 5.0265,
+        "geodesic_distance": 0.6931,
+        "zone": "governance",
+        "blocked": false
+      },
+      {
+        "id": "P-001",
+        "type": "proposition",
+        "label": "P-001",
+        "classification": "bridge_narrative",
+        "secondary_tags": [],
+        "verbatim": "This Act promotes the defense of the United States. (Title: 'An Act to Promote the Defense of the United States')",
+        "normalized": "This Act promotes the defense of the United States. (Title: 'An Act to Promote the Defense of the United States')",
+        "stress": 0.3,
+        "r": 0.5833,
+        "theta": 0.0,
+        "geodesic_distance": 1.335,
+        "zone": "rationale",
+        "blocked": false
+      },
+      {
+        "id": "P-002",
+        "type": "proposition",
+        "label": "P-002",
+        "classification": "anchored_true",
+        "secondary_tags": [],
+        "verbatim": "Nothing in this Act shall be construed to authorize or to permit the authorization of convoying vessels by naval vessels of the United States. (Section 3(d))",
+        "normalized": "Nothing in this Act shall be construed to authorize or to permit the authorization of convoying vessels by naval vessels of the United States. (Section 3(d))",
+        "stress": 0.3,
+        "r": 0.3633,
+        "theta": 1.2566,
+        "geodesic_distance": 0.7614,
+        "zone": "governance",
+        "blocked": true
+      },
+      {
+        "id": "P-003",
+        "type": "proposition",
+        "label": "P-003",
+        "classification": "anchored_false",
+        "secondary_tags": [],
+        "verbatim": "Nothing in this Act shall be construed to change existing law relating to the use of the land and naval forces of the United States, except insofar as such use relates to the manufacture, procurement, and repair of defense articles, the communication of information and other noncombatant purposes enumerated in this Act. (Section 10)",
+        "normalized": "Nothing in this Act shall be construed to change existing law relating to the use of the land and naval forces of the United States, except insofar as such use relates to the manufacture, procurement, and repair of defense articles, the communication of information and other noncombatant purposes enumerated in this Act. (Section 10)",
+        "stress": 0.3,
+        "r": 0.77,
+        "theta": 2.5133,
+        "geodesic_distance": 2.0407,
+        "zone": "temporal_knowledge",
+        "blocked": true
+      },
+      {
+        "id": "P-004",
+        "type": "proposition",
+        "label": "P-004",
+        "classification": "ambiguous",
+        "secondary_tags": [],
+        "verbatim": "The President may authorize aid to any country whose defense the President deems vital to the defense of the United States. (Section 3(a))",
+        "normalized": "The President may authorize aid to any country whose defense the President deems vital to the defense of the United States. (Section 3(a))",
+        "stress": 0.3,
+        "r": 0.5,
+        "theta": 3.7699,
+        "geodesic_distance": 1.0986,
+        "zone": "work_knowledge",
+        "blocked": false
+      },
+      {
+        "id": "P-005-rel",
+        "type": "proposition",
+        "label": "P-005-rel",
+        "classification": "bridge_narrative",
+        "secondary_tags": [],
+        "verbatim": "[Relational] The 'defense of the United States' title and framing, combined with the Sec. 3(d) non-convoying and Sec. 10 non-combat limitations, insulate the Lend-Lease Act's function as de facto US entry into the Allied war effort from the constitutional and political constraints of the Neutrality Acts, by positioning the Act as a domestic defense measure rather than a departure from neutrality.",
+        "normalized": "[Relational] The 'defense of the United States' title and framing, combined with the Sec. 3(d) non-convoying and Sec. 10 non-combat limitations, insulate the Lend-Lease Act's function as de facto US entry into the Allied war effort from the constitutional and political constraints of the Neutrality Acts, by positioning the Act as a domestic defense measure rather than a departure from neutrality.",
+        "stress": 0.3,
+        "r": 0.4733,
+        "theta": 5.0265,
+        "geodesic_distance": 1.0287,
+        "zone": "rationale",
+        "blocked": false
+      }
+    ],
+    "edges": [
+      {
+        "source": "P-001",
+        "target": "ANC-001",
+        "sign": "unsigned",
+        "weight": 0.3
+      },
+      {
+        "source": "P-001",
+        "target": "ANC-002",
+        "sign": "unsigned",
+        "weight": 0.3
+      },
+      {
+        "source": "P-001",
+        "target": "ANC-004",
+        "sign": "unsigned",
+        "weight": 0.3
+      },
+      {
+        "source": "P-001",
+        "target": "ANC-005",
+        "sign": "unsigned",
+        "weight": 0.3
+      },
+      {
+        "source": "P-002",
+        "target": "ANC-001",
+        "sign": "unsigned",
+        "weight": 0.3
+      },
+      {
+        "source": "P-002",
+        "target": "ANC-003",
+        "sign": "unsigned",
+        "weight": 0.3
+      },
+      {
+        "source": "P-003",
+        "target": "ANC-001",
+        "sign": "unsigned",
+        "weight": 0.3
+      },
+      {
+        "source": "P-003",
+        "target": "ANC-002",
+        "sign": "unsigned",
+        "weight": 0.3
+      },
+      {
+        "source": "P-003",
+        "target": "ANC-003",
+        "sign": "unsigned",
+        "weight": 0.3
+      },
+      {
+        "source": "P-003",
+        "target": "ANC-005",
+        "sign": "unsigned",
+        "weight": 0.3
+      },
+      {
+        "source": "P-004",
+        "target": "ANC-001",
+        "sign": "unsigned",
+        "weight": 0.3
+      },
+      {
+        "source": "P-004",
+        "target": "ANC-004",
+        "sign": "unsigned",
+        "weight": 0.3
+      },
+      {
+        "source": "P-005-rel",
+        "target": "ANC-001",
+        "sign": "unsigned",
+        "weight": 0.3
+      },
+      {
+        "source": "P-005-rel",
+        "target": "ANC-002",
+        "sign": "unsigned",
+        "weight": 0.3
+      },
+      {
+        "source": "P-005-rel",
+        "target": "ANC-003",
+        "sign": "unsigned",
+        "weight": 0.3
+      },
+      {
+        "source": "P-005-rel",
+        "target": "ANC-004",
+        "sign": "unsigned",
+        "weight": 0.3
+      },
+      {
+        "source": "P-005-rel",
+        "target": "ANC-005",
+        "sign": "unsigned",
+        "weight": 0.3
+      }
+    ],
+    "manifold_zone_assignments": {
+      "governance": [
+        "ANC-001",
+        "ANC-002",
+        "ANC-003",
+        "ANC-004",
+        "ANC-005",
+        "P-002"
+      ],
+      "rationale": [
+        "P-001",
+        "P-005-rel"
+      ],
+      "work_knowledge": [
+        "P-004"
+      ],
+      "temporal_knowledge": [
+        "P-003"
+      ]
+    },
+    "adaptive_zone_boundaries": {
+      "governance": 0.55,
+      "false_attractor": 0.72
+    },
+    "node_radii": {
+      "ANC-001": 0.3333,
+      "ANC-002": 0.3333,
+      "ANC-003": 0.6667,
+      "ANC-004": 0.3333,
+      "ANC-005": 0.3333,
+      "P-001": 0.5833,
+      "P-002": 0.3633,
+      "P-003": 0.77,
+      "P-004": 0.5,
+      "P-005-rel": 0.4733
+    },
+    "fragmentation_detected": false,
+    "polarization_detected": true,
+    "bridge_narrative_candidates": [
+      "P-001",
+      "P-005-rel"
+    ],
+    "false_attractor_candidates": [
+      "P-003"
+    ],
+    "contradiction_pairs": [
+      {
+        "node_a": "P-002",
+        "node_b": "P-003"
+      }
+    ]
+  },
+  "geometric_summary": {
+    "manifold_description": "5 propositions placed on hyperbolic manifold. 1 governance-anchored (GOVERNANCE zone), 2 bridge_narrative candidate(s) (RATIONALE zone), 1 anchored_false attractor(s) (TEMPORAL_KNOWLEDGE zone), 1 ambiguous/contested (WORK/TEMPORAL zones). 2 proposition(s) in contradiction-blocked pairs. Fiedler value lambda2 = 0.5103 CoherenceState(zone='work_knowledge', timestamp='2026-04-28T14:35:24.794178+00:00', lambda2=0.0, lambda2_delta=0.0, lambda2_stable=False, lambda2_sufficient=False, mean_sheaf_consistency=0.0, sheaf_su",
+    "anchor_cluster_summary": "5 anchor(s) registered at governance zone (r=0). Contradiction-blocked pairs detected — see confidence_flags.",
+    "highest_stress_region": "P-001 (stress=0.300)",
+    "least_stable_truth_candidate": "P-002",
+    "most_stable_false_candidate": "P-003",
+    "bridge_narrative_geometry_note": "2 bridge narrative candidate(s) detected at RATIONALE zone boundary. Bidirectional T_mu_nu load present. ExpressionResult(expressed_nodes=['ANC-001', 'ANC-002', 'ANC-003', 'ANC-004', 'ANC-005', 'P-001', 'P-004', 'P-005-rel'], silenced_nodes={'P-002': ['[contradiction_block]'], 'P-003': ['[contradiction_b",
+    "structural_tension_note": "2 undeclared tension point(s) detected. See confidence_flags.",
+    "analyst_notes": "",
+    "reader_interpretation_note": "This summary describes geometric structure only. Classification of intent or moral judgment is left to the reader."
+  },
+  "confidence_flags": [
+    {
+      "flag_id": "FLAG-001",
+      "proposition_id": "P-005-rel",
+      "ambiguity_source": "classificatory",
+      "ambiguity_description": "The Lend-Lease bridge narrative is structurally different from the DOC-003 and DOC-005 cases: the false predicates (P-002, P-003) are contained within the same document and operate as formal limitations that signal neutrality preservation. The bridge is thus internally scaffolded: the document's own text provides the insulating rhetoric. Medium severity (rather than high) because the strategic purpose of Lend-Lease — supporting Britain against Germany — was transparent to Congress and the public at the time of enactment (Roosevelt's Arsenal of Democracy address, ANC-002). The bridge narrative enabled passage and political legitimacy; it was not primarily a post-hoc justification of a covert action. Signal 3 and geometric placement will determine whether the pattern rises to high severity.",
+      "resolution_attempted": false,
+      "resolution_description": null,
+      "resolution_status": "unresolved"
+    },
+    {
+      "flag_id": "FLAG-002",
+      "proposition_id": "P-004",
+      "ambiguity_source": "classificatory",
+      "ambiguity_description": "The 'President deems vital' standard in Sec. 3(a) provides no operative limiting principle. This is analytically significant for the bridge narrative: if the discretion is unlimited, then the 'defense of the United States' framing has zero constraining content — it is a label, not a standard. Pipeline should evaluate whether the absence of a meaningful limiting principle in P-004 intensifies the stress-energy contribution of the bridge narrative nodes (P-001, P-005-rel) by increasing the epistemic distance between the stated constraint and the operative effect.",
+      "resolution_attempted": false,
+      "resolution_description": null,
+      "resolution_status": "unresolved"
+    },
+    {
+      "flag_id": "CF-CONTRADICTION-P-002",
+      "flag_type": "contradiction_detected",
+      "affected_proposition": "P-002",
+      "note": "Contradiction pair detected. Contradiction anchored at ANC-001",
+      "severity": "high"
+    },
+    {
+      "flag_id": "CF-CONTRADICTION-P-003",
+      "flag_type": "contradiction_detected",
+      "affected_proposition": "P-003",
+      "note": "Contradiction pair detected. Contradiction anchored at ANC-001",
+      "severity": "high"
+    },
+    {
+      "flag_id": "CF-TENSION-P-005-rel",
+      "flag_type": "undeclared_structural_tension",
+      "affected_proposition": "P-005-rel",
+      "note": "Tidal tension detected: unknown",
+      "severity": "medium"
+    },
+    {
+      "flag_id": "CF-TENSION-P-001",
+      "flag_type": "undeclared_structural_tension",
+      "affected_proposition": "P-001",
+      "note": "Tidal tension detected: unknown",
+      "severity": "medium"
+    },
+    {
+      "flag_id": "CF-SAL-COHERENCE",
+      "flag_type": "coherence_below_threshold",
+      "affected_proposition": null,
+      "note": "SAL coherence gate: should_commit=False. lambda2=unknown",
+      "severity": "medium"
+    },
+    {
+      "flag_id": "CF-CONTRADICTION-P-002",
+      "flag_type": "contradiction_detected",
+      "affected_proposition": "P-002",
+      "note": "Contradiction pair detected. Contradiction anchored at ANC-001",
+      "severity": "high"
+    },
+    {
+      "flag_id": "CF-CONTRADICTION-P-003",
+      "flag_type": "contradiction_detected",
+      "affected_proposition": "P-003",
+      "note": "Contradiction pair detected. Contradiction anchored at ANC-001",
+      "severity": "high"
+    },
+    {
+      "flag_id": "CF-TENSION-P-005-rel",
+      "flag_type": "undeclared_structural_tension",
+      "affected_proposition": "P-005-rel",
+      "note": "Tidal tension detected: unknown",
+      "severity": "medium"
+    },
+    {
+      "flag_id": "CF-TENSION-P-001",
+      "flag_type": "undeclared_structural_tension",
+      "affected_proposition": "P-001",
+      "note": "Tidal tension detected: unknown",
+      "severity": "medium"
+    },
+    {
+      "flag_id": "CF-SAL-COHERENCE",
+      "flag_type": "coherence_below_threshold",
+      "affected_proposition": null,
+      "note": "SAL coherence gate: should_commit=False. lambda2=unknown",
+      "severity": "medium"
+    },
+    {
+      "flag_id": "CF-CONTRADICTION-P-002",
+      "flag_type": "contradiction_detected",
+      "affected_proposition": "P-002",
+      "note": "Contradiction pair detected. Contradiction anchored at ANC-001",
+      "severity": "high"
+    },
+    {
+      "flag_id": "CF-CONTRADICTION-P-003",
+      "flag_type": "contradiction_detected",
+      "affected_proposition": "P-003",
+      "note": "Contradiction pair detected. Contradiction anchored at ANC-001",
+      "severity": "high"
+    },
+    {
+      "flag_id": "CF-TENSION-P-005-rel",
+      "flag_type": "undeclared_structural_tension",
+      "affected_proposition": "P-005-rel",
+      "note": "Tidal tension detected: unknown",
+      "severity": "medium"
+    },
+    {
+      "flag_id": "CF-TENSION-P-001",
+      "flag_type": "undeclared_structural_tension",
+      "affected_proposition": "P-001",
+      "note": "Tidal tension detected: unknown",
+      "severity": "medium"
+    },
+    {
+      "flag_id": "CF-SAL-COHERENCE",
+      "flag_type": "coherence_below_threshold",
+      "affected_proposition": null,
+      "note": "SAL coherence gate: should_commit=False. lambda2=unknown",
+      "severity": "medium"
+    }
+  ],
+  "falsifiability_record": [
+    {
+      "rule_id": "RULE-001B",
+      "rule_summary": "Whether the Act changed existing law relating to use of naval forces is tested by comparing the Neutrality Act prohibiti",
+      "uncomfortable_output_direction_a": "A true historical claim could be over-flagged if anchor chain length is underestimated.",
+      "uncomfortable_output_direction_b": "A false normative claim could pass as anchored_true if framing matches anchor surface text.",
+      "kill_switch": "If a proposition classified as anchored_false has an independent primary source directly contradicting the anchor, the rule is miscalibrated.",
+      "falsifiability_confirmed": true,
+      "modifications_after_test": null
+    },
+    {
+      "rule_id": "RULE-011",
+      "rule_summary": "Whether 'defense of the United States' accurately characterizes the Act's purpose is tested by examining (a) the actual ",
+      "uncomfortable_output_direction_a": "A true historical claim could be over-flagged if anchor chain length is underestimated.",
+      "uncomfortable_output_direction_b": "A false normative claim could pass as anchored_true if framing matches anchor surface text.",
+      "kill_switch": "If a proposition classified as anchored_false has an independent primary source directly contradicting the anchor, the rule is miscalibrated.",
+      "falsifiability_confirmed": true,
+      "modifications_after_test": null
+    }
+  ],
+  "audit_trail": [
+    {
+      "module": "rga_pipeline",
+      "status": "started",
+      "timestamp": "2026-04-28T14:35:24.789177",
+      "note": "Pipeline started for DOC-19410311-008"
+    },
+    {
+      "module": "RGAGraphAdapter",
+      "status": "complete",
+      "timestamp": "2026-04-28T14:35:24.789177",
+      "note": "Graph built: 10 nodes, 2 blocked, 4 bridge edges"
+    },
+    {
+      "module": "HSHGeometry",
+      "status": "calibration",
+      "timestamp": "2026-04-28T14:35:24.790179",
+      "note": "Adaptive radii set for 10 nodes. governance_boundary=0.550, false_attractor_boundary=0.720"
+    },
+    {
+      "module": "HSHGeometry",
+      "status": "complete",
+      "timestamp": "2026-04-28T14:35:24.793177",
+      "note": "Fiedler value lambda2=0.5103"
+    },
+    {
+      "module": "StructuralTensionAuditor",
+      "status": "complete",
+      "timestamp": "2026-04-28T14:35:24.793177",
+      "note": "2 tension record(s)"
+    },
+    {
+      "module": "EpistaticGate",
+      "status": "complete",
+      "timestamp": "2026-04-28T14:35:24.794178",
+      "note": "0 latent conflict(s) detected"
+    },
+    {
+      "module": "SALCoherenceLayer",
+      "status": "complete",
+      "timestamp": "2026-04-28T14:35:24.794178",
+      "note": "should_commit=False"
+    },
+    {
+      "module": "rga_pipeline",
+      "status": "complete",
+      "timestamp": "2026-04-28T14:35:24.795177",
+      "note": "Pipeline complete. 17 confidence flag(s). 2 bridge narrative candidate(s)."
+    }
+  ]
+}

@@ -1,0 +1,1102 @@
+{
+  "schema_version": "0.4",
+  "document_metadata": {
+    "document_id": "DOC-19190628-002",
+    "common_name": "Treaty of Versailles, Part I: Covenant of the League of Nations (1919)",
+    "primary_source_url": "https://avalon.law.yale.edu/imt/parti.asp",
+    "date_of_document": "1919-06-28",
+    "date_of_analysis": "2026-04-26T00:00:00Z",
+    "analyst_id": "ANALYST-001",
+    "extraction_pass": 1,
+    "preregistration_repo_url": "https://github.com/JessicaTemplet/rhetorical-geometry-analysis",
+    "preregistration_commit_hash": "5ca3ec482746f01d92cdaa2651bd3c9fc9a182e8",
+    "preregistration_status": "confirmed",
+    "analyst_prior_note": "Pool asymmetry disclosed in methodology_v0.4.md. Prior: peace/cooperation preamble claims are anchored_false against the historical record of League failure and WWII. Mandate system language (Article 22) uses normative_stable framing to justify colonial administration. US listing as original member is anchored_false. Analyst expects predominance of anchored_false findings. Extraction performed by Claude per bias-control protocol."
+  },
+  "anchor_registry": [
+    {
+      "anchor_id": "ANC-001",
+      "anchor_text": "The Covenant of the League of Nations was signed as Part I of the Treaty of Versailles on June 28, 1919. The League of Nations was formally established when the Treaty entered into force on January 10, 1920.",
+      "anchor_classification": "direct_empirical_record",
+      "classification_source": "Treaty of Versailles, signed at Versailles June 28, 1919; Statutes and official record of entry into force.",
+      "chain_length_from_governance_zone": 1,
+      "chain_length_confidence": "exact",
+      "independent_genesis": {
+        "independent_source_exists": true,
+        "independent_source_citation": "The Treaty text is a public multilateral instrument and self-evidencing as to its existence and date.",
+        "genesis_confidence_weight": "full",
+        "genesis_note": null
+      },
+      "notes": "Foundational enactment anchor. Establishes legal existence of all Covenant claims."
+    },
+    {
+      "anchor_id": "ANC-002",
+      "anchor_text": "The United States Senate voted to reject the Treaty of Versailles on November 19, 1919 (39 for, 55 against) and again on March 19, 1920 (49 for, 35 against, failing to reach the required two-thirds). The United States never joined the League of Nations.",
+      "anchor_classification": "direct_empirical_record",
+      "classification_source": "Congressional Record, 66th Congress, 1st and 2nd Sessions; Senate vote tallies on Treaty of Versailles ratification.",
+      "chain_length_from_governance_zone": 1,
+      "chain_length_confidence": "exact",
+      "independent_genesis": {
+        "independent_source_exists": true,
+        "independent_source_citation": "The Congressional Record is an independent legislative record entirely outside the executive chain of command that drafted and signed the Covenant.",
+        "genesis_confidence_weight": "full",
+        "genesis_note": null
+      },
+      "notes": "Evaluates P-006 (US listed as original member in Annex)."
+    },
+    {
+      "anchor_id": "ANC-003",
+      "anchor_text": "The League of Nations failed to prevent or effectively respond to three major aggressions by member or signatory states: Japan's occupation of Manchuria (1931), Italy's invasion of Ethiopia (1935-36), and Germany's remilitarization of the Rhineland (1936). In each case the Council failed to apply Article 16 enforcement measures. The League was formally dissolved on April 18, 1946.",
+      "anchor_classification": "direct_empirical_record",
+      "classification_source": "League of Nations Official Journal records; Ruth Henig, The League of Nations (Haus Publishing, 2010); F.P. Walters, A History of the League of Nations (Oxford University Press, 1952).",
+      "chain_length_from_governance_zone": 2,
+      "chain_length_confidence": "estimated",
+      "independent_genesis": {
+        "independent_source_exists": true,
+        "independent_source_citation": "Henig (2010) and Walters (1952) are independent academic scholarship. League Official Journal records are self-evidencing archival documents.",
+        "genesis_confidence_weight": "full",
+        "genesis_note": null
+      },
+      "notes": "Evaluates P-002 (Article 10 territorial guarantee) and P-003 (Article 16 automatic sanctions)."
+    },
+    {
+      "anchor_id": "ANC-004",
+      "anchor_text": "The mandate territories established under Article 22 remained under the administration of the designated mandatory powers through the 1940s-1960s. Class C mandates (including South-West Africa and Pacific island territories) were administered as integral portions of mandatory territory. The Permanent Mandates Commission documented repeated non-compliance with mandate conditions and structural inability to enforce them.",
+      "anchor_classification": "primary_source_attestation",
+      "classification_source": "Susan Pedersen, The Guardians: The League of Nations and the Crisis of Empire (Oxford University Press, 2015); League of Nations Permanent Mandates Commission minutes and reports.",
+      "chain_length_from_governance_zone": 2,
+      "chain_length_confidence": "estimated",
+      "independent_genesis": {
+        "independent_source_exists": true,
+        "independent_source_citation": "Pedersen (2015) is independent academic scholarship. Permanent Mandates Commission records are archival documents of the League itself, self-evidencing.",
+        "genesis_confidence_weight": "full",
+        "genesis_note": null
+      },
+      "notes": "Evaluates P-004-b (sacred trust / well-being framing of mandate system)."
+    },
+    {
+      "anchor_id": "ANC-005",
+      "anchor_text": "Germany was required to disarm under Part V of the Treaty of Versailles. The Allied powers imposed no equivalent arms reduction on themselves under the Covenant or Treaty. Germany announced rearmament on March 16, 1935; the League Council passed a resolution of condemnation but imposed no enforcement measures.",
+      "anchor_classification": "direct_empirical_record",
+      "classification_source": "Treaty of Versailles Part V (Military, Naval and Air Clauses), self-evidencing; Margaret MacMillan, Paris 1919 (Random House, 2001); League of Nations Council resolution, April 17, 1935.",
+      "chain_length_from_governance_zone": 2,
+      "chain_length_confidence": "exact",
+      "independent_genesis": {
+        "independent_source_exists": true,
+        "independent_source_citation": "Treaty Part V is self-evidencing. MacMillan (2001) is independent academic scholarship. League Council resolution is an archival document.",
+        "genesis_confidence_weight": "full",
+        "genesis_note": null
+      },
+      "notes": "Evaluates P-005 and P-005-rel (armament reduction implies peace maintenance)."
+    }
+  ],
+  "proposition_table": [
+    {
+      "proposition_id": "P-001",
+      "verbatim_source_text": "In order to promote international co-operation and to achieve international peace and security by the acceptance of obligations not to resort to war, by the prescription of open, just and honourable relations between nations, by the firm establishment of the understandings of international law as the actual rule of conduct among Governments, and by the maintenance of justice and a scrupulous respect for all treaty obligations in the dealings of organised peoples with one another, Agree to this Covenant of the League of Nations.",
+      "source_location": "Preamble",
+      "normalized_claim": "The High Contracting Parties agreed to the Covenant as a mechanism that would achieve international peace and security through accepted obligations not to resort to war.",
+      "is_compound": true,
+      "compound_resolution": {
+        "decomposition_required": true,
+        "sub_propositions": [
+          "P-001-a",
+          "P-001-b"
+        ],
+        "decomposition_note": "RULE-004 Pathway 1 and Pathway 2. P-001-a (the parties entered this legal agreement: legal_statutory, anchored_true against ANC-001) and P-001-b (the agreement achieved or was capable of achieving international peace and security: normative_stable framing presented as mechanism claim, anchored_false against ANC-003) are independently evaluable and epistemically heterogeneous. The sentence compresses a factual enactment into a causal peace claim.",
+        "primary_classification_basis": "P-001-b"
+      },
+      "is_relational": false,
+      "relational_resolution": null,
+      "primary_classification": "anchored_false",
+      "secondary_tags": [
+        "contextually_misleading"
+      ],
+      "anchor_mappings": [
+        "ANC-001",
+        "ANC-003"
+      ],
+      "geodesic_distance_from_anchor": null,
+      "edge_sign": "negative",
+      "stress_energy_contribution": 0.3,
+      "confidence_flag_id": null
+    },
+    {
+      "proposition_id": "P-001-a",
+      "verbatim_source_text": "In order to promote international co-operation and to achieve international peace and security [...] Agree to this Covenant of the League of Nations.",
+      "source_location": "Preamble",
+      "normalized_claim": "The High Contracting Parties formally agreed to the Covenant of the League of Nations.",
+      "is_compound": false,
+      "compound_resolution": null,
+      "is_relational": false,
+      "relational_resolution": null,
+      "primary_classification": "anchored_true",
+      "secondary_tags": [],
+      "anchor_mappings": [
+        "ANC-001"
+      ],
+      "geodesic_distance_from_anchor": null,
+      "edge_sign": "positive",
+      "stress_energy_contribution": 0.3,
+      "confidence_flag_id": null
+    },
+    {
+      "proposition_id": "P-001-b",
+      "verbatim_source_text": "to achieve international peace and security by the acceptance of obligations not to resort to war [...] by the maintenance of justice and a scrupulous respect for all treaty obligations",
+      "source_location": "Preamble",
+      "normalized_claim": "The acceptance of the Covenant's obligations would achieve international peace and security.",
+      "is_compound": false,
+      "compound_resolution": null,
+      "is_relational": false,
+      "relational_resolution": null,
+      "primary_classification": "anchored_false",
+      "secondary_tags": [
+        "contextually_misleading"
+      ],
+      "anchor_mappings": [
+        "ANC-003"
+      ],
+      "geodesic_distance_from_anchor": null,
+      "edge_sign": "negative",
+      "stress_energy_contribution": 0.3,
+      "confidence_flag_id": null
+    },
+    {
+      "proposition_id": "P-002",
+      "verbatim_source_text": "The Members of the League undertake to respect and preserve as against external aggression the territorial integrity and existing political independence of all Members of the League. In case of any such aggression or in case of any threat or danger of such aggression the Council shall advise upon the means by which this obligation shall be fulfilled.",
+      "source_location": "Article 10",
+      "normalized_claim": "League members undertook to protect the territorial integrity of all other members against external aggression, with the Council to advise on fulfillment of this obligation.",
+      "is_compound": false,
+      "compound_resolution": null,
+      "is_relational": false,
+      "relational_resolution": null,
+      "primary_classification": "anchored_false",
+      "secondary_tags": [],
+      "anchor_mappings": [
+        "ANC-001",
+        "ANC-003"
+      ],
+      "geodesic_distance_from_anchor": null,
+      "edge_sign": "negative",
+      "stress_energy_contribution": 0.3,
+      "confidence_flag_id": null
+    },
+    {
+      "proposition_id": "P-003",
+      "verbatim_source_text": "Should any Member of the League resort to war in disregard of its covenants under Articles 12, 13, or 15, it shall ipso facto be deemed to have committed an act of war against all other Members of the League, which hereby undertake immediately to subject it to the severance of all trade or financial relations, the prohibition of all intercourse between their nationals and the nationals of the covenant-breaking State, and the prevention of all financial, commercial, or personal intercourse between the nationals of the covenant-breaking State and the nationals of any other State, whether a Member of the League or not.",
+      "source_location": "Article 16",
+      "normalized_claim": "Any member resorting to war in violation of the Covenant automatically triggers immediate collective economic sanctions by all other members against the offending state.",
+      "is_compound": false,
+      "compound_resolution": null,
+      "is_relational": false,
+      "relational_resolution": null,
+      "primary_classification": "anchored_false",
+      "secondary_tags": [],
+      "anchor_mappings": [
+        "ANC-001",
+        "ANC-003"
+      ],
+      "geodesic_distance_from_anchor": null,
+      "edge_sign": "negative",
+      "stress_energy_contribution": 0.3,
+      "confidence_flag_id": null
+    },
+    {
+      "proposition_id": "P-004",
+      "verbatim_source_text": "To those colonies and territories which as a consequence of the late war have ceased to be under the sovereignty of the States which formerly governed them and which are inhabited by peoples not yet able to stand by themselves under the strenuous conditions of the modern world, there should be applied the principle that the well-being and development of such peoples form a sacred trust of civilisation and that securities for the performance of this trust should be embodied in this Covenant.",
+      "source_location": "Article 22",
+      "normalized_claim": "Peoples of former colonial territories are not yet capable of self-governance, and their administration by advanced nations constitutes a sacred trust of civilisation whose purpose is the well-being and development of those peoples.",
+      "is_compound": true,
+      "compound_resolution": {
+        "decomposition_required": true,
+        "sub_propositions": [
+          "P-004-a",
+          "P-004-b"
+        ],
+        "decomposition_note": "RULE-004 Pathway 1 and Pathway 2. P-004-a (the mandate system was legally established as part of the Covenant: legal_statutory, anchored_true against ANC-001) and P-004-b (the well-being and development framing — that administration by 'advanced nations' constitutes a 'sacred trust' oriented toward subject peoples' benefit: normative_stable, anchored_false against ANC-004) are independently evaluable and epistemically heterogeneous. The normative framing is presented as a universal civilisational principle. Bridge narrative candidacy flagged: this proposition may function to insulate the false attractor (colonial administration = beneficial) from the contradiction represented by the historical record of mandate territories.",
+        "primary_classification_basis": "P-004-b"
+      },
+      "is_relational": false,
+      "relational_resolution": null,
+      "primary_classification": "anchored_false",
+      "secondary_tags": [
+        "contextually_misleading",
+        "unattributed_agency"
+      ],
+      "anchor_mappings": [
+        "ANC-001",
+        "ANC-004"
+      ],
+      "geodesic_distance_from_anchor": null,
+      "edge_sign": "negative",
+      "stress_energy_contribution": 0.3,
+      "confidence_flag_id": "FLAG-001"
+    },
+    {
+      "proposition_id": "P-004-a",
+      "verbatim_source_text": "To those colonies and territories which as a consequence of the late war have ceased to be under the sovereignty of the States which formerly governed them [...] there should be applied the principle that [...] securities for the performance of this trust should be embodied in this Covenant.",
+      "source_location": "Article 22",
+      "normalized_claim": "The Covenant established a mandate system to govern former colonial territories of the defeated powers.",
+      "is_compound": false,
+      "compound_resolution": null,
+      "is_relational": false,
+      "relational_resolution": null,
+      "primary_classification": "anchored_true",
+      "secondary_tags": [],
+      "anchor_mappings": [
+        "ANC-001"
+      ],
+      "geodesic_distance_from_anchor": null,
+      "edge_sign": "positive",
+      "stress_energy_contribution": 0.3,
+      "confidence_flag_id": null
+    },
+    {
+      "proposition_id": "P-004-b",
+      "verbatim_source_text": "peoples not yet able to stand by themselves under the strenuous conditions of the modern world [...] the well-being and development of such peoples form a sacred trust of civilisation",
+      "source_location": "Article 22",
+      "normalized_claim": "The administration of mandate territories by advanced nations constitutes a sacred trust of civilisation oriented toward the well-being and development of those peoples.",
+      "is_compound": false,
+      "compound_resolution": null,
+      "is_relational": false,
+      "relational_resolution": null,
+      "primary_classification": "anchored_false",
+      "secondary_tags": [
+        "contextually_misleading",
+        "unattributed_agency"
+      ],
+      "anchor_mappings": [
+        "ANC-004"
+      ],
+      "geodesic_distance_from_anchor": null,
+      "edge_sign": "negative",
+      "stress_energy_contribution": 0.3,
+      "confidence_flag_id": "FLAG-001"
+    },
+    {
+      "proposition_id": "P-004-rel",
+      "verbatim_source_text": "the tutelage of such peoples should be entrusted to advanced nations who by reason of their resources, their experience or their geographical position can best undertake this responsibility",
+      "source_location": "Article 22",
+      "normalized_claim": "Tutelage of mandate peoples by advanced nations produces the well-being and development of those peoples.",
+      "is_compound": false,
+      "compound_resolution": null,
+      "is_relational": true,
+      "relational_resolution": {
+        "parent_proposition_a": "P-004-a",
+        "parent_proposition_b": "P-004-b",
+        "relation_type": "implies",
+        "relational_note": "RULE-001B: the mandate system's causal claim is that [administration by advanced nations] produces [well-being and development]. This is independently evaluable against ANC-004 (Pedersen 2015) which documents continued colonial control and Permanent Mandates Commission non-compliance findings."
+      },
+      "primary_classification": "anchored_false",
+      "secondary_tags": [
+        "contextually_misleading"
+      ],
+      "anchor_mappings": [
+        "ANC-004"
+      ],
+      "geodesic_distance_from_anchor": null,
+      "edge_sign": "negative",
+      "stress_energy_contribution": 0.3,
+      "confidence_flag_id": "FLAG-001"
+    },
+    {
+      "proposition_id": "P-005",
+      "verbatim_source_text": "The Members of the League recognise that the maintenance of peace requires the reduction of national armaments to the lowest point consistent with national safety and the enforcement by common action of international obligations.",
+      "source_location": "Article 8",
+      "normalized_claim": "League members committed to reducing national armaments to the minimum consistent with national safety.",
+      "is_compound": false,
+      "compound_resolution": null,
+      "is_relational": false,
+      "relational_resolution": null,
+      "primary_classification": "anchored_false",
+      "secondary_tags": [],
+      "anchor_mappings": [
+        "ANC-001",
+        "ANC-005"
+      ],
+      "geodesic_distance_from_anchor": null,
+      "edge_sign": "negative",
+      "stress_energy_contribution": 0.3,
+      "confidence_flag_id": null
+    },
+    {
+      "proposition_id": "P-005-rel",
+      "verbatim_source_text": "the maintenance of peace requires the reduction of national armaments to the lowest point consistent with national safety",
+      "source_location": "Article 8",
+      "normalized_claim": "Reduction of national armaments produces the maintenance of peace.",
+      "is_compound": false,
+      "compound_resolution": null,
+      "is_relational": true,
+      "relational_resolution": {
+        "parent_proposition_a": "P-005",
+        "parent_proposition_b": "P-001-b",
+        "relation_type": "implies",
+        "relational_note": "RULE-001B: Article 8 asserts [armament reduction] is required by [peace maintenance] — a causal implication running in both directions. The claim is independently evaluable: Germany disarmed, Allies did not equivalently reduce; peace was not maintained. Evaluates the mechanism claim embedded in P-005."
+      },
+      "primary_classification": "anchored_false",
+      "secondary_tags": [],
+      "anchor_mappings": [
+        "ANC-005"
+      ],
+      "geodesic_distance_from_anchor": null,
+      "edge_sign": "negative",
+      "stress_energy_contribution": 0.3,
+      "confidence_flag_id": null
+    },
+    {
+      "proposition_id": "P-006",
+      "verbatim_source_text": "ORIGINAL MEMBERS OF THE LEAGUE OF NATIONS SIGNATORIES OF THE TREATY OF PEACE. UNITED STATES OF AMERICA [listed first among original members]",
+      "source_location": "Annex, Section I",
+      "normalized_claim": "The United States of America was an original member and signatory of the League of Nations.",
+      "is_compound": false,
+      "compound_resolution": null,
+      "is_relational": false,
+      "relational_resolution": null,
+      "primary_classification": "anchored_false",
+      "secondary_tags": [],
+      "anchor_mappings": [
+        "ANC-001",
+        "ANC-002"
+      ],
+      "geodesic_distance_from_anchor": null,
+      "edge_sign": "negative",
+      "stress_energy_contribution": 0.3,
+      "confidence_flag_id": null
+    },
+    {
+      "proposition_id": "P-007",
+      "verbatim_source_text": "Except where otherwise expressly provided in this Covenant or by the terms of the present Treaty, decisions at any meeting of the Assembly or of the Council shall require the agreement of all the Members of the League represented at the meeting.",
+      "source_location": "Article 5",
+      "normalized_claim": "All Assembly and Council decisions require unanimous agreement of represented members.",
+      "is_compound": false,
+      "compound_resolution": null,
+      "is_relational": false,
+      "relational_resolution": null,
+      "primary_classification": "anchored_true",
+      "secondary_tags": [
+        "contextually_misleading"
+      ],
+      "anchor_mappings": [
+        "ANC-001"
+      ],
+      "geodesic_distance_from_anchor": null,
+      "edge_sign": "positive",
+      "stress_energy_contribution": 0.3,
+      "confidence_flag_id": null
+    }
+  ],
+  "graph_structure": {
+    "nodes": [
+      {
+        "id": "ANC-001",
+        "type": "anchor",
+        "label": "ANC-001",
+        "classification": "direct_empirical_record",
+        "r": 0.3333,
+        "theta": 0.0,
+        "geodesic_distance": 0.6931,
+        "zone": "governance",
+        "blocked": false
+      },
+      {
+        "id": "ANC-002",
+        "type": "anchor",
+        "label": "ANC-002",
+        "classification": "direct_empirical_record",
+        "r": 0.3333,
+        "theta": 1.2566,
+        "geodesic_distance": 0.6931,
+        "zone": "governance",
+        "blocked": false
+      },
+      {
+        "id": "ANC-003",
+        "type": "anchor",
+        "label": "ANC-003",
+        "classification": "direct_empirical_record",
+        "r": 0.6667,
+        "theta": 2.5133,
+        "geodesic_distance": 1.6094,
+        "zone": "governance",
+        "blocked": false
+      },
+      {
+        "id": "ANC-004",
+        "type": "anchor",
+        "label": "ANC-004",
+        "classification": "primary_source_attestation",
+        "r": 0.6667,
+        "theta": 3.7699,
+        "geodesic_distance": 1.6094,
+        "zone": "governance",
+        "blocked": false
+      },
+      {
+        "id": "ANC-005",
+        "type": "anchor",
+        "label": "ANC-005",
+        "classification": "direct_empirical_record",
+        "r": 0.6667,
+        "theta": 5.0265,
+        "geodesic_distance": 1.6094,
+        "zone": "governance",
+        "blocked": false
+      },
+      {
+        "id": "P-001",
+        "type": "proposition",
+        "label": "P-001",
+        "classification": "anchored_false",
+        "secondary_tags": [
+          "contextually_misleading"
+        ],
+        "verbatim": "In order to promote international co-operation and to achieve international peace and security by the acceptance of obligations not to resort to war, by the prescription of open, just and honourable relations between nations, by the firm establishment of the understandings of international law as the actual rule of conduct among Governments, and by the maintenance of justice and a scrupulous respect for all treaty obligations in the dealings of organised peoples with one another, Agree to this Covenant of the League of Nations.",
+        "normalized": "The High Contracting Parties agreed to the Covenant as a mechanism that would achieve international peace and security through accepted obligations not to resort to war.",
+        "stress": 0.3,
+        "r": 0.82,
+        "theta": 0.0,
+        "geodesic_distance": 2.3136,
+        "zone": "temporal_knowledge",
+        "blocked": false
+      },
+      {
+        "id": "P-001-a",
+        "type": "proposition",
+        "label": "P-001-a",
+        "classification": "anchored_true",
+        "secondary_tags": [],
+        "verbatim": "In order to promote international co-operation and to achieve international peace and security [...] Agree to this Covenant of the League of Nations.",
+        "normalized": "The High Contracting Parties formally agreed to the Covenant of the League of Nations.",
+        "stress": 0.3,
+        "r": 0.3633,
+        "theta": 0.4833,
+        "geodesic_distance": 0.7614,
+        "zone": "governance",
+        "blocked": true
+      },
+      {
+        "id": "P-001-b",
+        "type": "proposition",
+        "label": "P-001-b",
+        "classification": "anchored_false",
+        "secondary_tags": [
+          "contextually_misleading"
+        ],
+        "verbatim": "to achieve international peace and security by the acceptance of obligations not to resort to war [...] by the maintenance of justice and a scrupulous respect for all treaty obligations",
+        "normalized": "The acceptance of the Covenant's obligations would achieve international peace and security.",
+        "stress": 0.3,
+        "r": 0.82,
+        "theta": 0.9666,
+        "geodesic_distance": 2.3136,
+        "zone": "temporal_knowledge",
+        "blocked": false
+      },
+      {
+        "id": "P-002",
+        "type": "proposition",
+        "label": "P-002",
+        "classification": "anchored_false",
+        "secondary_tags": [],
+        "verbatim": "The Members of the League undertake to respect and preserve as against external aggression the territorial integrity and existing political independence of all Members of the League. In case of any such aggression or in case of any threat or danger of such aggression the Council shall advise upon the means by which this obligation shall be fulfilled.",
+        "normalized": "League members undertook to protect the territorial integrity of all other members against external aggression, with the Council to advise on fulfillment of this obligation.",
+        "stress": 0.3,
+        "r": 0.77,
+        "theta": 1.45,
+        "geodesic_distance": 2.0407,
+        "zone": "temporal_knowledge",
+        "blocked": true
+      },
+      {
+        "id": "P-003",
+        "type": "proposition",
+        "label": "P-003",
+        "classification": "anchored_false",
+        "secondary_tags": [],
+        "verbatim": "Should any Member of the League resort to war in disregard of its covenants under Articles 12, 13, or 15, it shall ipso facto be deemed to have committed an act of war against all other Members of the League, which hereby undertake immediately to subject it to the severance of all trade or financial relations, the prohibition of all intercourse between their nationals and the nationals of the covenant-breaking State, and the prevention of all financial, commercial, or personal intercourse between the nationals of the covenant-breaking State and the nationals of any other State, whether a Member of the League or not.",
+        "normalized": "Any member resorting to war in violation of the Covenant automatically triggers immediate collective economic sanctions by all other members against the offending state.",
+        "stress": 0.3,
+        "r": 0.77,
+        "theta": 1.9333,
+        "geodesic_distance": 2.0407,
+        "zone": "temporal_knowledge",
+        "blocked": true
+      },
+      {
+        "id": "P-004",
+        "type": "proposition",
+        "label": "P-004",
+        "classification": "anchored_false",
+        "secondary_tags": [
+          "contextually_misleading",
+          "unattributed_agency"
+        ],
+        "verbatim": "To those colonies and territories which as a consequence of the late war have ceased to be under the sovereignty of the States which formerly governed them and which are inhabited by peoples not yet able to stand by themselves under the strenuous conditions of the modern world, there should be applied the principle that the well-being and development of such peoples form a sacred trust of civilisation and that securities for the performance of this trust should be embodied in this Covenant.",
+        "normalized": "Peoples of former colonial territories are not yet capable of self-governance, and their administration by advanced nations constitutes a sacred trust of civilisation whose purpose is the well-being and development of those peoples.",
+        "stress": 0.3,
+        "r": 0.82,
+        "theta": 2.4166,
+        "geodesic_distance": 2.3136,
+        "zone": "temporal_knowledge",
+        "blocked": false
+      },
+      {
+        "id": "P-004-a",
+        "type": "proposition",
+        "label": "P-004-a",
+        "classification": "anchored_true",
+        "secondary_tags": [],
+        "verbatim": "To those colonies and territories which as a consequence of the late war have ceased to be under the sovereignty of the States which formerly governed them [...] there should be applied the principle that [...] securities for the performance of this trust should be embodied in this Covenant.",
+        "normalized": "The Covenant established a mandate system to govern former colonial territories of the defeated powers.",
+        "stress": 0.3,
+        "r": 0.3633,
+        "theta": 2.8999,
+        "geodesic_distance": 0.7614,
+        "zone": "governance",
+        "blocked": true
+      },
+      {
+        "id": "P-004-b",
+        "type": "proposition",
+        "label": "P-004-b",
+        "classification": "anchored_false",
+        "secondary_tags": [
+          "contextually_misleading",
+          "unattributed_agency"
+        ],
+        "verbatim": "peoples not yet able to stand by themselves under the strenuous conditions of the modern world [...] the well-being and development of such peoples form a sacred trust of civilisation",
+        "normalized": "The administration of mandate territories by advanced nations constitutes a sacred trust of civilisation oriented toward the well-being and development of those peoples.",
+        "stress": 0.3,
+        "r": 0.82,
+        "theta": 3.3833,
+        "geodesic_distance": 2.3136,
+        "zone": "temporal_knowledge",
+        "blocked": false
+      },
+      {
+        "id": "P-004-rel",
+        "type": "proposition",
+        "label": "P-004-rel",
+        "classification": "anchored_false",
+        "secondary_tags": [
+          "contextually_misleading"
+        ],
+        "verbatim": "the tutelage of such peoples should be entrusted to advanced nations who by reason of their resources, their experience or their geographical position can best undertake this responsibility",
+        "normalized": "Tutelage of mandate peoples by advanced nations produces the well-being and development of those peoples.",
+        "stress": 0.3,
+        "r": 0.5917,
+        "theta": 3.8666,
+        "geodesic_distance": 1.3605,
+        "zone": "temporal_knowledge",
+        "blocked": false
+      },
+      {
+        "id": "P-005",
+        "type": "proposition",
+        "label": "P-005",
+        "classification": "anchored_false",
+        "secondary_tags": [],
+        "verbatim": "The Members of the League recognise that the maintenance of peace requires the reduction of national armaments to the lowest point consistent with national safety and the enforcement by common action of international obligations.",
+        "normalized": "League members committed to reducing national armaments to the minimum consistent with national safety.",
+        "stress": 0.3,
+        "r": 0.77,
+        "theta": 4.3499,
+        "geodesic_distance": 2.0407,
+        "zone": "temporal_knowledge",
+        "blocked": true
+      },
+      {
+        "id": "P-005-rel",
+        "type": "proposition",
+        "label": "P-005-rel",
+        "classification": "anchored_false",
+        "secondary_tags": [],
+        "verbatim": "the maintenance of peace requires the reduction of national armaments to the lowest point consistent with national safety",
+        "normalized": "Reduction of national armaments produces the maintenance of peace.",
+        "stress": 0.3,
+        "r": 0.795,
+        "theta": 4.8332,
+        "geodesic_distance": 2.1698,
+        "zone": "temporal_knowledge",
+        "blocked": false
+      },
+      {
+        "id": "P-006",
+        "type": "proposition",
+        "label": "P-006",
+        "classification": "anchored_false",
+        "secondary_tags": [],
+        "verbatim": "ORIGINAL MEMBERS OF THE LEAGUE OF NATIONS SIGNATORIES OF THE TREATY OF PEACE. UNITED STATES OF AMERICA [listed first among original members]",
+        "normalized": "The United States of America was an original member and signatory of the League of Nations.",
+        "stress": 0.3,
+        "r": 0.77,
+        "theta": 5.3165,
+        "geodesic_distance": 2.0407,
+        "zone": "temporal_knowledge",
+        "blocked": true
+      },
+      {
+        "id": "P-007",
+        "type": "proposition",
+        "label": "P-007",
+        "classification": "anchored_true",
+        "secondary_tags": [
+          "contextually_misleading"
+        ],
+        "verbatim": "Except where otherwise expressly provided in this Covenant or by the terms of the present Treaty, decisions at any meeting of the Assembly or of the Council shall require the agreement of all the Members of the League represented at the meeting.",
+        "normalized": "All Assembly and Council decisions require unanimous agreement of represented members.",
+        "stress": 0.3,
+        "r": 0.3633,
+        "theta": 5.7999,
+        "geodesic_distance": 0.7614,
+        "zone": "governance",
+        "blocked": true
+      }
+    ],
+    "edges": [
+      {
+        "source": "P-001",
+        "target": "ANC-001",
+        "sign": "negative",
+        "weight": 0.3
+      },
+      {
+        "source": "P-001",
+        "target": "ANC-003",
+        "sign": "negative",
+        "weight": 0.3
+      },
+      {
+        "source": "P-001-a",
+        "target": "ANC-001",
+        "sign": "positive",
+        "weight": 0.3
+      },
+      {
+        "source": "P-001-b",
+        "target": "ANC-003",
+        "sign": "negative",
+        "weight": 0.3
+      },
+      {
+        "source": "P-002",
+        "target": "ANC-001",
+        "sign": "negative",
+        "weight": 0.3
+      },
+      {
+        "source": "P-002",
+        "target": "ANC-003",
+        "sign": "negative",
+        "weight": 0.3
+      },
+      {
+        "source": "P-003",
+        "target": "ANC-001",
+        "sign": "negative",
+        "weight": 0.3
+      },
+      {
+        "source": "P-003",
+        "target": "ANC-003",
+        "sign": "negative",
+        "weight": 0.3
+      },
+      {
+        "source": "P-004",
+        "target": "ANC-001",
+        "sign": "negative",
+        "weight": 0.3
+      },
+      {
+        "source": "P-004",
+        "target": "ANC-004",
+        "sign": "negative",
+        "weight": 0.3
+      },
+      {
+        "source": "P-004-a",
+        "target": "ANC-001",
+        "sign": "positive",
+        "weight": 0.3
+      },
+      {
+        "source": "P-004-b",
+        "target": "ANC-004",
+        "sign": "negative",
+        "weight": 0.3
+      },
+      {
+        "source": "P-004-rel",
+        "target": "ANC-004",
+        "sign": "negative",
+        "weight": 0.3
+      },
+      {
+        "source": "P-005",
+        "target": "ANC-001",
+        "sign": "negative",
+        "weight": 0.3
+      },
+      {
+        "source": "P-005",
+        "target": "ANC-005",
+        "sign": "negative",
+        "weight": 0.3
+      },
+      {
+        "source": "P-005-rel",
+        "target": "ANC-005",
+        "sign": "negative",
+        "weight": 0.3
+      },
+      {
+        "source": "P-006",
+        "target": "ANC-001",
+        "sign": "negative",
+        "weight": 0.3
+      },
+      {
+        "source": "P-006",
+        "target": "ANC-002",
+        "sign": "negative",
+        "weight": 0.3
+      },
+      {
+        "source": "P-007",
+        "target": "ANC-001",
+        "sign": "positive",
+        "weight": 0.3
+      }
+    ],
+    "manifold_zone_assignments": {
+      "governance": [
+        "ANC-001",
+        "ANC-002",
+        "ANC-003",
+        "ANC-004",
+        "ANC-005",
+        "P-001-a",
+        "P-004-a",
+        "P-007"
+      ],
+      "rationale": [],
+      "work_knowledge": [],
+      "temporal_knowledge": [
+        "P-001",
+        "P-001-b",
+        "P-002",
+        "P-003",
+        "P-004",
+        "P-004-b",
+        "P-004-rel",
+        "P-005",
+        "P-005-rel",
+        "P-006"
+      ]
+    },
+    "adaptive_zone_boundaries": {
+      "governance": 0.55,
+      "false_attractor": 0.72
+    },
+    "node_radii": {
+      "ANC-001": 0.3333,
+      "ANC-002": 0.3333,
+      "ANC-003": 0.6667,
+      "ANC-004": 0.6667,
+      "ANC-005": 0.6667,
+      "P-001-a": 0.3633,
+      "P-001-b": 0.82,
+      "P-002": 0.77,
+      "P-003": 0.77,
+      "P-004-a": 0.3633,
+      "P-004-b": 0.82,
+      "P-005": 0.77,
+      "P-006": 0.77,
+      "P-007": 0.3633,
+      "P-001": 0.82,
+      "P-004": 0.82,
+      "P-004-rel": 0.5917,
+      "P-005-rel": 0.795
+    },
+    "fragmentation_detected": true,
+    "polarization_detected": false,
+    "bridge_narrative_candidates": [],
+    "false_attractor_candidates": [
+      "P-001",
+      "P-001-b",
+      "P-002",
+      "P-003",
+      "P-004",
+      "P-004-b",
+      "P-004-rel",
+      "P-005",
+      "P-005-rel",
+      "P-006"
+    ],
+    "contradiction_pairs": [
+      {
+        "node_a": "P-007",
+        "node_b": "P-002"
+      },
+      {
+        "node_a": "P-001-a",
+        "node_b": "P-006"
+      },
+      {
+        "node_a": "P-007",
+        "node_b": "P-005"
+      },
+      {
+        "node_a": "P-007",
+        "node_b": "P-003"
+      },
+      {
+        "node_a": "P-007",
+        "node_b": "P-006"
+      },
+      {
+        "node_a": "P-004-a",
+        "node_b": "P-006"
+      }
+    ]
+  },
+  "geometric_summary": {
+    "manifold_description": "13 propositions placed on hyperbolic manifold. 3 governance-anchored (GOVERNANCE zone), 0 bridge_narrative candidate(s) (RATIONALE zone), 10 anchored_false attractor(s) (TEMPORAL_KNOWLEDGE zone), 0 ambiguous/contested (WORK/TEMPORAL zones). 7 proposition(s) in contradiction-blocked pairs. Fiedler value lambda2 = 0.1044 CoherenceState(zone='work_knowledge', timestamp='2026-04-29T02:44:57.703365+00:00', lambda2=0.0, lambda2_delta=0.0, lambda2_stable=False, lambda2_sufficient=False, mean_sheaf_consistency=0.0, sheaf_su",
+    "anchor_cluster_summary": "5 anchor(s) registered at governance zone (r=0). Contradiction-blocked pairs detected — see confidence_flags.",
+    "highest_stress_region": "P-001 (stress=0.300)",
+    "least_stable_truth_candidate": "P-001-a",
+    "most_stable_false_candidate": "P-001",
+    "bridge_narrative_geometry_note": "No bridge narrative candidates detected.",
+    "structural_tension_note": "No undeclared structural tension detected.",
+    "analyst_notes": "",
+    "reader_interpretation_note": "This summary describes geometric structure only. Classification of intent or moral judgment is left to the reader."
+  },
+  "confidence_flags": [
+    {
+      "flag_id": "FLAG-001",
+      "flag_type": "bridge_narrative_candidacy",
+      "affected_proposition": "P-004-b",
+      "note": "P-004-b ('sacred trust of civilisation') uses normative_stable framing to present colonial administration as developmental service. Candidacy based on: (1) boundary position between anchored_true P-004-a (mandate system exists) and anchored_false ANC-004 (mandate administration was colonial control); (2) unattributed_agency (who are 'advanced nations'?); (3) epistemic category compression (normative_stable 'sacred trust' language encases an empirical claim about outcomes). Signal 3 (epistatic suppression) must be confirmed by pipeline before tag is applied. P-004-rel is included to make the causal claim geometrically visible.",
+      "severity": "medium"
+    },
+    {
+      "flag_id": "CF-CONTRADICTION-P-001-a",
+      "flag_type": "contradiction_detected",
+      "affected_proposition": "P-001-a",
+      "note": "Contradiction pair detected. Contradiction anchored at ANC-001",
+      "severity": "high"
+    },
+    {
+      "flag_id": "CF-CONTRADICTION-P-002",
+      "flag_type": "contradiction_detected",
+      "affected_proposition": "P-002",
+      "note": "Contradiction pair detected. Contradiction anchored at ANC-001",
+      "severity": "high"
+    },
+    {
+      "flag_id": "CF-CONTRADICTION-P-003",
+      "flag_type": "contradiction_detected",
+      "affected_proposition": "P-003",
+      "note": "Contradiction pair detected. Contradiction anchored at ANC-001",
+      "severity": "high"
+    },
+    {
+      "flag_id": "CF-CONTRADICTION-P-005",
+      "flag_type": "contradiction_detected",
+      "affected_proposition": "P-005",
+      "note": "Contradiction pair detected. Contradiction anchored at ANC-001",
+      "severity": "high"
+    },
+    {
+      "flag_id": "CF-CONTRADICTION-P-006",
+      "flag_type": "contradiction_detected",
+      "affected_proposition": "P-006",
+      "note": "Contradiction pair detected. Contradiction anchored at ANC-001",
+      "severity": "high"
+    },
+    {
+      "flag_id": "CF-CONTRADICTION-P-004-a",
+      "flag_type": "contradiction_detected",
+      "affected_proposition": "P-004-a",
+      "note": "Contradiction pair detected. Contradiction anchored at ANC-001",
+      "severity": "high"
+    },
+    {
+      "flag_id": "CF-CONTRADICTION-P-007",
+      "flag_type": "contradiction_detected",
+      "affected_proposition": "P-007",
+      "note": "Contradiction pair detected. Contradiction anchored at ANC-001",
+      "severity": "high"
+    },
+    {
+      "flag_id": "CF-SAL-COHERENCE",
+      "flag_type": "coherence_below_threshold",
+      "affected_proposition": null,
+      "note": "SAL coherence gate: should_commit=False. lambda2=unknown",
+      "severity": "medium"
+    },
+    {
+      "flag_id": "CF-CONTRADICTION-P-001-a",
+      "flag_type": "contradiction_detected",
+      "affected_proposition": "P-001-a",
+      "note": "Contradiction pair detected. Contradiction anchored at ANC-001",
+      "severity": "high"
+    },
+    {
+      "flag_id": "CF-CONTRADICTION-P-002",
+      "flag_type": "contradiction_detected",
+      "affected_proposition": "P-002",
+      "note": "Contradiction pair detected. Contradiction anchored at ANC-001",
+      "severity": "high"
+    },
+    {
+      "flag_id": "CF-CONTRADICTION-P-003",
+      "flag_type": "contradiction_detected",
+      "affected_proposition": "P-003",
+      "note": "Contradiction pair detected. Contradiction anchored at ANC-001",
+      "severity": "high"
+    },
+    {
+      "flag_id": "CF-CONTRADICTION-P-005",
+      "flag_type": "contradiction_detected",
+      "affected_proposition": "P-005",
+      "note": "Contradiction pair detected. Contradiction anchored at ANC-001",
+      "severity": "high"
+    },
+    {
+      "flag_id": "CF-CONTRADICTION-P-006",
+      "flag_type": "contradiction_detected",
+      "affected_proposition": "P-006",
+      "note": "Contradiction pair detected. Contradiction anchored at ANC-001",
+      "severity": "high"
+    },
+    {
+      "flag_id": "CF-CONTRADICTION-P-004-a",
+      "flag_type": "contradiction_detected",
+      "affected_proposition": "P-004-a",
+      "note": "Contradiction pair detected. Contradiction anchored at ANC-001",
+      "severity": "high"
+    },
+    {
+      "flag_id": "CF-CONTRADICTION-P-007",
+      "flag_type": "contradiction_detected",
+      "affected_proposition": "P-007",
+      "note": "Contradiction pair detected. Contradiction anchored at ANC-001",
+      "severity": "high"
+    },
+    {
+      "flag_id": "CF-SAL-COHERENCE",
+      "flag_type": "coherence_below_threshold",
+      "affected_proposition": null,
+      "note": "SAL coherence gate: should_commit=False. lambda2=unknown",
+      "severity": "medium"
+    },
+    {
+      "flag_id": "CF-CONTRADICTION-P-001-a",
+      "flag_type": "contradiction_detected",
+      "affected_proposition": "P-001-a",
+      "note": "Contradiction pair detected. Contradiction anchored at ANC-001",
+      "severity": "high"
+    },
+    {
+      "flag_id": "CF-CONTRADICTION-P-002",
+      "flag_type": "contradiction_detected",
+      "affected_proposition": "P-002",
+      "note": "Contradiction pair detected. Contradiction anchored at ANC-001",
+      "severity": "high"
+    },
+    {
+      "flag_id": "CF-CONTRADICTION-P-003",
+      "flag_type": "contradiction_detected",
+      "affected_proposition": "P-003",
+      "note": "Contradiction pair detected. Contradiction anchored at ANC-001",
+      "severity": "high"
+    },
+    {
+      "flag_id": "CF-CONTRADICTION-P-005",
+      "flag_type": "contradiction_detected",
+      "affected_proposition": "P-005",
+      "note": "Contradiction pair detected. Contradiction anchored at ANC-001",
+      "severity": "high"
+    },
+    {
+      "flag_id": "CF-CONTRADICTION-P-006",
+      "flag_type": "contradiction_detected",
+      "affected_proposition": "P-006",
+      "note": "Contradiction pair detected. Contradiction anchored at ANC-001",
+      "severity": "high"
+    },
+    {
+      "flag_id": "CF-CONTRADICTION-P-004-a",
+      "flag_type": "contradiction_detected",
+      "affected_proposition": "P-004-a",
+      "note": "Contradiction pair detected. Contradiction anchored at ANC-001",
+      "severity": "high"
+    },
+    {
+      "flag_id": "CF-CONTRADICTION-P-007",
+      "flag_type": "contradiction_detected",
+      "affected_proposition": "P-007",
+      "note": "Contradiction pair detected. Contradiction anchored at ANC-001",
+      "severity": "high"
+    },
+    {
+      "flag_id": "CF-SAL-COHERENCE",
+      "flag_type": "coherence_below_threshold",
+      "affected_proposition": null,
+      "note": "SAL coherence gate: should_commit=False. lambda2=unknown",
+      "severity": "medium"
+    }
+  ],
+  "falsifiability_record": [],
+  "audit_trail": [
+    {
+      "module": "rga_pipeline",
+      "status": "started",
+      "timestamp": "2026-04-29T02:44:57.699448",
+      "note": "Pipeline started for DOC-19190628-002"
+    },
+    {
+      "module": "RGAGraphAdapter",
+      "status": "complete",
+      "timestamp": "2026-04-29T02:44:57.699448",
+      "note": "Graph built: 18 nodes, 7 blocked, 10 bridge edges"
+    },
+    {
+      "module": "HSHGeometry",
+      "status": "calibration",
+      "timestamp": "2026-04-29T02:44:57.699448",
+      "note": "Adaptive radii set for 18 nodes. governance_boundary=0.550, false_attractor_boundary=0.720"
+    },
+    {
+      "module": "HSHGeometry",
+      "status": "complete",
+      "timestamp": "2026-04-29T02:44:57.703365",
+      "note": "Fiedler value lambda2=0.1044"
+    },
+    {
+      "module": "StructuralTensionAuditor",
+      "status": "complete",
+      "timestamp": "2026-04-29T02:44:57.703365",
+      "note": "0 tension record(s)"
+    },
+    {
+      "module": "EpistaticGate",
+      "status": "complete",
+      "timestamp": "2026-04-29T02:44:57.703365",
+      "note": "0 latent conflict(s) detected"
+    },
+    {
+      "module": "SALCoherenceLayer",
+      "status": "complete",
+      "timestamp": "2026-04-29T02:44:57.703365",
+      "note": "should_commit=False"
+    },
+    {
+      "module": "rga_pipeline",
+      "status": "complete",
+      "timestamp": "2026-04-29T02:44:57.703365",
+      "note": "Pipeline complete. 25 confidence flag(s). 0 bridge narrative candidate(s)."
+    }
+  ]
+}

@@ -1,0 +1,944 @@
+{
+  "schema_version": "0.4",
+  "document_metadata": {
+    "document_id": "DOC-18630101-010",
+    "common_name": "Emancipation Proclamation (1863)",
+    "primary_source_url": "https://www.archives.gov/exhibits/featured-documents/emancipation-proclamation/transcript.html",
+    "date_of_document": "1863-01-01",
+    "date_of_analysis": "2026-04-28T00:00:00Z",
+    "analyst_id": "ANALYST-001",
+    "extraction_pass": 1,
+    "preregistration_repo_url": "https://github.com/JessicaTemplet/rhetorical-geometry-analysis",
+    "preregistration_commit_hash": "5ca3ec482746f01d92cdaa2651bd3c9fc9a182e8",
+    "preregistration_status": "confirmed",
+    "analyst_prior_note": "Pool asymmetry disclosed in methodology_v0.4.md. The Emancipation Proclamation presents a distinctive analytical challenge: it is simultaneously the most celebrated document in the corpus and one of the most geometrically complex. The bridge_narrative candidate operates differently here than in other documents. The 'military necessity' framing (the sole constitutional basis Lincoln explicitly relied upon) enabled the Proclamation to withstand anticipated constitutional challenge but simultaneously constrained its scope: it could only apply where Lincoln had Commander-in-Chief authority, i.e., in rebellious states, not loyal slave states. The 'military necessity' framing therefore insulates the geographic exclusion (Kentucky, Missouri, Maryland, Delaware — all loyal slave states retaining slavery) from scrutiny under the broader 'act of justice' claim invoked in the same sentence. This is not a case of deliberate deception — Lincoln was genuinely uncertain of his constitutional authority and the war-powers basis was legally stronger than a moral-rights basis. But the dual justification ('military necessity' + 'act of justice') creates a geometric tension: the justice claim reaches further than the legal authority claim can support. P-003 (anchored_false: Proclamation covers all enslaved persons) is directly falsified by the document's own text, which explicitly names excluded parishes and counties. P-004 (anchored_false: 'henceforward shall be free' as permanent) is falsified by the 13th Amendment's necessity — without ratification December 1865, the war-powers basis for the Proclamation would have expired with the war. Note: the Proclamation's author explicitly hedges the constitutional basis ('sincerely believed to be... warranted by the Constitution'), making P-004-b a normative_stable rather than anchored claim. Wavelet dual-band scoring not available this extraction pass; band assignments analyst-derived."
+  },
+  "anchor_registry": [
+    {
+      "anchor_id": "ANC-001",
+      "anchor_text": "The Emancipation Proclamation was issued by President Lincoln on January 1, 1863, under executive authority. It had been preceded by the Preliminary Emancipation Proclamation of September 22, 1862, which gave 100 days' notice and was published in the Official Records of the War of the Rebellion. The Proclamation was issued as an executive order, not as legislation; it was not enacted by Congress. Lincoln signed the final Proclamation on January 1, 1863.",
+      "anchor_classification": "direct_empirical_record",
+      "classification_source": "Emancipation Proclamation, January 1, 1863, Presidential Proclamation No. 17, 12 Stat. 1268 — public government record, self-evidencing. Preliminary Proclamation, September 22, 1862, 12 Stat. 1267 — public government record. National Archives, RG 11, General Records of the United States Government.",
+      "chain_length_from_governance_zone": 1,
+      "chain_length_confidence": "exact",
+      "independent_genesis": {
+        "independent_source_exists": true,
+        "independent_source_citation": "The Proclamation text is self-evidencing as to its contents, conditions, and scope. It is a public government record independent of any interpretive chain.",
+        "genesis_confidence_weight": "full",
+        "genesis_note": null
+      },
+      "notes": "Foundational enactment anchor. Establishes the existence, form, and scope of the Proclamation as an executive act. All propositions evaluated against this anchor for enacted-content assessments."
+    },
+    {
+      "anchor_id": "ANC-002",
+      "anchor_text": "The Emancipation Proclamation explicitly excluded from its reach the following: the Parishes of St. Bernard, Plaquemines, Jefferson, St. John, St. Charles, St. James, Ascension, Assumption, Terrebonne, Lafourche, St. Mary, St. Martin, and Orleans (including New Orleans) in Louisiana; the forty-eight counties designated as West Virginia; and the counties of Berkley, Accomac, Northampton, Elizabeth City, York, Princess Ann, and Norfolk, Virginia, including the cities of Norfolk and Portsmouth. The loyal slave states of Kentucky, Missouri, Maryland, and Delaware were entirely excluded because they were not 'in rebellion against the United States.' Tennessee was substantially excluded because it was largely under Union military control. At the time of the Proclamation, approximately 800,000 of the 4 million enslaved persons in the United States lived in states or territories not covered by the Proclamation.",
+      "anchor_classification": "direct_empirical_record",
+      "classification_source": "Emancipation Proclamation text (January 1, 1863) — self-evidencing as to explicit exclusions. Allen Guelzo, Lincoln's Emancipation Proclamation: The End of Slavery in America (Simon & Schuster, 2004) documenting the scope of exclusions and population estimates. 1860 Census slave population data, US Census Bureau — public government record.",
+      "chain_length_from_governance_zone": 1,
+      "chain_length_confidence": "exact",
+      "independent_genesis": {
+        "independent_source_exists": true,
+        "independent_source_citation": "The Proclamation text is self-evidencing. Guelzo (2004) is independent academic scholarship. The 1860 Census is a public government record independent of the Lincoln executive chain.",
+        "genesis_confidence_weight": "full",
+        "genesis_note": null
+      },
+      "notes": "Evaluates P-003 (scope claim). The explicit exclusions in the document's own text are the primary falsifying evidence for any claim that the Proclamation freed all enslaved persons."
+    },
+    {
+      "anchor_id": "ANC-003",
+      "anchor_text": "In the Prize Cases (67 U.S. 635, 1863), the Supreme Court upheld Lincoln's naval blockade of Confederate ports as a valid exercise of Commander-in-Chief war powers, holding that the President had the authority to treat the rebellion as a war without a formal congressional declaration. This decision, decided in March 1863 (two months after the Proclamation), established the legal framework under which the war-powers basis for the Proclamation was most defensible. Lincoln himself had expressed uncertainty about his constitutional authority before issuing the Proclamation; Secretary of State Seward warned that issuing it after military defeat would appear as 'the last shriek on the retreat.' Lincoln waited until after the Union victory at Antietam (September 17, 1862) to issue the preliminary proclamation.",
+      "anchor_classification": "primary_source_attestation",
+      "classification_source": "Prize Cases, 67 U.S. (2 Black) 635 (1863) — Supreme Court decision, self-evidencing. David Donald, Lincoln (Simon & Schuster, 1995) — independent biography documenting Lincoln's constitutional uncertainty and Seward's advice. James McPherson, Battle Cry of Freedom (Oxford University Press, 1988) — independent scholarship.",
+      "chain_length_from_governance_zone": 1,
+      "chain_length_confidence": "exact",
+      "independent_genesis": {
+        "independent_source_exists": true,
+        "independent_source_citation": "Prize Cases is a Supreme Court decision self-evidencing as to its holding. Donald (1995) and McPherson (1988) are independent academic scholarship entirely outside the Lincoln executive administrative chain.",
+        "genesis_confidence_weight": "full",
+        "genesis_note": null
+      },
+      "notes": "Evaluates P-001-a (war powers basis) and P-005-rel (bridge_narrative: military necessity framing). The Prize Cases confirm the war-powers basis for executive action against Confederate property, providing the strongest legal support for the Proclamation's constitutional grounding."
+    },
+    {
+      "anchor_id": "ANC-004",
+      "anchor_text": "The Thirteenth Amendment to the United States Constitution, abolishing slavery throughout the United States, was passed by the Senate on April 8, 1864, passed by the House on January 31, 1865, and ratified by the requisite three-fourths of states on December 6, 1865. Without the Thirteenth Amendment, the constitutional basis for the continued legal freedom of persons freed under the Emancipation Proclamation would have been legally contestable at the end of the war, since the war-powers basis that justified the Proclamation would no longer apply once the rebellion was suppressed. Lincoln and his allies recognized this — Lincoln actively lobbied for the Thirteenth Amendment specifically to make the Proclamation's freedom permanent and constitutionally grounded.",
+      "anchor_classification": "direct_empirical_record",
+      "classification_source": "Thirteenth Amendment, ratified December 6, 1865, 13 Stat. 774 — public government record, self-evidencing. Doris Kearns Goodwin, Team of Rivals: The Political Genius of Abraham Lincoln (Simon & Schuster, 2005) documenting Lincoln's lobbying for the Amendment as permanent constitutional grounding. Michael Vorenberg, Final Freedom: The Civil War, the Abolition of Slavery, and the Thirteenth Amendment (Cambridge University Press, 2001) — independent scholarship.",
+      "chain_length_from_governance_zone": 1,
+      "chain_length_confidence": "exact",
+      "independent_genesis": {
+        "independent_source_exists": true,
+        "independent_source_citation": "The Thirteenth Amendment is a public government record self-evidencing as to its content and date. Goodwin (2005) and Vorenberg (2001) are independent academic scholarship.",
+        "genesis_confidence_weight": "full",
+        "genesis_note": null
+      },
+      "notes": "Evaluates P-004 ('henceforward shall be free' as permanent). The necessity of the 13th Amendment is the direct empirical test of the permanence claim. If the Proclamation had made freedom permanently operative, the Amendment's passage would have been unnecessary to that specific end."
+    },
+    {
+      "anchor_id": "ANC-005",
+      "anchor_text": "The Emancipation Proclamation closed with the statement: 'And upon this act, sincerely believed to be an act of justice, warranted by the Constitution, upon military necessity, I invoke the considerate judgment of mankind, and the gracious favor of Almighty God.' The hedged formulation 'sincerely believed to be... warranted by the Constitution' was not a rhetorical convention; it reflected genuine constitutional uncertainty. Secretary of War Stanton, Secretary of State Seward, and Lincoln himself discussed the constitutional limits of executive emancipation authority at Cabinet meetings documented in Gideon Welles's diary. The dual justification — military necessity AND act of justice — appears in the final sentence and reflects a deliberate choice to invoke both a legal and a moral claim, even though the legal (war-powers) basis carried limitations the moral claim did not.",
+      "anchor_classification": "primary_source_attestation",
+      "classification_source": "Emancipation Proclamation text — self-evidencing as to the closing formulation. Gideon Welles, Diary of Gideon Welles (Houghton Mifflin, 1911) — contemporaneous primary source documenting Cabinet discussions. Allen Guelzo, Lincoln's Emancipation Proclamation (2004) — independent scholarship on the dual-justification structure.",
+      "chain_length_from_governance_zone": 1,
+      "chain_length_confidence": "exact",
+      "independent_genesis": {
+        "independent_source_exists": true,
+        "independent_source_citation": "The Proclamation text is self-evidencing. Welles's Diary is a contemporaneous primary source independent of the Lincoln executive in that it represents an internal dissent record. Guelzo (2004) is independent academic scholarship.",
+        "genesis_confidence_weight": "full",
+        "genesis_note": null
+      },
+      "notes": "Evaluates P-005-rel (bridge_narrative). The dual justification structure — military necessity (limited scope) + act of justice (unlimited moral reach) — is the source of the bridge narrative candidate. The hedged constitutional language confirms that the 'warranted by the Constitution' claim was not asserted with confidence."
+    }
+  ],
+  "proposition_table": [
+    {
+      "proposition_id": "P-001",
+      "verbatim_source_text": "by virtue of the power in me vested as Commander-in-Chief, of the Army and Navy of the United States in time of actual armed rebellion against the authority and government of the United States, and as a fit and necessary war measure for suppressing said rebellion",
+      "source_location": "Body (preamble to the order)",
+      "normalized_claim": "Lincoln's authority to issue this Proclamation rests on his Commander-in-Chief war powers as applied to suppressing actual armed rebellion, and the Proclamation constitutes a fit and necessary war measure for that suppression.",
+      "is_compound": true,
+      "compound_resolution": {
+        "decomposition_required": true,
+        "sub_propositions": [
+          "P-001-a",
+          "P-001-b"
+        ],
+        "decomposition_note": "RULE-004 Pathway 1. P-001-a (Lincoln held Commander-in-Chief authority during active armed rebellion: legal_statutory, anchored_true against ANC-001 and ANC-003) and P-001-b (the Proclamation constitutes a 'fit and necessary' war measure: normative_stable — the 'necessity' of emancipation as a war measure was genuinely contested and Lincoln hedged it himself in ANC-005) are independently evaluable and epistemically heterogeneous. P-001-a evaluates the legal predicate; P-001-b evaluates the causal-strategic claim.",
+        "primary_classification_basis": "P-001-a"
+      },
+      "is_relational": false,
+      "relational_resolution": null,
+      "primary_classification": "anchored_true",
+      "secondary_tags": [],
+      "anchor_mappings": [
+        "ANC-001",
+        "ANC-003"
+      ],
+      "geodesic_distance_from_anchor": null,
+      "edge_sign": "positive",
+      "stress_energy_contribution": 0.3,
+      "confidence_flag_id": null
+    },
+    {
+      "proposition_id": "P-001-a",
+      "verbatim_source_text": "by virtue of the power in me vested as Commander-in-Chief, of the Army and Navy of the United States in time of actual armed rebellion",
+      "source_location": "Body",
+      "normalized_claim": "Lincoln held Commander-in-Chief authority over the Army and Navy of the United States during actual armed rebellion, constituting a legitimate legal predicate for executive action.",
+      "is_compound": false,
+      "compound_resolution": null,
+      "is_relational": false,
+      "relational_resolution": null,
+      "primary_classification": "anchored_true",
+      "secondary_tags": [],
+      "anchor_mappings": [
+        "ANC-001",
+        "ANC-003"
+      ],
+      "geodesic_distance_from_anchor": null,
+      "edge_sign": "positive",
+      "stress_energy_contribution": 0.3,
+      "confidence_flag_id": null
+    },
+    {
+      "proposition_id": "P-001-b",
+      "verbatim_source_text": "as a fit and necessary war measure for suppressing said rebellion",
+      "source_location": "Body",
+      "normalized_claim": "The emancipation of enslaved persons in rebellious states constitutes a fit and necessary military measure for suppressing the Confederate rebellion.",
+      "is_compound": false,
+      "compound_resolution": null,
+      "is_relational": false,
+      "relational_resolution": null,
+      "primary_classification": "normative_stable",
+      "secondary_tags": [],
+      "anchor_mappings": [
+        "ANC-001",
+        "ANC-003",
+        "ANC-005"
+      ],
+      "geodesic_distance_from_anchor": null,
+      "edge_sign": "positive",
+      "stress_energy_contribution": 0.3,
+      "confidence_flag_id": null
+    },
+    {
+      "proposition_id": "P-002",
+      "verbatim_source_text": "I do order and declare that all persons held as slaves within said designated States, and parts of States, are, and henceforward shall be free",
+      "source_location": "Body (operative order)",
+      "normalized_claim": "All persons held as slaves within the designated rebellious states and parts of states are, and henceforward shall be, free.",
+      "is_compound": true,
+      "compound_resolution": {
+        "decomposition_required": true,
+        "sub_propositions": [
+          "P-002-a",
+          "P-002-b"
+        ],
+        "decomposition_note": "RULE-004 Pathway 1. P-002-a (the executive order was issued and declared freedom as a legal matter: legal_statutory, anchored_true as an enacted executive order with legal force) and P-002-b ('henceforward shall be free' as immediately and practically operative: anchored_false — operative freedom was dependent on Union military control of territory; in Confederate-controlled areas the order had no practical effect at issuance) are epistemically heterogeneous. The enacted order is true; the practical operation of freedom is false for uncontrolled Confederate territory. P-002-b is the primary classification basis because the 'practical freedom' question is the substantively interesting claim.",
+        "primary_classification_basis": "P-002-b"
+      },
+      "is_relational": false,
+      "relational_resolution": null,
+      "primary_classification": "anchored_false",
+      "secondary_tags": [
+        "contextually_misleading"
+      ],
+      "anchor_mappings": [
+        "ANC-001",
+        "ANC-002"
+      ],
+      "geodesic_distance_from_anchor": null,
+      "edge_sign": "negative",
+      "stress_energy_contribution": 0.3,
+      "confidence_flag_id": null
+    },
+    {
+      "proposition_id": "P-002-a",
+      "verbatim_source_text": "I do order and declare that all persons held as slaves within said designated States, and parts of States, are, and henceforward shall be free",
+      "source_location": "Body (operative order)",
+      "normalized_claim": "The President issued an executive order declaring freedom for persons held as slaves in the designated rebellious states and parts of states, with legal force as an executive act.",
+      "is_compound": false,
+      "compound_resolution": null,
+      "is_relational": false,
+      "relational_resolution": null,
+      "primary_classification": "anchored_true",
+      "secondary_tags": [],
+      "anchor_mappings": [
+        "ANC-001"
+      ],
+      "geodesic_distance_from_anchor": null,
+      "edge_sign": "positive",
+      "stress_energy_contribution": 0.3,
+      "confidence_flag_id": null
+    },
+    {
+      "proposition_id": "P-002-b",
+      "verbatim_source_text": "are, and henceforward shall be free",
+      "source_location": "Body (operative order)",
+      "normalized_claim": "Freedom for persons held as slaves in the designated states was immediately and practically operative throughout those states upon the issuance of the Proclamation.",
+      "is_compound": false,
+      "compound_resolution": null,
+      "is_relational": false,
+      "relational_resolution": null,
+      "primary_classification": "anchored_false",
+      "secondary_tags": [
+        "contextually_misleading"
+      ],
+      "anchor_mappings": [
+        "ANC-001",
+        "ANC-002",
+        "ANC-003"
+      ],
+      "geodesic_distance_from_anchor": null,
+      "edge_sign": "negative",
+      "stress_energy_contribution": 0.3,
+      "confidence_flag_id": null
+    },
+    {
+      "proposition_id": "P-003",
+      "verbatim_source_text": "I do order and declare that all persons held as slaves within said designated States, and parts of States, are, and henceforward shall be free",
+      "source_location": "Body (operative order), read in conjunction with the enumerated exclusions",
+      "normalized_claim": "The Proclamation's freedom declaration applies to all persons held as slaves within the United States.",
+      "is_compound": false,
+      "compound_resolution": null,
+      "is_relational": false,
+      "relational_resolution": null,
+      "primary_classification": "anchored_false",
+      "secondary_tags": [
+        "contextually_misleading"
+      ],
+      "anchor_mappings": [
+        "ANC-001",
+        "ANC-002"
+      ],
+      "geodesic_distance_from_anchor": null,
+      "edge_sign": "negative",
+      "stress_energy_contribution": 0.3,
+      "confidence_flag_id": null
+    },
+    {
+      "proposition_id": "P-004",
+      "verbatim_source_text": "are, and henceforward shall be free",
+      "source_location": "Body (operative order)",
+      "normalized_claim": "Freedom proclaimed under the Emancipation Proclamation is permanent and constitutionally grounded without requiring subsequent legislation.",
+      "is_compound": false,
+      "compound_resolution": null,
+      "is_relational": false,
+      "relational_resolution": null,
+      "primary_classification": "anchored_false",
+      "secondary_tags": [],
+      "anchor_mappings": [
+        "ANC-001",
+        "ANC-004",
+        "ANC-005"
+      ],
+      "geodesic_distance_from_anchor": null,
+      "edge_sign": "negative",
+      "stress_energy_contribution": 0.3,
+      "confidence_flag_id": "FLAG-001"
+    },
+    {
+      "proposition_id": "P-005-rel",
+      "verbatim_source_text": "And upon this act, sincerely believed to be an act of justice, warranted by the Constitution, upon military necessity, I invoke the considerate judgment of mankind, and the gracious favor of Almighty God.",
+      "source_location": "Final sentence",
+      "normalized_claim": "[Relational] The 'military necessity' constitutional framing, invoked alongside but structurally prior to the 'act of justice' moral framing, insulates the Proclamation's geographic exclusions (loyal slave states, occupied Confederate territory) from scrutiny under the broader justice claim it simultaneously asserts — because military necessity applies only where Commander-in-Chief authority is active, while justice has no such geographic constraint.",
+      "is_compound": false,
+      "compound_resolution": null,
+      "is_relational": true,
+      "relational_resolution": {
+        "parent_proposition_a": "P-001-a",
+        "parent_proposition_b": "P-003",
+        "relation_type": "insulates",
+        "relational_note": "P-001-a (anchored_true: war powers authority) provides the genuine constitutional predicate that legitimizes the order. P-003 (anchored_false: coverage of all enslaved persons) is the scope claim that the justice framing implies but the military necessity framing cannot support. The relational proposition captures how the military necessity framing structurally insulates P-003's false scope claim from scrutiny: if military necessity is the basis, then loyal-state exclusions are legally required (not a failure of the justice claim) because the Commander-in-Chief authority does not extend to loyal states. The bridge narrative thus converts the Proclamation's legal limitation into a feature rather than a bug, insulating the justice claim from the coverage gap."
+      },
+      "primary_classification": "bridge_narrative",
+      "secondary_tags": [],
+      "anchor_mappings": [
+        "ANC-001",
+        "ANC-002",
+        "ANC-003",
+        "ANC-005"
+      ],
+      "geodesic_distance_from_anchor": null,
+      "edge_sign": "mixed",
+      "stress_energy_contribution": 0.3,
+      "confidence_flag_id": "FLAG-002"
+    }
+  ],
+  "graph_structure": {
+    "nodes": [
+      {
+        "id": "ANC-001",
+        "type": "anchor",
+        "label": "ANC-001",
+        "classification": "direct_empirical_record",
+        "r": 0.5,
+        "theta": 0.0,
+        "geodesic_distance": 1.0986,
+        "zone": "governance",
+        "blocked": false
+      },
+      {
+        "id": "ANC-002",
+        "type": "anchor",
+        "label": "ANC-002",
+        "classification": "direct_empirical_record",
+        "r": 0.5,
+        "theta": 1.2566,
+        "geodesic_distance": 1.0986,
+        "zone": "governance",
+        "blocked": false
+      },
+      {
+        "id": "ANC-003",
+        "type": "anchor",
+        "label": "ANC-003",
+        "classification": "primary_source_attestation",
+        "r": 0.5,
+        "theta": 2.5133,
+        "geodesic_distance": 1.0986,
+        "zone": "governance",
+        "blocked": false
+      },
+      {
+        "id": "ANC-004",
+        "type": "anchor",
+        "label": "ANC-004",
+        "classification": "direct_empirical_record",
+        "r": 0.5,
+        "theta": 3.7699,
+        "geodesic_distance": 1.0986,
+        "zone": "governance",
+        "blocked": false
+      },
+      {
+        "id": "ANC-005",
+        "type": "anchor",
+        "label": "ANC-005",
+        "classification": "primary_source_attestation",
+        "r": 0.5,
+        "theta": 5.0265,
+        "geodesic_distance": 1.0986,
+        "zone": "governance",
+        "blocked": false
+      },
+      {
+        "id": "P-001",
+        "type": "proposition",
+        "label": "P-001",
+        "classification": "anchored_true",
+        "secondary_tags": [],
+        "verbatim": "by virtue of the power in me vested as Commander-in-Chief, of the Army and Navy of the United States in time of actual armed rebellion against the authority and government of the United States, and as a fit and necessary war measure for suppressing said rebellion",
+        "normalized": "Lincoln's authority to issue this Proclamation rests on his Commander-in-Chief war powers as applied to suppressing actual armed rebellion, and the Proclamation constitutes a fit and necessary war measure for that suppression.",
+        "stress": 0.3,
+        "r": 0.5,
+        "theta": 0.0,
+        "geodesic_distance": 1.0986,
+        "zone": "governance",
+        "blocked": false
+      },
+      {
+        "id": "P-001-a",
+        "type": "proposition",
+        "label": "P-001-a",
+        "classification": "anchored_true",
+        "secondary_tags": [],
+        "verbatim": "by virtue of the power in me vested as Commander-in-Chief, of the Army and Navy of the United States in time of actual armed rebellion",
+        "normalized": "Lincoln held Commander-in-Chief authority over the Army and Navy of the United States during actual armed rebellion, constituting a legitimate legal predicate for executive action.",
+        "stress": 0.3,
+        "r": 0.5,
+        "theta": 0.6981,
+        "geodesic_distance": 1.0986,
+        "zone": "governance",
+        "blocked": true
+      },
+      {
+        "id": "P-001-b",
+        "type": "proposition",
+        "label": "P-001-b",
+        "classification": "normative_stable",
+        "secondary_tags": [],
+        "verbatim": "as a fit and necessary war measure for suppressing said rebellion",
+        "normalized": "The emancipation of enslaved persons in rebellious states constitutes a fit and necessary military measure for suppressing the Confederate rebellion.",
+        "stress": 0.3,
+        "r": 0.5,
+        "theta": 1.3963,
+        "geodesic_distance": 1.0986,
+        "zone": "work_knowledge",
+        "blocked": false
+      },
+      {
+        "id": "P-002",
+        "type": "proposition",
+        "label": "P-002",
+        "classification": "anchored_false",
+        "secondary_tags": [
+          "contextually_misleading"
+        ],
+        "verbatim": "I do order and declare that all persons held as slaves within said designated States, and parts of States, are, and henceforward shall be free",
+        "normalized": "All persons held as slaves within the designated rebellious states and parts of states are, and henceforward shall be, free.",
+        "stress": 0.3,
+        "r": 0.795,
+        "theta": 2.0944,
+        "geodesic_distance": 2.1698,
+        "zone": "temporal_knowledge",
+        "blocked": false
+      },
+      {
+        "id": "P-002-a",
+        "type": "proposition",
+        "label": "P-002-a",
+        "classification": "anchored_true",
+        "secondary_tags": [],
+        "verbatim": "I do order and declare that all persons held as slaves within said designated States, and parts of States, are, and henceforward shall be free",
+        "normalized": "The President issued an executive order declaring freedom for persons held as slaves in the designated rebellious states and parts of states, with legal force as an executive act.",
+        "stress": 0.3,
+        "r": 0.5,
+        "theta": 2.7925,
+        "geodesic_distance": 1.0986,
+        "zone": "governance",
+        "blocked": true
+      },
+      {
+        "id": "P-002-b",
+        "type": "proposition",
+        "label": "P-002-b",
+        "classification": "anchored_false",
+        "secondary_tags": [
+          "contextually_misleading"
+        ],
+        "verbatim": "are, and henceforward shall be free",
+        "normalized": "Freedom for persons held as slaves in the designated states was immediately and practically operative throughout those states upon the issuance of the Proclamation.",
+        "stress": 0.3,
+        "r": 0.795,
+        "theta": 3.4907,
+        "geodesic_distance": 2.1698,
+        "zone": "temporal_knowledge",
+        "blocked": true
+      },
+      {
+        "id": "P-003",
+        "type": "proposition",
+        "label": "P-003",
+        "classification": "anchored_false",
+        "secondary_tags": [
+          "contextually_misleading"
+        ],
+        "verbatim": "I do order and declare that all persons held as slaves within said designated States, and parts of States, are, and henceforward shall be free",
+        "normalized": "The Proclamation's freedom declaration applies to all persons held as slaves within the United States.",
+        "stress": 0.3,
+        "r": 0.795,
+        "theta": 4.1888,
+        "geodesic_distance": 2.1698,
+        "zone": "temporal_knowledge",
+        "blocked": true
+      },
+      {
+        "id": "P-004",
+        "type": "proposition",
+        "label": "P-004",
+        "classification": "anchored_false",
+        "secondary_tags": [],
+        "verbatim": "are, and henceforward shall be free",
+        "normalized": "Freedom proclaimed under the Emancipation Proclamation is permanent and constitutionally grounded without requiring subsequent legislation.",
+        "stress": 0.3,
+        "r": 0.795,
+        "theta": 4.8869,
+        "geodesic_distance": 2.1698,
+        "zone": "temporal_knowledge",
+        "blocked": true
+      },
+      {
+        "id": "P-005-rel",
+        "type": "proposition",
+        "label": "P-005-rel",
+        "classification": "bridge_narrative",
+        "secondary_tags": [],
+        "verbatim": "And upon this act, sincerely believed to be an act of justice, warranted by the Constitution, upon military necessity, I invoke the considerate judgment of mankind, and the gracious favor of Almighty God.",
+        "normalized": "[Relational] The 'military necessity' constitutional framing, invoked alongside but structurally prior to the 'act of justice' moral framing, insulates the Proclamation's geographic exclusions (loyal slave states, occupied Confederate territory) from scrutiny under the broader justice claim it simultaneously asserts — because military necessity applies only where Commander-in-Chief authority is active, while justice has no such geographic constraint.",
+        "stress": 0.3,
+        "r": 0.6475,
+        "theta": 5.5851,
+        "geodesic_distance": 1.542,
+        "zone": "rationale",
+        "blocked": false
+      }
+    ],
+    "edges": [
+      {
+        "source": "P-001",
+        "target": "ANC-001",
+        "sign": "positive",
+        "weight": 0.3
+      },
+      {
+        "source": "P-001",
+        "target": "ANC-003",
+        "sign": "positive",
+        "weight": 0.3
+      },
+      {
+        "source": "P-001-a",
+        "target": "ANC-001",
+        "sign": "positive",
+        "weight": 0.3
+      },
+      {
+        "source": "P-001-a",
+        "target": "ANC-003",
+        "sign": "positive",
+        "weight": 0.3
+      },
+      {
+        "source": "P-001-b",
+        "target": "ANC-001",
+        "sign": "positive",
+        "weight": 0.3
+      },
+      {
+        "source": "P-001-b",
+        "target": "ANC-003",
+        "sign": "positive",
+        "weight": 0.3
+      },
+      {
+        "source": "P-001-b",
+        "target": "ANC-005",
+        "sign": "positive",
+        "weight": 0.3
+      },
+      {
+        "source": "P-002",
+        "target": "ANC-001",
+        "sign": "negative",
+        "weight": 0.3
+      },
+      {
+        "source": "P-002",
+        "target": "ANC-002",
+        "sign": "negative",
+        "weight": 0.3
+      },
+      {
+        "source": "P-002-a",
+        "target": "ANC-001",
+        "sign": "positive",
+        "weight": 0.3
+      },
+      {
+        "source": "P-002-b",
+        "target": "ANC-001",
+        "sign": "negative",
+        "weight": 0.3
+      },
+      {
+        "source": "P-002-b",
+        "target": "ANC-002",
+        "sign": "negative",
+        "weight": 0.3
+      },
+      {
+        "source": "P-002-b",
+        "target": "ANC-003",
+        "sign": "negative",
+        "weight": 0.3
+      },
+      {
+        "source": "P-003",
+        "target": "ANC-001",
+        "sign": "negative",
+        "weight": 0.3
+      },
+      {
+        "source": "P-003",
+        "target": "ANC-002",
+        "sign": "negative",
+        "weight": 0.3
+      },
+      {
+        "source": "P-004",
+        "target": "ANC-001",
+        "sign": "negative",
+        "weight": 0.3
+      },
+      {
+        "source": "P-004",
+        "target": "ANC-004",
+        "sign": "negative",
+        "weight": 0.3
+      },
+      {
+        "source": "P-004",
+        "target": "ANC-005",
+        "sign": "negative",
+        "weight": 0.3
+      },
+      {
+        "source": "P-005-rel",
+        "target": "ANC-001",
+        "sign": "mixed",
+        "weight": 0.3
+      },
+      {
+        "source": "P-005-rel",
+        "target": "ANC-002",
+        "sign": "mixed",
+        "weight": 0.3
+      },
+      {
+        "source": "P-005-rel",
+        "target": "ANC-003",
+        "sign": "mixed",
+        "weight": 0.3
+      },
+      {
+        "source": "P-005-rel",
+        "target": "ANC-005",
+        "sign": "mixed",
+        "weight": 0.3
+      }
+    ],
+    "manifold_zone_assignments": {
+      "governance": [
+        "ANC-001",
+        "ANC-002",
+        "ANC-003",
+        "ANC-004",
+        "ANC-005",
+        "P-001",
+        "P-001-a",
+        "P-002-a"
+      ],
+      "rationale": [
+        "P-005-rel"
+      ],
+      "work_knowledge": [
+        "P-001-b"
+      ],
+      "temporal_knowledge": [
+        "P-002",
+        "P-002-b",
+        "P-003",
+        "P-004"
+      ]
+    },
+    "adaptive_zone_boundaries": {
+      "governance": 0.55,
+      "false_attractor": 0.72
+    },
+    "node_radii": {
+      "ANC-001": 0.5,
+      "ANC-002": 0.5,
+      "ANC-003": 0.5,
+      "ANC-004": 0.5,
+      "ANC-005": 0.5,
+      "P-001-a": 0.5,
+      "P-001-b": 0.5,
+      "P-002-a": 0.5,
+      "P-002-b": 0.795,
+      "P-003": 0.795,
+      "P-004": 0.795,
+      "P-001": 0.5,
+      "P-002": 0.795,
+      "P-005-rel": 0.6475
+    },
+    "fragmentation_detected": true,
+    "polarization_detected": true,
+    "bridge_narrative_candidates": [
+      "P-005-rel"
+    ],
+    "false_attractor_candidates": [
+      "P-002",
+      "P-002-b",
+      "P-003",
+      "P-004"
+    ],
+    "contradiction_pairs": [
+      {
+        "node_a": "P-002-a",
+        "node_b": "P-004"
+      },
+      {
+        "node_a": "P-001-a",
+        "node_b": "P-002-b"
+      },
+      {
+        "node_a": "P-002-a",
+        "node_b": "P-003"
+      }
+    ]
+  },
+  "geometric_summary": {
+    "manifold_description": "9 propositions placed on hyperbolic manifold. 3 governance-anchored (GOVERNANCE zone), 1 bridge_narrative candidate(s) (RATIONALE zone), 4 anchored_false attractor(s) (TEMPORAL_KNOWLEDGE zone), 0 ambiguous/contested (WORK/TEMPORAL zones). 5 proposition(s) in contradiction-blocked pairs. Fiedler value lambda2 = 0.3455 CoherenceState(zone='work_knowledge', timestamp='2026-04-29T02:44:57.986251+00:00', lambda2=0.0, lambda2_delta=0.0, lambda2_stable=False, lambda2_sufficient=False, mean_sheaf_consistency=0.0, sheaf_su",
+    "anchor_cluster_summary": "5 anchor(s) registered at governance zone (r=0). Contradiction-blocked pairs detected — see confidence_flags.",
+    "highest_stress_region": "P-001 (stress=0.300)",
+    "least_stable_truth_candidate": "P-001",
+    "most_stable_false_candidate": "P-002",
+    "bridge_narrative_geometry_note": "1 bridge narrative candidate(s) detected at RATIONALE zone boundary. Bidirectional T_mu_nu load present. ExpressionResult(expressed_nodes=['ANC-001', 'ANC-002', 'ANC-003', 'ANC-004', 'ANC-005', 'P-001', 'P-001-b', 'P-002', 'P-005-rel'], silenced_nodes={'P-001-a': ['[contradiction_block]'], 'P-002-a': ['[",
+    "structural_tension_note": "1 undeclared tension point(s) detected. See confidence_flags.",
+    "analyst_notes": "",
+    "reader_interpretation_note": "This summary describes geometric structure only. Classification of intent or moral judgment is left to the reader."
+  },
+  "confidence_flags": [
+    {
+      "flag_id": "FLAG-001",
+      "flag_type": "constitutional_hedging_note",
+      "severity": "medium",
+      "affected_propositions": [
+        "P-004"
+      ],
+      "flag_note": "P-004 is classified anchored_false on the basis that the 13th Amendment (December 1865) was required to make freedom permanent (ANC-004). However, the falsifiability of P-004 is complicated by Lincoln's own hedging ('sincerely believed to be warranted' — ANC-005): the author of the document acknowledged constitutional uncertainty. The 13th Amendment provides the empirical test: if the Proclamation had created permanent, constitutionally grounded freedom, the Amendment would have been redundant to that specific end. Lincoln lobbied actively for the Amendment precisely because he recognized the Proclamation's constitutional contingency (ANC-004). P-004's anchored_false classification reflects this trajectory, not a claim that Lincoln was dishonest — he was accurately uncertain."
+    },
+    {
+      "flag_id": "FLAG-002",
+      "flag_type": "bridge_narrative_candidate",
+      "severity": "medium",
+      "affected_propositions": [
+        "P-005-rel",
+        "P-001-a",
+        "P-003"
+      ],
+      "flag_note": "The Emancipation Proclamation bridge_narrative is structurally different from other corpus examples (DOC-003, DOC-005) because it does not involve deliberate deception. The dual military/justice framing reflects genuine constitutional uncertainty (ANC-005), not strategic distortion. The bridge narrative's severity is medium rather than high because: (1) the military necessity basis was legally sound for what it covered; (2) Lincoln's hedging language reflects honest uncertainty rather than calculated misrepresentation; (3) the subsequent 13th Amendment corrected the scope limitation that the bridge enables. The geometric significance is nonetheless real: the justice frame in the document creates an implied scope that the military necessity legal basis cannot support, and this mismatch is not visible to a reader who takes the justice framing at face value. Signal 3 (epistatic suppression) requires pipeline confirmation. The bridge_narrative classification for P-005-rel reflects structural function, not intent."
+    },
+    {
+      "flag_id": "CF-CONTRADICTION-P-001-a",
+      "flag_type": "contradiction_detected",
+      "affected_proposition": "P-001-a",
+      "note": "Contradiction pair detected. Contradiction anchored at ANC-003",
+      "severity": "high"
+    },
+    {
+      "flag_id": "CF-CONTRADICTION-P-002-b",
+      "flag_type": "contradiction_detected",
+      "affected_proposition": "P-002-b",
+      "note": "Contradiction pair detected. Contradiction anchored at ANC-003",
+      "severity": "high"
+    },
+    {
+      "flag_id": "CF-CONTRADICTION-P-003",
+      "flag_type": "contradiction_detected",
+      "affected_proposition": "P-003",
+      "note": "Contradiction pair detected. Contradiction anchored at ANC-001",
+      "severity": "high"
+    },
+    {
+      "flag_id": "CF-CONTRADICTION-P-004",
+      "flag_type": "contradiction_detected",
+      "affected_proposition": "P-004",
+      "note": "Contradiction pair detected. Contradiction anchored at ANC-001",
+      "severity": "high"
+    },
+    {
+      "flag_id": "CF-CONTRADICTION-P-002-a",
+      "flag_type": "contradiction_detected",
+      "affected_proposition": "P-002-a",
+      "note": "Contradiction pair detected. Contradiction anchored at ANC-001",
+      "severity": "high"
+    },
+    {
+      "flag_id": "CF-TENSION-P-005-rel",
+      "flag_type": "undeclared_structural_tension",
+      "affected_proposition": "P-005-rel",
+      "note": "Tidal tension detected: unknown",
+      "severity": "medium"
+    },
+    {
+      "flag_id": "CF-SAL-COHERENCE",
+      "flag_type": "coherence_below_threshold",
+      "affected_proposition": null,
+      "note": "SAL coherence gate: should_commit=False. lambda2=unknown",
+      "severity": "medium"
+    },
+    {
+      "flag_id": "CF-CONTRADICTION-P-001-a",
+      "flag_type": "contradiction_detected",
+      "affected_proposition": "P-001-a",
+      "note": "Contradiction pair detected. Contradiction anchored at ANC-003",
+      "severity": "high"
+    },
+    {
+      "flag_id": "CF-CONTRADICTION-P-002-b",
+      "flag_type": "contradiction_detected",
+      "affected_proposition": "P-002-b",
+      "note": "Contradiction pair detected. Contradiction anchored at ANC-003",
+      "severity": "high"
+    },
+    {
+      "flag_id": "CF-CONTRADICTION-P-003",
+      "flag_type": "contradiction_detected",
+      "affected_proposition": "P-003",
+      "note": "Contradiction pair detected. Contradiction anchored at ANC-001",
+      "severity": "high"
+    },
+    {
+      "flag_id": "CF-CONTRADICTION-P-004",
+      "flag_type": "contradiction_detected",
+      "affected_proposition": "P-004",
+      "note": "Contradiction pair detected. Contradiction anchored at ANC-001",
+      "severity": "high"
+    },
+    {
+      "flag_id": "CF-CONTRADICTION-P-002-a",
+      "flag_type": "contradiction_detected",
+      "affected_proposition": "P-002-a",
+      "note": "Contradiction pair detected. Contradiction anchored at ANC-001",
+      "severity": "high"
+    },
+    {
+      "flag_id": "CF-TENSION-P-005-rel",
+      "flag_type": "undeclared_structural_tension",
+      "affected_proposition": "P-005-rel",
+      "note": "Tidal tension detected: unknown",
+      "severity": "medium"
+    },
+    {
+      "flag_id": "CF-SAL-COHERENCE",
+      "flag_type": "coherence_below_threshold",
+      "affected_proposition": null,
+      "note": "SAL coherence gate: should_commit=False. lambda2=unknown",
+      "severity": "medium"
+    },
+    {
+      "flag_id": "CF-CONTRADICTION-P-001-a",
+      "flag_type": "contradiction_detected",
+      "affected_proposition": "P-001-a",
+      "note": "Contradiction pair detected. Contradiction anchored at ANC-003",
+      "severity": "high"
+    },
+    {
+      "flag_id": "CF-CONTRADICTION-P-002-b",
+      "flag_type": "contradiction_detected",
+      "affected_proposition": "P-002-b",
+      "note": "Contradiction pair detected. Contradiction anchored at ANC-003",
+      "severity": "high"
+    },
+    {
+      "flag_id": "CF-CONTRADICTION-P-003",
+      "flag_type": "contradiction_detected",
+      "affected_proposition": "P-003",
+      "note": "Contradiction pair detected. Contradiction anchored at ANC-001",
+      "severity": "high"
+    },
+    {
+      "flag_id": "CF-CONTRADICTION-P-004",
+      "flag_type": "contradiction_detected",
+      "affected_proposition": "P-004",
+      "note": "Contradiction pair detected. Contradiction anchored at ANC-001",
+      "severity": "high"
+    },
+    {
+      "flag_id": "CF-CONTRADICTION-P-002-a",
+      "flag_type": "contradiction_detected",
+      "affected_proposition": "P-002-a",
+      "note": "Contradiction pair detected. Contradiction anchored at ANC-001",
+      "severity": "high"
+    },
+    {
+      "flag_id": "CF-TENSION-P-005-rel",
+      "flag_type": "undeclared_structural_tension",
+      "affected_proposition": "P-005-rel",
+      "note": "Tidal tension detected: unknown",
+      "severity": "medium"
+    },
+    {
+      "flag_id": "CF-SAL-COHERENCE",
+      "flag_type": "coherence_below_threshold",
+      "affected_proposition": null,
+      "note": "SAL coherence gate: should_commit=False. lambda2=unknown",
+      "severity": "medium"
+    }
+  ],
+  "falsifiability_record": [
+    "overall_falsifiability",
+    "primary_falsifiable_claims",
+    "non_falsifiable_claims"
+  ],
+  "audit_trail": [
+    {
+      "module": "rga_pipeline",
+      "status": "started",
+      "timestamp": "2026-04-29T02:44:57.984228",
+      "note": "Pipeline started for DOC-18630101-010"
+    },
+    {
+      "module": "RGAGraphAdapter",
+      "status": "complete",
+      "timestamp": "2026-04-29T02:44:57.984228",
+      "note": "Graph built: 14 nodes, 5 blocked, 6 bridge edges"
+    },
+    {
+      "module": "HSHGeometry",
+      "status": "calibration",
+      "timestamp": "2026-04-29T02:44:57.984228",
+      "note": "Adaptive radii set for 14 nodes. governance_boundary=0.550, false_attractor_boundary=0.720"
+    },
+    {
+      "module": "HSHGeometry",
+      "status": "complete",
+      "timestamp": "2026-04-29T02:44:57.986251",
+      "note": "Fiedler value lambda2=0.3455"
+    },
+    {
+      "module": "StructuralTensionAuditor",
+      "status": "complete",
+      "timestamp": "2026-04-29T02:44:57.986251",
+      "note": "1 tension record(s)"
+    },
+    {
+      "module": "EpistaticGate",
+      "status": "complete",
+      "timestamp": "2026-04-29T02:44:57.986251",
+      "note": "0 latent conflict(s) detected"
+    },
+    {
+      "module": "SALCoherenceLayer",
+      "status": "complete",
+      "timestamp": "2026-04-29T02:44:57.986251",
+      "note": "should_commit=False"
+    },
+    {
+      "module": "rga_pipeline",
+      "status": "complete",
+      "timestamp": "2026-04-29T02:44:57.986251",
+      "note": "Pipeline complete. 23 confidence flag(s). 1 bridge narrative candidate(s)."
+    }
+  ]
+}

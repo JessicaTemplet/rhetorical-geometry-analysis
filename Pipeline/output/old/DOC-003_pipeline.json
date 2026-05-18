@@ -1,0 +1,944 @@
+{
+  "schema_version": "0.4",
+  "document_metadata": {
+    "document_id": "DOC-18820506-003",
+    "common_name": "Chinese Exclusion Act (1882)",
+    "primary_source_url": "https://avalon.law.yale.edu/19th_century/chinese_exclusion_act.asp",
+    "date_of_document": "1882-05-06",
+    "date_of_analysis": "2026-04-27T00:00:00Z",
+    "analyst_id": "ANALYST-001",
+    "extraction_pass": 1,
+    "preregistration_repo_url": "https://github.com/JessicaTemplet/rhetorical-geometry-analysis",
+    "preregistration_commit_hash": "5ca3ec482746f01d92cdaa2651bd3c9fc9a182e8",
+    "preregistration_status": "confirmed",
+    "analyst_prior_note": "Pool asymmetry disclosed in methodology_v0.4.md. Prior: preamble 'endangers the good order' claim is anchored_false against the historical record — anti-Chinese violence in western localities was perpetrated by white workers and vigilantes against Chinese laborers, not the reverse. The treaty execution title framing is a bridge_narrative candidate: the Angell Treaty (1880) authorized limited labor regulation but the Act's Section 14 citizenship ban has no treaty basis, and the title suppresses which treaty is being executed. The 10-year suspension framing is anchored_false given Geary Act (1892), Scott Act (1888), and permanent exclusion (1902). Analyst expects anchored_true findings for administrative and criminal-penalty provisions as enacted law, anchored_false for justificatory and permanence claims. Extraction performed by Claude per bias-control protocol. Note: wavelet dual-band scoring not available this extraction pass (workspace unavailable); band assignments are analyst-derived from vocabulary analysis."
+  },
+  "anchor_registry": [
+    {
+      "anchor_id": "ANC-001",
+      "anchor_text": "The Chinese Exclusion Act was enacted as a public law of the United States on May 6, 1882. It was the first federal law to restrict immigration on the basis of the national origin and occupation of a specific group.",
+      "anchor_classification": "direct_empirical_record",
+      "classification_source": "Statutes at Large, 47th Congress, Session 1, Ch. 126, p. 58 (1882).",
+      "chain_length_from_governance_zone": 1,
+      "chain_length_confidence": "exact",
+      "independent_genesis": {
+        "independent_source_exists": true,
+        "independent_source_citation": "Statutes at Large is a public congressional record and self-evidencing as to enactment date and content; no interpretation required.",
+        "genesis_confidence_weight": "full",
+        "genesis_note": null
+      },
+      "notes": "Foundational enactment anchor. Establishes legal existence of all provisions evaluated below."
+    },
+    {
+      "anchor_id": "ANC-002",
+      "anchor_text": "The Burlingame-Seward Treaty (1868) guaranteed Chinese subjects the right to immigrate freely to the United States and granted them most-favored-nation status. The Angell Treaty (1880) modified this, authorizing the US to 'regulate, limit, or suspend' the coming of Chinese laborers specifically, while explicitly preserving the right of Chinese already in the United States to 'go and come of their own free will and accord.' The Angell Treaty contains no provision authorizing exclusion of Chinese from citizenship or naturalization. The Chinese Exclusion Act's Section 14 citizenship prohibition has no basis in either treaty.",
+      "anchor_classification": "primary_source_attestation",
+      "classification_source": "Burlingame-Seward Treaty, July 28, 1868 (16 Stat. 739); Treaty Regulating Immigration from China (Angell Treaty), November 17, 1880 (22 Stat. 826). Both are public multilateral instruments and self-evidencing as to their text.",
+      "chain_length_from_governance_zone": 1,
+      "chain_length_confidence": "exact",
+      "independent_genesis": {
+        "independent_source_exists": true,
+        "independent_source_citation": "The treaty texts are public multilateral instruments self-evidencing as to their content. The scope gap between treaty authorization and Act provisions is documented in Lucy Salyer, Laws Harsh as Tigers: Chinese Immigrants and the Shaping of Modern Immigration Law (University of North Carolina Press, 1995) — independent academic scholarship outside the executive administrative chain of the Act's enactors.",
+        "genesis_confidence_weight": "full",
+        "genesis_note": null
+      },
+      "notes": "Evaluates P-001-b (Act stays within treaty scope) and the 'treaty stipulations' framing of the title. Also evaluates P-004-b — the Angell Treaty's explicit preservation of existing residents' free movement rights is directly contradicted by the Scott Act (1888)."
+    },
+    {
+      "anchor_id": "ANC-003",
+      "anchor_text": "Contemporary records establish that the principal incidents of anti-Chinese disorder in California and western states during 1870-1882 were initiated by white workers and vigilante groups against Chinese laborers, not by Chinese laborers against the general population. The Los Angeles Chinese Massacre (October 24, 1871), in which a white mob killed at least 17-20 Chinese residents and looted Chinatown, is contemporaneously documented. The organized anti-Chinese agitation of the Workingmen's Party of California (1877-1882, led by Denis Kearney) explicitly identified Chinese labor competition as an economic threat to white workers. The California Senate Special Committee on Chinese Immigration (1878) report, though produced by a government body hostile to Chinese immigration, characterized the threat as economic, not as a matter of criminal disorder perpetrated by Chinese laborers.",
+      "anchor_classification": "direct_empirical_record",
+      "classification_source": "Los Angeles Daily Star and Los Angeles Star contemporaneous reporting, October 1871 (California Digital Newspaper Collection, UC Riverside — independent press record); Charles J. McClain, In Search of Equality: The Chinese Struggle Against Discrimination in Nineteenth-Century America (University of California Press, 1994); California Senate Special Committee on Chinese Immigration Report (1878).",
+      "chain_length_from_governance_zone": 2,
+      "chain_length_confidence": "estimated",
+      "independent_genesis": {
+        "independent_source_exists": true,
+        "independent_source_citation": "McClain (1994) is independent academic scholarship. Los Angeles newspaper records are independent of the federal executive administrative chain. The 1878 California Senate report originates from a state legislature entirely separate from the federal executive that enacted the 1882 Act.",
+        "genesis_confidence_weight": "full",
+        "genesis_note": null
+      },
+      "notes": "Evaluates P-002 ('endangers the good order of certain localities'). The historical record of disorder's directionality is the primary empirical test of this preamble claim."
+    },
+    {
+      "anchor_id": "ANC-004",
+      "anchor_text": "The Scott Act (October 1, 1888) prohibited the return of Chinese laborers who had left the United States, even those holding valid return certificates issued under the 1882 Act. The Geary Act (May 5, 1892) extended Chinese exclusion for an additional 10 years and added a requirement that all Chinese residents carry identity papers. Congress extended exclusion indefinitely in 1902 without a terminal date. The Chinese Exclusion Acts were not repealed until the Magnuson Act of December 17, 1943, making the 'suspension' effective for 61 years.",
+      "anchor_classification": "direct_empirical_record",
+      "classification_source": "Scott Act, October 1, 1888 (25 Stat. 476); Geary Act, May 5, 1892 (27 Stat. 25); Act of April 29, 1902 (32 Stat. 176); Magnuson Act, December 17, 1943 (57 Stat. 600). All are public laws of the United States, self-evidencing as to content and dates.",
+      "chain_length_from_governance_zone": 1,
+      "chain_length_confidence": "exact",
+      "independent_genesis": {
+        "independent_source_exists": true,
+        "independent_source_citation": "The subsequent Acts are public laws self-evidencing as to their content. Independently corroborated by Erika Lee, At America's Gates: Chinese Immigration during the Exclusion Era, 1882-1943 (University of North Carolina Press, 2003) — independent academic scholarship.",
+        "genesis_confidence_weight": "full",
+        "genesis_note": null
+      },
+      "notes": "Evaluates P-003 ('suspended for ten years'). The 61-year legislative trajectory is the direct empirical test of the temporality claim."
+    },
+    {
+      "anchor_id": "ANC-005",
+      "anchor_text": "In Chae Chan Ping v. United States (130 U.S. 581, 1889), the US Supreme Court upheld the Scott Act's abrogation of valid return certificates issued under the 1882 Chinese Exclusion Act, holding that Congress had plenary power over immigration that could not be constrained by prior legislative provisions or by prior treaties. This ruling established that the return-and-reentry rights codified in Sections 3-6 of the 1882 Act were structurally unenforceable against subsequent Congressional action.",
+      "anchor_classification": "primary_source_attestation",
+      "classification_source": "Chae Chan Ping v. United States, 130 U.S. 581 (1889). Supreme Court decision is self-evidencing as to its holding.",
+      "chain_length_from_governance_zone": 1,
+      "chain_length_confidence": "exact",
+      "independent_genesis": {
+        "independent_source_exists": true,
+        "independent_source_citation": "The Supreme Court is constitutionally independent of the executive branch and the Congress that enacted the 1882 Act. The decision constitutes the strongest available independent legal record of the enforceability question.",
+        "genesis_confidence_weight": "full",
+        "genesis_note": null
+      },
+      "notes": "Evaluates P-004-b (certificate system meaningfully preserves right of return). The ruling demonstrates the rights established in Sections 3-6 carried no structural durability."
+    }
+  ],
+  "proposition_table": [
+    {
+      "proposition_id": "P-001",
+      "verbatim_source_text": "An Act to Execute Certain Treaty Stipulations Relating to Chinese",
+      "source_location": "Title",
+      "normalized_claim": "This Act enacts and fully executes existing US treaty obligations relating to Chinese subjects; its provisions are coextensive with and required by those treaty stipulations.",
+      "is_compound": true,
+      "compound_resolution": {
+        "decomposition_required": true,
+        "sub_propositions": [
+          "P-001-a",
+          "P-001-b"
+        ],
+        "decomposition_note": "RULE-004 Pathway 1. P-001-a (treaty stipulations authorizing restriction of Chinese laborer immigration exist: primary_source_attestation, anchored_true against ANC-002) and P-001-b (this Act's provisions are wholly contained within and required by those treaty stipulations: anchored_false against ANC-002 — Section 14 citizenship ban has no treaty basis; the title does not specify which treaty, suppressing the Burlingame Treaty's contrary guarantees) are independently evaluable and epistemically heterogeneous. Bridge narrative candidacy flagged on P-006-rel: the treaty execution framing provides a legally neutral international-law rationale for what is substantively a racial exclusion measure.",
+        "primary_classification_basis": "P-001-b"
+      },
+      "is_relational": false,
+      "relational_resolution": null,
+      "primary_classification": "anchored_false",
+      "secondary_tags": [
+        "contextually_misleading"
+      ],
+      "anchor_mappings": [
+        "ANC-001",
+        "ANC-002"
+      ],
+      "geodesic_distance_from_anchor": null,
+      "edge_sign": "negative",
+      "stress_energy_contribution": 0.3,
+      "confidence_flag_id": "FLAG-001"
+    },
+    {
+      "proposition_id": "P-001-a",
+      "verbatim_source_text": "An Act to Execute Certain Treaty Stipulations Relating to Chinese",
+      "source_location": "Title",
+      "normalized_claim": "Treaty stipulations exist that authorize the United States to restrict the immigration of Chinese laborers.",
+      "is_compound": false,
+      "compound_resolution": null,
+      "is_relational": false,
+      "relational_resolution": null,
+      "primary_classification": "anchored_true",
+      "secondary_tags": [],
+      "anchor_mappings": [
+        "ANC-002"
+      ],
+      "geodesic_distance_from_anchor": null,
+      "edge_sign": "positive",
+      "stress_energy_contribution": 0.3,
+      "confidence_flag_id": null
+    },
+    {
+      "proposition_id": "P-001-b",
+      "verbatim_source_text": "An Act to Execute Certain Treaty Stipulations Relating to Chinese",
+      "source_location": "Title",
+      "normalized_claim": "The provisions of this Act are wholly contained within and required by the existing treaty stipulations with China, and do not exceed their authorized scope.",
+      "is_compound": false,
+      "compound_resolution": null,
+      "is_relational": false,
+      "relational_resolution": null,
+      "primary_classification": "anchored_false",
+      "secondary_tags": [
+        "contextually_misleading"
+      ],
+      "anchor_mappings": [
+        "ANC-002"
+      ],
+      "geodesic_distance_from_anchor": null,
+      "edge_sign": "negative",
+      "stress_energy_contribution": 0.3,
+      "confidence_flag_id": null
+    },
+    {
+      "proposition_id": "P-002",
+      "verbatim_source_text": "Whereas, in the opinion of the Government of the United States the coming of Chinese laborers to this country endangers the good order of certain localities within the territory thereof",
+      "source_location": "Preamble (Whereas clause)",
+      "normalized_claim": "The immigration of Chinese laborers to the United States poses a threat to public order in certain localities.",
+      "is_compound": false,
+      "compound_resolution": null,
+      "is_relational": false,
+      "relational_resolution": null,
+      "primary_classification": "anchored_false",
+      "secondary_tags": [
+        "unattributed_agency"
+      ],
+      "anchor_mappings": [
+        "ANC-003"
+      ],
+      "geodesic_distance_from_anchor": null,
+      "edge_sign": "negative",
+      "stress_energy_contribution": 0.3,
+      "confidence_flag_id": null
+    },
+    {
+      "proposition_id": "P-003",
+      "verbatim_source_text": "from and after the expiration of ninety days next after the passage of this act, and until the expiration of ten years next after the passage of this act, the coming of Chinese laborers to the United States be, and the same is hereby, suspended",
+      "source_location": "Section 1",
+      "normalized_claim": "The restriction on Chinese laborer entry to the United States is temporary, lasting no more than ten years after the Act's passage.",
+      "is_compound": false,
+      "compound_resolution": null,
+      "is_relational": false,
+      "relational_resolution": null,
+      "primary_classification": "anchored_false",
+      "secondary_tags": [],
+      "anchor_mappings": [
+        "ANC-001",
+        "ANC-004"
+      ],
+      "geodesic_distance_from_anchor": null,
+      "edge_sign": "negative",
+      "stress_energy_contribution": 0.3,
+      "confidence_flag_id": null
+    },
+    {
+      "proposition_id": "P-004",
+      "verbatim_source_text": "the collector of customs of the district from which any such Chinese laborer shall depart from the United States shall...make a list of all such Chinese laborers...and every such Chinese laborer so departing from the United States shall be entitled to, and shall receive, free of any charge or cost upon application therefor, from the collector or his deputy...a certificate",
+      "source_location": "Section 4",
+      "normalized_claim": "Chinese laborers who were in the United States before the Act's cutoff date who depart will receive certificates of identification entitling them to return, thereby preserving their right of re-entry.",
+      "is_compound": true,
+      "compound_resolution": {
+        "decomposition_required": true,
+        "sub_propositions": [
+          "P-004-a",
+          "P-004-b"
+        ],
+        "decomposition_note": "RULE-004 Pathway 1. P-004-a (the Act legally establishes a certificate system for existing residents: legal_statutory, anchored_true as enacted) and P-004-b (the certificate system meaningfully and durably preserves the right of return: normative_stable claim, anchored_false against ANC-005 — Chae Chan Ping 1889 upheld the Scott Act's abrogation of these certificates; the 'right to return' lasted six years before being legislatively nullified) are independently evaluable and epistemically heterogeneous.",
+        "primary_classification_basis": "P-004-b"
+      },
+      "is_relational": false,
+      "relational_resolution": null,
+      "primary_classification": "anchored_false",
+      "secondary_tags": [
+        "contextually_misleading"
+      ],
+      "anchor_mappings": [
+        "ANC-001",
+        "ANC-002",
+        "ANC-005"
+      ],
+      "geodesic_distance_from_anchor": null,
+      "edge_sign": "negative",
+      "stress_energy_contribution": 0.3,
+      "confidence_flag_id": null
+    },
+    {
+      "proposition_id": "P-004-a",
+      "verbatim_source_text": "every such Chinese laborer so departing from the United States shall be entitled to, and shall receive, free of any charge or cost upon application therefor, from the collector or his deputy...a certificate...which certificate shall contain a statement of the name, age, occupation, last place of residence, personal description, and facts of identification",
+      "source_location": "Section 4",
+      "normalized_claim": "The Act legally establishes a certificate-based identification and return system for Chinese laborers present in the United States before the cutoff date.",
+      "is_compound": false,
+      "compound_resolution": null,
+      "is_relational": false,
+      "relational_resolution": null,
+      "primary_classification": "anchored_true",
+      "secondary_tags": [],
+      "anchor_mappings": [
+        "ANC-001"
+      ],
+      "geodesic_distance_from_anchor": null,
+      "edge_sign": "positive",
+      "stress_energy_contribution": 0.3,
+      "confidence_flag_id": null
+    },
+    {
+      "proposition_id": "P-004-b",
+      "verbatim_source_text": "every such Chinese laborer so departing from the United States shall be entitled to, and shall receive...a certificate...which certificate shall contain a statement...of identification of the Chinese laborer to whom the certificate is issued",
+      "source_location": "Section 4",
+      "normalized_claim": "The certificate system established in this Act meaningfully and durably preserves the right of return for Chinese laborers who were present in the United States before the cutoff date.",
+      "is_compound": false,
+      "compound_resolution": null,
+      "is_relational": false,
+      "relational_resolution": null,
+      "primary_classification": "anchored_false",
+      "secondary_tags": [],
+      "anchor_mappings": [
+        "ANC-004",
+        "ANC-005"
+      ],
+      "geodesic_distance_from_anchor": null,
+      "edge_sign": "negative",
+      "stress_energy_contribution": 0.3,
+      "confidence_flag_id": null
+    },
+    {
+      "proposition_id": "P-005",
+      "verbatim_source_text": "hereafter no State court or court of the United States shall admit Chinese to citizenship; and all laws in conflict with this act are hereby repealed",
+      "source_location": "Section 14",
+      "normalized_claim": "Chinese persons are permanently excluded from naturalization in any state or federal court.",
+      "is_compound": false,
+      "compound_resolution": null,
+      "is_relational": false,
+      "relational_resolution": null,
+      "primary_classification": "anchored_true",
+      "secondary_tags": [
+        "contextually_misleading"
+      ],
+      "anchor_mappings": [
+        "ANC-001",
+        "ANC-002"
+      ],
+      "geodesic_distance_from_anchor": null,
+      "edge_sign": "positive",
+      "stress_energy_contribution": 0.3,
+      "confidence_flag_id": null
+    },
+    {
+      "proposition_id": "P-006-rel",
+      "verbatim_source_text": "An Act to Execute Certain Treaty Stipulations Relating to Chinese [Title]; in the opinion of the Government of the United States the coming of Chinese laborers to this country endangers the good order of certain localities [Preamble]",
+      "source_location": "Title and Preamble (Whereas clause)",
+      "normalized_claim": "The treaty execution framing of the title supplies a legally neutral, internationally sophisticated rationale that repositions a racial exclusion measure as a neutral fulfillment of international legal obligation, structurally insulating the preamble's public order claim from direct empirical scrutiny.",
+      "is_compound": false,
+      "compound_resolution": null,
+      "is_relational": true,
+      "relational_resolution": {
+        "parent_proposition_a": "P-001",
+        "parent_proposition_b": "P-002",
+        "relation_type": "insulates",
+        "relational_note": "The treaty execution framing (P-001) occupies a boundary position: P-001-a is anchored_true (the Angell Treaty does authorize some labor regulation) while P-001-b is anchored_false (the Act exceeds that authorization). This straddle position enables the framing to function as a bridge. A reader encountering P-001 can accept the legally accurate sub-claim (ANC-002: treaty authorization exists) without registering the false sub-claim (ANC-002: Act exceeds treaty scope). This structural ambiguity diverts scrutiny from P-002 (anchored_false: Chinese laborers endanger good order) by supplying the more defensible international legal framing as the operative rationale. The preamble's racist empirical claim is thus insulated by a legally partially-defensible international law frame. Bridge_narrative classification applied here. Signal 3 (epistatic suppression) confirmation deferred to pipeline."
+      },
+      "primary_classification": "bridge_narrative",
+      "secondary_tags": [
+        "contextually_misleading"
+      ],
+      "anchor_mappings": [
+        "ANC-002",
+        "ANC-003"
+      ],
+      "geodesic_distance_from_anchor": null,
+      "edge_sign": "negative",
+      "stress_energy_contribution": 0.3,
+      "confidence_flag_id": "FLAG-001"
+    }
+  ],
+  "graph_structure": {
+    "nodes": [
+      {
+        "id": "ANC-001",
+        "type": "anchor",
+        "label": "ANC-001",
+        "classification": "direct_empirical_record",
+        "r": 0.3333,
+        "theta": 0.0,
+        "geodesic_distance": 0.6931,
+        "zone": "governance",
+        "blocked": false
+      },
+      {
+        "id": "ANC-002",
+        "type": "anchor",
+        "label": "ANC-002",
+        "classification": "primary_source_attestation",
+        "r": 0.3333,
+        "theta": 1.2566,
+        "geodesic_distance": 0.6931,
+        "zone": "governance",
+        "blocked": false
+      },
+      {
+        "id": "ANC-003",
+        "type": "anchor",
+        "label": "ANC-003",
+        "classification": "direct_empirical_record",
+        "r": 0.6667,
+        "theta": 2.5133,
+        "geodesic_distance": 1.6094,
+        "zone": "governance",
+        "blocked": false
+      },
+      {
+        "id": "ANC-004",
+        "type": "anchor",
+        "label": "ANC-004",
+        "classification": "direct_empirical_record",
+        "r": 0.3333,
+        "theta": 3.7699,
+        "geodesic_distance": 0.6931,
+        "zone": "governance",
+        "blocked": false
+      },
+      {
+        "id": "ANC-005",
+        "type": "anchor",
+        "label": "ANC-005",
+        "classification": "primary_source_attestation",
+        "r": 0.3333,
+        "theta": 5.0265,
+        "geodesic_distance": 0.6931,
+        "zone": "governance",
+        "blocked": false
+      },
+      {
+        "id": "P-001",
+        "type": "proposition",
+        "label": "P-001",
+        "classification": "anchored_false",
+        "secondary_tags": [
+          "contextually_misleading"
+        ],
+        "verbatim": "An Act to Execute Certain Treaty Stipulations Relating to Chinese",
+        "normalized": "This Act enacts and fully executes existing US treaty obligations relating to Chinese subjects; its provisions are coextensive with and required by those treaty stipulations.",
+        "stress": 0.3,
+        "r": 0.77,
+        "theta": 0.0,
+        "geodesic_distance": 2.0407,
+        "zone": "temporal_knowledge",
+        "blocked": false
+      },
+      {
+        "id": "P-001-a",
+        "type": "proposition",
+        "label": "P-001-a",
+        "classification": "anchored_true",
+        "secondary_tags": [],
+        "verbatim": "An Act to Execute Certain Treaty Stipulations Relating to Chinese",
+        "normalized": "Treaty stipulations exist that authorize the United States to restrict the immigration of Chinese laborers.",
+        "stress": 0.3,
+        "r": 0.3633,
+        "theta": 0.6283,
+        "geodesic_distance": 0.7614,
+        "zone": "governance",
+        "blocked": true
+      },
+      {
+        "id": "P-001-b",
+        "type": "proposition",
+        "label": "P-001-b",
+        "classification": "anchored_false",
+        "secondary_tags": [
+          "contextually_misleading"
+        ],
+        "verbatim": "An Act to Execute Certain Treaty Stipulations Relating to Chinese",
+        "normalized": "The provisions of this Act are wholly contained within and required by the existing treaty stipulations with China, and do not exceed their authorized scope.",
+        "stress": 0.3,
+        "r": 0.77,
+        "theta": 1.2566,
+        "geodesic_distance": 2.0407,
+        "zone": "temporal_knowledge",
+        "blocked": true
+      },
+      {
+        "id": "P-002",
+        "type": "proposition",
+        "label": "P-002",
+        "classification": "anchored_false",
+        "secondary_tags": [
+          "unattributed_agency"
+        ],
+        "verbatim": "Whereas, in the opinion of the Government of the United States the coming of Chinese laborers to this country endangers the good order of certain localities within the territory thereof",
+        "normalized": "The immigration of Chinese laborers to the United States poses a threat to public order in certain localities.",
+        "stress": 0.3,
+        "r": 0.82,
+        "theta": 1.885,
+        "geodesic_distance": 2.3136,
+        "zone": "temporal_knowledge",
+        "blocked": false
+      },
+      {
+        "id": "P-003",
+        "type": "proposition",
+        "label": "P-003",
+        "classification": "anchored_false",
+        "secondary_tags": [],
+        "verbatim": "from and after the expiration of ninety days next after the passage of this act, and until the expiration of ten years next after the passage of this act, the coming of Chinese laborers to the United States be, and the same is hereby, suspended",
+        "normalized": "The restriction on Chinese laborer entry to the United States is temporary, lasting no more than ten years after the Act's passage.",
+        "stress": 0.3,
+        "r": 0.77,
+        "theta": 2.5133,
+        "geodesic_distance": 2.0407,
+        "zone": "temporal_knowledge",
+        "blocked": true
+      },
+      {
+        "id": "P-004",
+        "type": "proposition",
+        "label": "P-004",
+        "classification": "anchored_false",
+        "secondary_tags": [
+          "contextually_misleading"
+        ],
+        "verbatim": "the collector of customs of the district from which any such Chinese laborer shall depart from the United States shall...make a list of all such Chinese laborers...and every such Chinese laborer so departing from the United States shall be entitled to, and shall receive, free of any charge or cost upon application therefor, from the collector or his deputy...a certificate",
+        "normalized": "Chinese laborers who were in the United States before the Act's cutoff date who depart will receive certificates of identification entitling them to return, thereby preserving their right of re-entry.",
+        "stress": 0.3,
+        "r": 0.77,
+        "theta": 3.1416,
+        "geodesic_distance": 2.0407,
+        "zone": "temporal_knowledge",
+        "blocked": false
+      },
+      {
+        "id": "P-004-a",
+        "type": "proposition",
+        "label": "P-004-a",
+        "classification": "anchored_true",
+        "secondary_tags": [],
+        "verbatim": "every such Chinese laborer so departing from the United States shall be entitled to, and shall receive, free of any charge or cost upon application therefor, from the collector or his deputy...a certificate...which certificate shall contain a statement of the name, age, occupation, last place of residence, personal description, and facts of identification",
+        "normalized": "The Act legally establishes a certificate-based identification and return system for Chinese laborers present in the United States before the cutoff date.",
+        "stress": 0.3,
+        "r": 0.3633,
+        "theta": 3.7699,
+        "geodesic_distance": 0.7614,
+        "zone": "governance",
+        "blocked": true
+      },
+      {
+        "id": "P-004-b",
+        "type": "proposition",
+        "label": "P-004-b",
+        "classification": "anchored_false",
+        "secondary_tags": [],
+        "verbatim": "every such Chinese laborer so departing from the United States shall be entitled to, and shall receive...a certificate...which certificate shall contain a statement...of identification of the Chinese laborer to whom the certificate is issued",
+        "normalized": "The certificate system established in this Act meaningfully and durably preserves the right of return for Chinese laborers who were present in the United States before the cutoff date.",
+        "stress": 0.3,
+        "r": 0.77,
+        "theta": 4.3982,
+        "geodesic_distance": 2.0407,
+        "zone": "temporal_knowledge",
+        "blocked": false
+      },
+      {
+        "id": "P-005",
+        "type": "proposition",
+        "label": "P-005",
+        "classification": "anchored_true",
+        "secondary_tags": [
+          "contextually_misleading"
+        ],
+        "verbatim": "hereafter no State court or court of the United States shall admit Chinese to citizenship; and all laws in conflict with this act are hereby repealed",
+        "normalized": "Chinese persons are permanently excluded from naturalization in any state or federal court.",
+        "stress": 0.3,
+        "r": 0.3633,
+        "theta": 5.0265,
+        "geodesic_distance": 0.7614,
+        "zone": "governance",
+        "blocked": true
+      },
+      {
+        "id": "P-006-rel",
+        "type": "proposition",
+        "label": "P-006-rel",
+        "classification": "bridge_narrative",
+        "secondary_tags": [
+          "contextually_misleading"
+        ],
+        "verbatim": "An Act to Execute Certain Treaty Stipulations Relating to Chinese [Title]; in the opinion of the Government of the United States the coming of Chinese laborers to this country endangers the good order of certain localities [Preamble]",
+        "normalized": "The treaty execution framing of the title supplies a legally neutral, internationally sophisticated rationale that repositions a racial exclusion measure as a neutral fulfillment of international legal obligation, structurally insulating the preamble's public order claim from direct empirical scrutiny.",
+        "stress": 0.3,
+        "r": 0.795,
+        "theta": 5.6549,
+        "geodesic_distance": 2.1698,
+        "zone": "rationale",
+        "blocked": false
+      }
+    ],
+    "edges": [
+      {
+        "source": "P-001",
+        "target": "ANC-001",
+        "sign": "negative",
+        "weight": 0.3
+      },
+      {
+        "source": "P-001",
+        "target": "ANC-002",
+        "sign": "negative",
+        "weight": 0.3
+      },
+      {
+        "source": "P-001-a",
+        "target": "ANC-002",
+        "sign": "positive",
+        "weight": 0.3
+      },
+      {
+        "source": "P-001-b",
+        "target": "ANC-002",
+        "sign": "negative",
+        "weight": 0.3
+      },
+      {
+        "source": "P-002",
+        "target": "ANC-003",
+        "sign": "negative",
+        "weight": 0.3
+      },
+      {
+        "source": "P-003",
+        "target": "ANC-001",
+        "sign": "negative",
+        "weight": 0.3
+      },
+      {
+        "source": "P-003",
+        "target": "ANC-004",
+        "sign": "negative",
+        "weight": 0.3
+      },
+      {
+        "source": "P-004",
+        "target": "ANC-001",
+        "sign": "negative",
+        "weight": 0.3
+      },
+      {
+        "source": "P-004",
+        "target": "ANC-002",
+        "sign": "negative",
+        "weight": 0.3
+      },
+      {
+        "source": "P-004",
+        "target": "ANC-005",
+        "sign": "negative",
+        "weight": 0.3
+      },
+      {
+        "source": "P-004-a",
+        "target": "ANC-001",
+        "sign": "positive",
+        "weight": 0.3
+      },
+      {
+        "source": "P-004-b",
+        "target": "ANC-004",
+        "sign": "negative",
+        "weight": 0.3
+      },
+      {
+        "source": "P-004-b",
+        "target": "ANC-005",
+        "sign": "negative",
+        "weight": 0.3
+      },
+      {
+        "source": "P-005",
+        "target": "ANC-001",
+        "sign": "positive",
+        "weight": 0.3
+      },
+      {
+        "source": "P-005",
+        "target": "ANC-002",
+        "sign": "positive",
+        "weight": 0.3
+      },
+      {
+        "source": "P-006-rel",
+        "target": "ANC-002",
+        "sign": "negative",
+        "weight": 0.3
+      },
+      {
+        "source": "P-006-rel",
+        "target": "ANC-003",
+        "sign": "negative",
+        "weight": 0.3
+      }
+    ],
+    "manifold_zone_assignments": {
+      "governance": [
+        "ANC-001",
+        "ANC-002",
+        "ANC-003",
+        "ANC-004",
+        "ANC-005",
+        "P-001-a",
+        "P-004-a",
+        "P-005"
+      ],
+      "rationale": [
+        "P-006-rel"
+      ],
+      "work_knowledge": [],
+      "temporal_knowledge": [
+        "P-001",
+        "P-001-b",
+        "P-002",
+        "P-003",
+        "P-004",
+        "P-004-b"
+      ]
+    },
+    "adaptive_zone_boundaries": {
+      "governance": 0.55,
+      "false_attractor": 0.72
+    },
+    "node_radii": {
+      "ANC-001": 0.3333,
+      "ANC-002": 0.3333,
+      "ANC-003": 0.6667,
+      "ANC-004": 0.3333,
+      "ANC-005": 0.3333,
+      "P-001-a": 0.3633,
+      "P-001-b": 0.77,
+      "P-002": 0.82,
+      "P-003": 0.77,
+      "P-004-a": 0.3633,
+      "P-004-b": 0.77,
+      "P-005": 0.3633,
+      "P-001": 0.77,
+      "P-004": 0.77,
+      "P-006-rel": 0.795
+    },
+    "fragmentation_detected": true,
+    "polarization_detected": true,
+    "bridge_narrative_candidates": [
+      "P-006-rel"
+    ],
+    "false_attractor_candidates": [
+      "P-001",
+      "P-001-b",
+      "P-002",
+      "P-003",
+      "P-004",
+      "P-004-b"
+    ],
+    "contradiction_pairs": [
+      {
+        "node_a": "P-005",
+        "node_b": "P-001-b"
+      },
+      {
+        "node_a": "P-004-a",
+        "node_b": "P-003"
+      },
+      {
+        "node_a": "P-001-a",
+        "node_b": "P-001-b"
+      },
+      {
+        "node_a": "P-005",
+        "node_b": "P-003"
+      }
+    ]
+  },
+  "geometric_summary": {
+    "manifold_description": "10 propositions placed on hyperbolic manifold. 3 governance-anchored (GOVERNANCE zone), 1 bridge_narrative candidate(s) (RATIONALE zone), 6 anchored_false attractor(s) (TEMPORAL_KNOWLEDGE zone), 0 ambiguous/contested (WORK/TEMPORAL zones). 5 proposition(s) in contradiction-blocked pairs. Fiedler value lambda2 = 0.1357 CoherenceState(zone='work_knowledge', timestamp='2026-04-28T14:35:24.676522+00:00', lambda2=0.0, lambda2_delta=0.0, lambda2_stable=False, lambda2_sufficient=False, mean_sheaf_consistency=0.0, sheaf_su",
+    "anchor_cluster_summary": "5 anchor(s) registered at governance zone (r=0). Contradiction-blocked pairs detected — see confidence_flags.",
+    "highest_stress_region": "P-001 (stress=0.300)",
+    "least_stable_truth_candidate": "P-001-a",
+    "most_stable_false_candidate": "P-001",
+    "bridge_narrative_geometry_note": "1 bridge narrative candidate(s) detected at RATIONALE zone boundary. Bidirectional T_mu_nu load present. ExpressionResult(expressed_nodes=['ANC-001', 'ANC-002', 'ANC-003', 'ANC-004', 'ANC-005', 'P-001', 'P-002', 'P-004', 'P-004-b', 'P-006-rel'], silenced_nodes={'P-001-a': ['[contradiction_block]'], 'P-00",
+    "structural_tension_note": "1 undeclared tension point(s) detected. See confidence_flags.",
+    "analyst_notes": "",
+    "reader_interpretation_note": "This summary describes geometric structure only. Classification of intent or moral judgment is left to the reader."
+  },
+  "confidence_flags": [
+    {
+      "flag_id": "FLAG-001",
+      "proposition_id": "P-006-rel",
+      "flag_type": "bridge_narrative_candidate",
+      "description": "P-006-rel (treaty execution framing as structural insulation for P-002's racial exclusion justification) is flagged as a bridge_narrative candidate. Candidacy criteria met: (1) P-001 occupies a boundary position between anchored_true (P-001-a, treaty authorization exists) and anchored_false (P-001-b, Act exceeds treaty scope) — the exact straddle geometry required for bridge narrative function; (2) unattributed/underspecified international legal legitimacy framing ('certain treaty stipulations' without naming which treaty, suppressing the Burlingame Treaty's contrary guarantees); (3) epistemic category compression — the title's neutral legal-procedural framing encases P-002's racial factual claim, enabling a reader to accept the legal rationale without examining the empirical predicate. Signal 3 (epistatic suppression: does P-006-rel structurally prevent the contradiction between P-001-b and ANC-002 from propagating to challenge P-002?) requires pipeline confirmation before bridge_narrative tag is applied to P-001.",
+      "severity": "high"
+    },
+    {
+      "flag_id": "CF-CONTRADICTION-P-001-a",
+      "flag_type": "contradiction_detected",
+      "affected_proposition": "P-001-a",
+      "note": "Contradiction pair detected. Contradiction anchored at ANC-002",
+      "severity": "high"
+    },
+    {
+      "flag_id": "CF-CONTRADICTION-P-001-b",
+      "flag_type": "contradiction_detected",
+      "affected_proposition": "P-001-b",
+      "note": "Contradiction pair detected. Contradiction anchored at ANC-002",
+      "severity": "high"
+    },
+    {
+      "flag_id": "CF-CONTRADICTION-P-005",
+      "flag_type": "contradiction_detected",
+      "affected_proposition": "P-005",
+      "note": "Contradiction pair detected. Contradiction anchored at ANC-001",
+      "severity": "high"
+    },
+    {
+      "flag_id": "CF-CONTRADICTION-P-004-a",
+      "flag_type": "contradiction_detected",
+      "affected_proposition": "P-004-a",
+      "note": "Contradiction pair detected. Contradiction anchored at ANC-001",
+      "severity": "high"
+    },
+    {
+      "flag_id": "CF-CONTRADICTION-P-003",
+      "flag_type": "contradiction_detected",
+      "affected_proposition": "P-003",
+      "note": "Contradiction pair detected. Contradiction anchored at ANC-001",
+      "severity": "high"
+    },
+    {
+      "flag_id": "CF-TENSION-P-006-rel",
+      "flag_type": "undeclared_structural_tension",
+      "affected_proposition": "P-006-rel",
+      "note": "Tidal tension detected: unknown",
+      "severity": "medium"
+    },
+    {
+      "flag_id": "CF-SAL-COHERENCE",
+      "flag_type": "coherence_below_threshold",
+      "affected_proposition": null,
+      "note": "SAL coherence gate: should_commit=False. lambda2=unknown",
+      "severity": "medium"
+    },
+    {
+      "flag_id": "CF-CONTRADICTION-P-001-a",
+      "flag_type": "contradiction_detected",
+      "affected_proposition": "P-001-a",
+      "note": "Contradiction pair detected. Contradiction anchored at ANC-002",
+      "severity": "high"
+    },
+    {
+      "flag_id": "CF-CONTRADICTION-P-001-b",
+      "flag_type": "contradiction_detected",
+      "affected_proposition": "P-001-b",
+      "note": "Contradiction pair detected. Contradiction anchored at ANC-002",
+      "severity": "high"
+    },
+    {
+      "flag_id": "CF-CONTRADICTION-P-005",
+      "flag_type": "contradiction_detected",
+      "affected_proposition": "P-005",
+      "note": "Contradiction pair detected. Contradiction anchored at ANC-001",
+      "severity": "high"
+    },
+    {
+      "flag_id": "CF-CONTRADICTION-P-004-a",
+      "flag_type": "contradiction_detected",
+      "affected_proposition": "P-004-a",
+      "note": "Contradiction pair detected. Contradiction anchored at ANC-001",
+      "severity": "high"
+    },
+    {
+      "flag_id": "CF-CONTRADICTION-P-003",
+      "flag_type": "contradiction_detected",
+      "affected_proposition": "P-003",
+      "note": "Contradiction pair detected. Contradiction anchored at ANC-001",
+      "severity": "high"
+    },
+    {
+      "flag_id": "CF-TENSION-P-006-rel",
+      "flag_type": "undeclared_structural_tension",
+      "affected_proposition": "P-006-rel",
+      "note": "Tidal tension detected: unknown",
+      "severity": "medium"
+    },
+    {
+      "flag_id": "CF-SAL-COHERENCE",
+      "flag_type": "coherence_below_threshold",
+      "affected_proposition": null,
+      "note": "SAL coherence gate: should_commit=False. lambda2=unknown",
+      "severity": "medium"
+    },
+    {
+      "flag_id": "CF-CONTRADICTION-P-001-a",
+      "flag_type": "contradiction_detected",
+      "affected_proposition": "P-001-a",
+      "note": "Contradiction pair detected. Contradiction anchored at ANC-002",
+      "severity": "high"
+    },
+    {
+      "flag_id": "CF-CONTRADICTION-P-001-b",
+      "flag_type": "contradiction_detected",
+      "affected_proposition": "P-001-b",
+      "note": "Contradiction pair detected. Contradiction anchored at ANC-002",
+      "severity": "high"
+    },
+    {
+      "flag_id": "CF-CONTRADICTION-P-005",
+      "flag_type": "contradiction_detected",
+      "affected_proposition": "P-005",
+      "note": "Contradiction pair detected. Contradiction anchored at ANC-001",
+      "severity": "high"
+    },
+    {
+      "flag_id": "CF-CONTRADICTION-P-004-a",
+      "flag_type": "contradiction_detected",
+      "affected_proposition": "P-004-a",
+      "note": "Contradiction pair detected. Contradiction anchored at ANC-001",
+      "severity": "high"
+    },
+    {
+      "flag_id": "CF-CONTRADICTION-P-003",
+      "flag_type": "contradiction_detected",
+      "affected_proposition": "P-003",
+      "note": "Contradiction pair detected. Contradiction anchored at ANC-001",
+      "severity": "high"
+    },
+    {
+      "flag_id": "CF-TENSION-P-006-rel",
+      "flag_type": "undeclared_structural_tension",
+      "affected_proposition": "P-006-rel",
+      "note": "Tidal tension detected: unknown",
+      "severity": "medium"
+    },
+    {
+      "flag_id": "CF-SAL-COHERENCE",
+      "flag_type": "coherence_below_threshold",
+      "affected_proposition": null,
+      "note": "SAL coherence gate: should_commit=False. lambda2=unknown",
+      "severity": "medium"
+    }
+  ],
+  "falsifiability_record": [],
+  "audit_trail": [
+    {
+      "module": "rga_pipeline",
+      "status": "started",
+      "timestamp": "2026-04-28T14:35:24.672981",
+      "note": "Pipeline started for DOC-18820506-003"
+    },
+    {
+      "module": "RGAGraphAdapter",
+      "status": "complete",
+      "timestamp": "2026-04-28T14:35:24.672981",
+      "note": "Graph built: 15 nodes, 5 blocked, 7 bridge edges"
+    },
+    {
+      "module": "HSHGeometry",
+      "status": "calibration",
+      "timestamp": "2026-04-28T14:35:24.674078",
+      "note": "Adaptive radii set for 15 nodes. governance_boundary=0.550, false_attractor_boundary=0.720"
+    },
+    {
+      "module": "HSHGeometry",
+      "status": "complete",
+      "timestamp": "2026-04-28T14:35:24.675509",
+      "note": "Fiedler value lambda2=0.1357"
+    },
+    {
+      "module": "StructuralTensionAuditor",
+      "status": "complete",
+      "timestamp": "2026-04-28T14:35:24.676522",
+      "note": "1 tension record(s)"
+    },
+    {
+      "module": "EpistaticGate",
+      "status": "complete",
+      "timestamp": "2026-04-28T14:35:24.676522",
+      "note": "0 latent conflict(s) detected"
+    },
+    {
+      "module": "SALCoherenceLayer",
+      "status": "complete",
+      "timestamp": "2026-04-28T14:35:24.676522",
+      "note": "should_commit=False"
+    },
+    {
+      "module": "rga_pipeline",
+      "status": "complete",
+      "timestamp": "2026-04-28T14:35:24.677521",
+      "note": "Pipeline complete. 22 confidence flag(s). 1 bridge narrative candidate(s)."
+    }
+  ]
+}

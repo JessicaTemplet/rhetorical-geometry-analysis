@@ -1,7 +1,9 @@
 # Rhetorical Geometry Analysis — Methodology Document v0.4
 
 ## Status
-Draft. Not locked. To be locked alongside schema v0.4 before any document analysis begins.
+Locked. Locking authority: ANALYST-001. Lock date: 2026-04-26.
+
+**Chain-of-custody gap noted:** This document was not locked simultaneously with schema_v0.4.json (locked 2026-04-25). The document was not modified between first commit and locking. The gap is one day and no analytical work had begun at time of schema locking. This gap is recorded here and will be noted in the falsifiability_record for each document analysis pass. It does not affect the analytical record but is disclosed for completeness.
 
 ---
 

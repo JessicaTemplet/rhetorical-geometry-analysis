@@ -1,0 +1,894 @@
+{
+  "schema_version": "0.4",
+  "document_metadata": {
+    "document_id": "DOC-18231202-006",
+    "common_name": "Monroe Doctrine (1823)",
+    "primary_source_url": "https://avalon.law.yale.edu/19th_century/monroe.asp",
+    "date_of_document": "1823-12-02",
+    "date_of_analysis": "2026-04-27T00:00:00Z",
+    "analyst_id": "ANALYST-001",
+    "extraction_pass": 1,
+    "preregistration_repo_url": "https://github.com/JessicaTemplet/rhetorical-geometry-analysis",
+    "preregistration_commit_hash": "5ca3ec482746f01d92cdaa2651bd3c9fc9a182e8",
+    "preregistration_status": "confirmed",
+    "analyst_prior_note": "Pool asymmetry disclosed in methodology_v0.4.md. The Monroe Doctrine is expressed in Monroe's Seventh Annual Message, not as a stand-alone statute. It has no binding legal force; it is a unilateral presidential declaration. Prior: the central bridge_narrative candidate is the 'defense of our own' / 'protection of southern brethren' framing, which presents a unilateral expansion of US geopolitical authority as a defensive posture. P-004 ('we have never taken any part' in European wars) is anchored_false given the Quasi-War with France (1798-1800) and the War of 1812 against Great Britain, both European powers. P-005 (inference about Latin American self-determination preferences) is paternalistic and non-falsifiable. The 'impossibility' language in paragraph 4 ('it is impossible that the allied powers should extend their political system') is an unverifiable counterfactual. Analyst expects anchored_true for the historical state descriptions of European intervention in Spain/Portugal (1823) and for the description of US non-involvement in those specific conflicts; anchored_false or contextually_misleading for the unqualified non-intervention claim and the causal danger claim. Note: wavelet dual-band scoring not available this extraction pass (workspace unavailable); band assignments are analyst-derived from vocabulary analysis."
+  },
+  "anchor_registry": [
+    {
+      "anchor_id": "ANC-001",
+      "anchor_text": "Monroe's Seventh Annual Message to Congress, delivered December 2, 1823, contained the passages that became known as the Monroe Doctrine. The message is a presidential communication to Congress; it is not a statute, treaty, or executive order. It carried no binding legal force at the time of its delivery and was not confirmed by Congressional act. It was not referred to as the 'Monroe Doctrine' until 1850 and was not invoked as an operative policy instrument until the 1840s-1850s (Texas, Cuba). The passages appear in the middle of a longer message addressing a range of diplomatic matters.",
+      "anchor_classification": "direct_empirical_record",
+      "classification_source": "National Archives and Records Administration, Annual Messages of the Presidents; Avalon Project, Yale Law School (full text). The characterization of legal status (non-binding presidential communication) is documented in Dexter Perkins, A History of the Monroe Doctrine (Little, Brown, 1955) — independent scholarship.",
+      "chain_length_from_governance_zone": 1,
+      "chain_length_confidence": "exact",
+      "independent_genesis": {
+        "independent_source_exists": true,
+        "independent_source_citation": "The message text is self-evidencing as to its content and form. Perkins (1955) is independent of the executive administrative chain of Monroe's administration. The non-statutory status is documented in constitutional and diplomatic history scholarship entirely independent of the Monroe executive.",
+        "genesis_confidence_weight": "full",
+        "genesis_note": null
+      },
+      "notes": "Foundational enactment anchor. Establishes legal and rhetorical status of the document and all provisions evaluated below."
+    },
+    {
+      "anchor_id": "ANC-002",
+      "anchor_text": "The Holy Alliance (Austria, Prussia, Russia) and France intervened militarily in Spain in 1823 (the Hundred Thousand Sons of Saint Louis, April-October 1823) to restore Bourbon absolutism, suppressing the constitutional government. This is the specific geopolitical context Monroe cites as evidence of European threat. The United States itself had declared neutrality in the Quasi-War with France (1798-1800) and fought the War of 1812 against Great Britain, both European powers. The United States had not maintained strict non-involvement in European-power conflicts as of 1823.",
+      "anchor_classification": "direct_empirical_record",
+      "classification_source": "Historical record of the French intervention in Spain (1823): Henry Kissinger, A World Restored: Metternich, Castlereagh and the Problems of Peace 1812-1822 (Houghton Mifflin, 1957); Quasi-War documentation: Alexander DeConde, The Quasi-War: The Politics and Diplomacy of the Undeclared War with France 1797-1801 (Scribner, 1966); War of 1812: Donald Hickey, The War of 1812: A Forgotten Conflict (University of Illinois Press, 1989). All are independent historical scholarship.",
+      "chain_length_from_governance_zone": 2,
+      "chain_length_confidence": "estimated",
+      "independent_genesis": {
+        "independent_source_exists": true,
+        "independent_source_citation": "DeConde (1966) and Hickey (1989) are independent academic scholarship entirely outside the executive administrative chain of Monroe's 1823 message. The French intervention in Spain is documented in primary European diplomatic records independent of US governance.",
+        "genesis_confidence_weight": "full",
+        "genesis_note": null
+      },
+      "notes": "Evaluates P-004 ('we have never taken any part in European wars'). The Quasi-War and War of 1812 are direct empirical counterexamples to the unqualified claim."
+    },
+    {
+      "anchor_id": "ANC-003",
+      "anchor_text": "By December 1823, Monroe's administration had formally recognized the independence of several Latin American states (1822): Colombia, Mexico, Chile, Buenos Aires (Argentina), and Peru. The Latin American independence movements had been substantially completed without US military participation. No Latin American government in 1823 had requested the United States to assert hemispheric protection on their behalf. Britain (George Canning) had approached the US about a joint declaration; the Monroe Doctrine was delivered unilaterally without Latin American consultation.",
+      "anchor_classification": "direct_empirical_record",
+      "classification_source": "Ernest May, The Making of the Monroe Doctrine (Harvard University Press, 1975) — independent historical scholarship documenting the Canning proposal and US decision-making. Recognition records documented in American State Papers: Foreign Relations, Gales and Seaton (1834), a public government record self-evidencing as to recognition dates.",
+      "chain_length_from_governance_zone": 2,
+      "chain_length_confidence": "estimated",
+      "independent_genesis": {
+        "independent_source_exists": true,
+        "independent_source_citation": "May (1975) is independent academic scholarship. The American State Papers are a public congressional publication constituting a record independent of the Monroe executive in that they predate interpretation by that executive.",
+        "genesis_confidence_weight": "full",
+        "genesis_note": null
+      },
+      "notes": "Evaluates P-005 (inference about Latin American preferences) and the bridge_narrative framing of 'southern brethren.' The unilateral declaration without Latin American consultation is material to the self-determination framing."
+    },
+    {
+      "anchor_id": "ANC-004",
+      "anchor_text": "The Roosevelt Corollary (1904) explicitly extended the Monroe Doctrine to assert a US right of intervention in Latin American nations whose internal affairs were deemed unstable or threatening to creditors, explicitly converting a non-colonization principle into a claimed right of policing. The United States intervened militarily in Cuba (1898, 1906-1909, 1912, 1917-1922), Nicaragua (1912-1933), Haiti (1915-1934), the Dominican Republic (1916-1924), and other Latin American states, citing the Monroe Doctrine as justification. The Clark Memorandum (1930) partially walked back the Roosevelt Corollary but the interventionist practice continued.",
+      "anchor_classification": "direct_empirical_record",
+      "classification_source": "Roosevelt Corollary to the Monroe Doctrine, December 6, 1904 (Presidential Message to Congress) — public government record, self-evidencing. Intervention history documented in Lester Langley, The Banana Wars: United States Intervention in the Caribbean, 1898-1934 (University Press of Kentucky, 1983) — independent scholarship.",
+      "chain_length_from_governance_zone": 1,
+      "chain_length_confidence": "exact",
+      "independent_genesis": {
+        "independent_source_exists": true,
+        "independent_source_citation": "Roosevelt Corollary is a subsequent public government record independent of Monroe's administration. Langley (1983) is independent academic scholarship outside the executive chain of either administration.",
+        "genesis_confidence_weight": "full",
+        "genesis_note": null
+      },
+      "notes": "Evaluates the trajectory of the 'protection' framing in P-003 and the bridge_narrative in P-007-rel. The subsequent geopolitical practice is the empirical test of whether the doctrine functioned as protection of Latin American self-determination or as a US authority claim."
+    },
+    {
+      "anchor_id": "ANC-005",
+      "anchor_text": "The Congress of Vienna (1814-1815) established the Concert of Europe, through which the major European powers (Austria, Prussia, Russia, France, Britain) coordinated to suppress liberal and nationalist movements. The Holy Alliance was a subset of this. Britain was a member of the Concert but had broken with the Holy Alliance over intervention in Spain by 1822 and was not party to the French military intervention in Spain (1823). The United States had no treaty of alliance with any Latin American state and had no military capability to enforce the Monroe Doctrine against a determined European power in 1823; the doctrine's operative deterrence depended entirely on the British navy's tacit support.",
+      "anchor_classification": "primary_source_attestation",
+      "classification_source": "Paul Schroeder, The Transformation of European Politics, 1763-1848 (Oxford University Press, 1994) — independent historical scholarship. The British deterrence analysis is documented in May (1975) and in Samuel Flagg Bemis, John Quincy Adams and the Foundations of American Foreign Policy (Alfred A. Knopf, 1949) — both independent of Monroe's executive.",
+      "chain_length_from_governance_zone": 2,
+      "chain_length_confidence": "estimated",
+      "independent_genesis": {
+        "independent_source_exists": true,
+        "independent_source_citation": "Schroeder (1994), May (1975), and Bemis (1949) are all independent academic scholarship. The Concert of Vienna documents are European treaty records entirely outside the US governance chain.",
+        "genesis_confidence_weight": "full",
+        "genesis_note": null
+      },
+      "notes": "Evaluates the 'impossibility' claim in paragraph 4. The doctrine's enforcement depended on British naval power, not US military capacity — this is material to the threat characterization in P-003."
+    }
+  ],
+  "proposition_table": [
+    {
+      "proposition_id": "P-001",
+      "verbatim_source_text": "the American continents, by the free and independent condition which they have assumed and maintain, are henceforth not to be considered as subjects for future colonization by any European powers.",
+      "source_location": "First doctrine paragraph (northwest coast / non-colonization passage)",
+      "normalized_claim": "The American continents are henceforth not to be considered as subjects for future colonization by any European powers.",
+      "is_compound": true,
+      "compound_resolution": {
+        "decomposition_required": true,
+        "sub_propositions": [
+          "P-001-a",
+          "P-001-b"
+        ],
+        "decomposition_note": "RULE-004 Pathway 1 applies. Sub-propositions are epistemically heterogeneous: P-001-a (factual state of Latin American independence, anchored_true against ANC-003) and P-001-b (US unilateral authority to foreclose European colonization on that basis, ambiguous — normative claim with no treaty or multilateral basis). They cannot share a classification and must be evaluated separately.",
+        "primary_classification_basis": "composite"
+      },
+      "is_relational": false,
+      "relational_resolution": null,
+      "primary_classification": "ambiguous",
+      "secondary_tags": [],
+      "anchor_mappings": [
+        "ANC-001",
+        "ANC-003"
+      ],
+      "geodesic_distance_from_anchor": null,
+      "edge_sign": "unsigned",
+      "stress_energy_contribution": 0.3,
+      "confidence_flag_id": "FLAG-001"
+    },
+    {
+      "proposition_id": "P-001-a",
+      "verbatim_source_text": "the American continents, by the free and independent condition which they have assumed and maintain, are henceforth not to be considered as subjects for future colonization by any European powers.",
+      "source_location": "First doctrine paragraph",
+      "normalized_claim": "Latin American states had achieved and were maintaining independence by December 1823.",
+      "is_compound": false,
+      "compound_resolution": null,
+      "is_relational": false,
+      "relational_resolution": null,
+      "primary_classification": "anchored_true",
+      "secondary_tags": [],
+      "anchor_mappings": [
+        "ANC-001",
+        "ANC-003"
+      ],
+      "geodesic_distance_from_anchor": null,
+      "edge_sign": "positive",
+      "stress_energy_contribution": 0.3,
+      "confidence_flag_id": null
+    },
+    {
+      "proposition_id": "P-001-b",
+      "verbatim_source_text": "the American continents, by the free and independent condition which they have assumed and maintain, are henceforth not to be considered as subjects for future colonization by any European powers.",
+      "source_location": "First doctrine paragraph",
+      "normalized_claim": "The free and independent status of American nations grants the United States standing to declare, unilaterally and without their consultation, that the entire hemisphere is not subject to future European colonization.",
+      "is_compound": false,
+      "compound_resolution": null,
+      "is_relational": false,
+      "relational_resolution": null,
+      "primary_classification": "ambiguous",
+      "secondary_tags": [],
+      "anchor_mappings": [
+        "ANC-001",
+        "ANC-003",
+        "ANC-005"
+      ],
+      "geodesic_distance_from_anchor": null,
+      "edge_sign": "unsigned",
+      "stress_energy_contribution": 0.3,
+      "confidence_flag_id": null
+    },
+    {
+      "proposition_id": "P-002",
+      "verbatim_source_text": "The political system of the allied powers is essentially different from that of America, proceeding from the difference in their respective Governments.",
+      "source_location": "Second doctrine paragraph",
+      "normalized_claim": "The political system of the allied powers (absolute or constitutional monarchies) is essentially different from the republican form of government of the United States.",
+      "is_compound": false,
+      "compound_resolution": null,
+      "is_relational": false,
+      "relational_resolution": null,
+      "primary_classification": "anchored_true",
+      "secondary_tags": [],
+      "anchor_mappings": [
+        "ANC-002",
+        "ANC-005"
+      ],
+      "geodesic_distance_from_anchor": null,
+      "edge_sign": "positive",
+      "stress_energy_contribution": 0.3,
+      "confidence_flag_id": null
+    },
+    {
+      "proposition_id": "P-003",
+      "verbatim_source_text": "it is impossible that the allied powers should extend their political system to any portion of either continent without endangering our peace and happiness.",
+      "source_location": "Fourth doctrine paragraph",
+      "normalized_claim": "Any extension of the allied powers' political system to any portion of the American continent would inevitably endanger US peace and happiness.",
+      "is_compound": false,
+      "compound_resolution": null,
+      "is_relational": false,
+      "relational_resolution": null,
+      "primary_classification": "ambiguous",
+      "secondary_tags": [
+        "contextually_misleading"
+      ],
+      "anchor_mappings": [
+        "ANC-002",
+        "ANC-005"
+      ],
+      "geodesic_distance_from_anchor": null,
+      "edge_sign": "unsigned",
+      "stress_energy_contribution": 0.3,
+      "confidence_flag_id": null
+    },
+    {
+      "proposition_id": "P-004",
+      "verbatim_source_text": "In the wars of the European powers in matters relating to themselves we have never taken any part.",
+      "source_location": "Second doctrine paragraph",
+      "normalized_claim": "The United States has never taken any part in the wars of European powers in matters relating to themselves.",
+      "is_compound": false,
+      "compound_resolution": null,
+      "is_relational": false,
+      "relational_resolution": null,
+      "primary_classification": "anchored_false",
+      "secondary_tags": [],
+      "anchor_mappings": [
+        "ANC-001",
+        "ANC-002"
+      ],
+      "geodesic_distance_from_anchor": null,
+      "edge_sign": "negative",
+      "stress_energy_contribution": 0.3,
+      "confidence_flag_id": "FLAG-002"
+    },
+    {
+      "proposition_id": "P-005",
+      "verbatim_source_text": "Nor can any one believe that our southern brethren, if left to themselves, would adopt it of their own accord.",
+      "source_location": "Fourth doctrine paragraph",
+      "normalized_claim": "Latin American nations, if left to themselves, would not adopt the European political system of their own accord.",
+      "is_compound": false,
+      "compound_resolution": null,
+      "is_relational": false,
+      "relational_resolution": null,
+      "primary_classification": "ambiguous",
+      "secondary_tags": [],
+      "anchor_mappings": [
+        "ANC-003",
+        "ANC-004"
+      ],
+      "geodesic_distance_from_anchor": null,
+      "edge_sign": "unsigned",
+      "stress_energy_contribution": 0.3,
+      "confidence_flag_id": null
+    },
+    {
+      "proposition_id": "P-006",
+      "verbatim_source_text": "If we look to the comparative strength and resources of Spain and those new Governments, and their distance from each other, it must be obvious that she can never subdue them.",
+      "source_location": "Fourth doctrine paragraph",
+      "normalized_claim": "Spain cannot reconquer the Latin American states given comparative military strength, resources, and geographic distance as of 1823.",
+      "is_compound": false,
+      "compound_resolution": null,
+      "is_relational": false,
+      "relational_resolution": null,
+      "primary_classification": "anchored_true",
+      "secondary_tags": [],
+      "anchor_mappings": [
+        "ANC-003",
+        "ANC-005"
+      ],
+      "geodesic_distance_from_anchor": null,
+      "edge_sign": "positive",
+      "stress_energy_contribution": 0.3,
+      "confidence_flag_id": null
+    },
+    {
+      "proposition_id": "P-007-rel",
+      "verbatim_source_text": "[Relational] The 'defense of our own government' and 'protection of southern brethren' framing positions a unilateral US claim of hemispheric authority as a defensive response to European aggression, insulating the geopolitical power-expansion character of the doctrine from scrutiny as an assertion of US dominance.",
+      "source_location": "Second and fourth doctrine paragraphs (structural framing)",
+      "normalized_claim": "The defensive and protective framing of the Monroe Doctrine insulates its function as a US hemispheric authority claim from scrutiny by presenting power expansion as a defensive response to European threat.",
+      "is_compound": false,
+      "compound_resolution": null,
+      "is_relational": true,
+      "relational_resolution": {
+        "parent_proposition_a": "P-002",
+        "parent_proposition_b": "P-003",
+        "relation_type": "implies",
+        "relational_note": "The true predicate P-002 (genuine political-system difference between Europe and America) plus the overstated causal claim P-003 (impossibility formulation) generates the normative authority assertion P-001-b, insulated from evaluation because the first link is genuine. The 'protection of southern brethren' framing redirects scrutiny from the power assertion to an anti-colonial sympathetic framing. P-004 (anchored_false) provides adjacent false reinforcement of the US non-interventionist self-presentation."
+      },
+      "primary_classification": "bridge_narrative",
+      "secondary_tags": [],
+      "anchor_mappings": [
+        "ANC-002",
+        "ANC-003",
+        "ANC-004",
+        "ANC-005"
+      ],
+      "geodesic_distance_from_anchor": null,
+      "edge_sign": "unsigned",
+      "stress_energy_contribution": 0.3,
+      "confidence_flag_id": null
+    }
+  ],
+  "graph_structure": {
+    "nodes": [
+      {
+        "id": "ANC-001",
+        "type": "anchor",
+        "label": "ANC-001",
+        "classification": "direct_empirical_record",
+        "r": 0.3333,
+        "theta": 0.0,
+        "geodesic_distance": 0.6931,
+        "zone": "governance",
+        "blocked": false
+      },
+      {
+        "id": "ANC-002",
+        "type": "anchor",
+        "label": "ANC-002",
+        "classification": "direct_empirical_record",
+        "r": 0.6667,
+        "theta": 1.2566,
+        "geodesic_distance": 1.6094,
+        "zone": "governance",
+        "blocked": false
+      },
+      {
+        "id": "ANC-003",
+        "type": "anchor",
+        "label": "ANC-003",
+        "classification": "direct_empirical_record",
+        "r": 0.6667,
+        "theta": 2.5133,
+        "geodesic_distance": 1.6094,
+        "zone": "governance",
+        "blocked": false
+      },
+      {
+        "id": "ANC-004",
+        "type": "anchor",
+        "label": "ANC-004",
+        "classification": "direct_empirical_record",
+        "r": 0.3333,
+        "theta": 3.7699,
+        "geodesic_distance": 0.6931,
+        "zone": "governance",
+        "blocked": false
+      },
+      {
+        "id": "ANC-005",
+        "type": "anchor",
+        "label": "ANC-005",
+        "classification": "primary_source_attestation",
+        "r": 0.6667,
+        "theta": 5.0265,
+        "geodesic_distance": 1.6094,
+        "zone": "governance",
+        "blocked": false
+      },
+      {
+        "id": "P-001",
+        "type": "proposition",
+        "label": "P-001",
+        "classification": "ambiguous",
+        "secondary_tags": [],
+        "verbatim": "the American continents, by the free and independent condition which they have assumed and maintain, are henceforth not to be considered as subjects for future colonization by any European powers.",
+        "normalized": "The American continents are henceforth not to be considered as subjects for future colonization by any European powers.",
+        "stress": 0.3,
+        "r": 0.3,
+        "theta": 0.0,
+        "geodesic_distance": 0.619,
+        "zone": "work_knowledge",
+        "blocked": false
+      },
+      {
+        "id": "P-001-a",
+        "type": "proposition",
+        "label": "P-001-a",
+        "classification": "anchored_true",
+        "secondary_tags": [],
+        "verbatim": "the American continents, by the free and independent condition which they have assumed and maintain, are henceforth not to be considered as subjects for future colonization by any European powers.",
+        "normalized": "Latin American states had achieved and were maintaining independence by December 1823.",
+        "stress": 0.3,
+        "r": 0.3633,
+        "theta": 0.6981,
+        "geodesic_distance": 0.7614,
+        "zone": "governance",
+        "blocked": true
+      },
+      {
+        "id": "P-001-b",
+        "type": "proposition",
+        "label": "P-001-b",
+        "classification": "ambiguous",
+        "secondary_tags": [],
+        "verbatim": "the American continents, by the free and independent condition which they have assumed and maintain, are henceforth not to be considered as subjects for future colonization by any European powers.",
+        "normalized": "The free and independent status of American nations grants the United States standing to declare, unilaterally and without their consultation, that the entire hemisphere is not subject to future European colonization.",
+        "stress": 0.3,
+        "r": 0.5,
+        "theta": 1.3963,
+        "geodesic_distance": 1.0986,
+        "zone": "work_knowledge",
+        "blocked": false
+      },
+      {
+        "id": "P-002",
+        "type": "proposition",
+        "label": "P-002",
+        "classification": "anchored_true",
+        "secondary_tags": [],
+        "verbatim": "The political system of the allied powers is essentially different from that of America, proceeding from the difference in their respective Governments.",
+        "normalized": "The political system of the allied powers (absolute or constitutional monarchies) is essentially different from the republican form of government of the United States.",
+        "stress": 0.3,
+        "r": 0.5,
+        "theta": 2.0944,
+        "geodesic_distance": 1.0986,
+        "zone": "governance",
+        "blocked": true
+      },
+      {
+        "id": "P-003",
+        "type": "proposition",
+        "label": "P-003",
+        "classification": "ambiguous",
+        "secondary_tags": [
+          "contextually_misleading"
+        ],
+        "verbatim": "it is impossible that the allied powers should extend their political system to any portion of either continent without endangering our peace and happiness.",
+        "normalized": "Any extension of the allied powers' political system to any portion of the American continent would inevitably endanger US peace and happiness.",
+        "stress": 0.3,
+        "r": 0.5,
+        "theta": 2.7925,
+        "geodesic_distance": 1.0986,
+        "zone": "work_knowledge",
+        "blocked": false
+      },
+      {
+        "id": "P-004",
+        "type": "proposition",
+        "label": "P-004",
+        "classification": "anchored_false",
+        "secondary_tags": [],
+        "verbatim": "In the wars of the European powers in matters relating to themselves we have never taken any part.",
+        "normalized": "The United States has never taken any part in the wars of European powers in matters relating to themselves.",
+        "stress": 0.3,
+        "r": 0.77,
+        "theta": 3.4907,
+        "geodesic_distance": 2.0407,
+        "zone": "temporal_knowledge",
+        "blocked": true
+      },
+      {
+        "id": "P-005",
+        "type": "proposition",
+        "label": "P-005",
+        "classification": "ambiguous",
+        "secondary_tags": [],
+        "verbatim": "Nor can any one believe that our southern brethren, if left to themselves, would adopt it of their own accord.",
+        "normalized": "Latin American nations, if left to themselves, would not adopt the European political system of their own accord.",
+        "stress": 0.3,
+        "r": 0.5,
+        "theta": 4.1888,
+        "geodesic_distance": 1.0986,
+        "zone": "work_knowledge",
+        "blocked": false
+      },
+      {
+        "id": "P-006",
+        "type": "proposition",
+        "label": "P-006",
+        "classification": "anchored_true",
+        "secondary_tags": [],
+        "verbatim": "If we look to the comparative strength and resources of Spain and those new Governments, and their distance from each other, it must be obvious that she can never subdue them.",
+        "normalized": "Spain cannot reconquer the Latin American states given comparative military strength, resources, and geographic distance as of 1823.",
+        "stress": 0.3,
+        "r": 0.5,
+        "theta": 4.8869,
+        "geodesic_distance": 1.0986,
+        "zone": "governance",
+        "blocked": false
+      },
+      {
+        "id": "P-007-rel",
+        "type": "proposition",
+        "label": "P-007-rel",
+        "classification": "bridge_narrative",
+        "secondary_tags": [],
+        "verbatim": "[Relational] The 'defense of our own government' and 'protection of southern brethren' framing positions a unilateral US claim of hemispheric authority as a defensive response to European aggression, insulating the geopolitical power-expansion character of the doctrine from scrutiny as an assertion of US dominance.",
+        "normalized": "The defensive and protective framing of the Monroe Doctrine insulates its function as a US hemispheric authority claim from scrutiny by presenting power expansion as a defensive response to European threat.",
+        "stress": 0.3,
+        "r": 0.5,
+        "theta": 5.5851,
+        "geodesic_distance": 1.0986,
+        "zone": "rationale",
+        "blocked": false
+      }
+    ],
+    "edges": [
+      {
+        "source": "P-001",
+        "target": "ANC-001",
+        "sign": "unsigned",
+        "weight": 0.3
+      },
+      {
+        "source": "P-001",
+        "target": "ANC-003",
+        "sign": "unsigned",
+        "weight": 0.3
+      },
+      {
+        "source": "P-001-a",
+        "target": "ANC-001",
+        "sign": "positive",
+        "weight": 0.3
+      },
+      {
+        "source": "P-001-a",
+        "target": "ANC-003",
+        "sign": "positive",
+        "weight": 0.3
+      },
+      {
+        "source": "P-001-b",
+        "target": "ANC-001",
+        "sign": "unsigned",
+        "weight": 0.3
+      },
+      {
+        "source": "P-001-b",
+        "target": "ANC-003",
+        "sign": "unsigned",
+        "weight": 0.3
+      },
+      {
+        "source": "P-001-b",
+        "target": "ANC-005",
+        "sign": "unsigned",
+        "weight": 0.3
+      },
+      {
+        "source": "P-002",
+        "target": "ANC-002",
+        "sign": "positive",
+        "weight": 0.3
+      },
+      {
+        "source": "P-002",
+        "target": "ANC-005",
+        "sign": "positive",
+        "weight": 0.3
+      },
+      {
+        "source": "P-003",
+        "target": "ANC-002",
+        "sign": "unsigned",
+        "weight": 0.3
+      },
+      {
+        "source": "P-003",
+        "target": "ANC-005",
+        "sign": "unsigned",
+        "weight": 0.3
+      },
+      {
+        "source": "P-004",
+        "target": "ANC-001",
+        "sign": "negative",
+        "weight": 0.3
+      },
+      {
+        "source": "P-004",
+        "target": "ANC-002",
+        "sign": "negative",
+        "weight": 0.3
+      },
+      {
+        "source": "P-005",
+        "target": "ANC-003",
+        "sign": "unsigned",
+        "weight": 0.3
+      },
+      {
+        "source": "P-005",
+        "target": "ANC-004",
+        "sign": "unsigned",
+        "weight": 0.3
+      },
+      {
+        "source": "P-006",
+        "target": "ANC-003",
+        "sign": "positive",
+        "weight": 0.3
+      },
+      {
+        "source": "P-006",
+        "target": "ANC-005",
+        "sign": "positive",
+        "weight": 0.3
+      },
+      {
+        "source": "P-007-rel",
+        "target": "ANC-002",
+        "sign": "unsigned",
+        "weight": 0.3
+      },
+      {
+        "source": "P-007-rel",
+        "target": "ANC-003",
+        "sign": "unsigned",
+        "weight": 0.3
+      },
+      {
+        "source": "P-007-rel",
+        "target": "ANC-004",
+        "sign": "unsigned",
+        "weight": 0.3
+      },
+      {
+        "source": "P-007-rel",
+        "target": "ANC-005",
+        "sign": "unsigned",
+        "weight": 0.3
+      }
+    ],
+    "manifold_zone_assignments": {
+      "governance": [
+        "ANC-001",
+        "ANC-002",
+        "ANC-003",
+        "ANC-004",
+        "ANC-005",
+        "P-001-a",
+        "P-002",
+        "P-006"
+      ],
+      "rationale": [
+        "P-007-rel"
+      ],
+      "work_knowledge": [
+        "P-001",
+        "P-001-b",
+        "P-003",
+        "P-005"
+      ],
+      "temporal_knowledge": [
+        "P-004"
+      ]
+    },
+    "adaptive_zone_boundaries": {
+      "governance": 0.55,
+      "false_attractor": 0.72
+    },
+    "node_radii": {
+      "ANC-001": 0.3333,
+      "ANC-002": 0.6667,
+      "ANC-003": 0.6667,
+      "ANC-004": 0.3333,
+      "ANC-005": 0.6667,
+      "P-001-a": 0.3633,
+      "P-001-b": 0.5,
+      "P-002": 0.5,
+      "P-003": 0.5,
+      "P-004": 0.77,
+      "P-005": 0.5,
+      "P-006": 0.5,
+      "P-001": 0.3,
+      "P-007-rel": 0.5
+    },
+    "fragmentation_detected": false,
+    "polarization_detected": true,
+    "bridge_narrative_candidates": [
+      "P-007-rel"
+    ],
+    "false_attractor_candidates": [
+      "P-004"
+    ],
+    "contradiction_pairs": [
+      {
+        "node_a": "P-002",
+        "node_b": "P-004"
+      },
+      {
+        "node_a": "P-001-a",
+        "node_b": "P-004"
+      }
+    ]
+  },
+  "geometric_summary": {
+    "manifold_description": "9 propositions placed on hyperbolic manifold. 3 governance-anchored (GOVERNANCE zone), 1 bridge_narrative candidate(s) (RATIONALE zone), 1 anchored_false attractor(s) (TEMPORAL_KNOWLEDGE zone), 4 ambiguous/contested (WORK/TEMPORAL zones). 3 proposition(s) in contradiction-blocked pairs. Fiedler value lambda2 = 0.2733 CoherenceState(zone='work_knowledge', timestamp='2026-04-29T02:44:57.867744+00:00', lambda2=0.636006, lambda2_delta=0.0, lambda2_stable=False, lambda2_sufficient=True, mean_sheaf_consistency=0.5, shea",
+    "anchor_cluster_summary": "5 anchor(s) registered at governance zone (r=0). Contradiction-blocked pairs detected — see confidence_flags.",
+    "highest_stress_region": "P-001 (stress=0.300)",
+    "least_stable_truth_candidate": "P-001-a",
+    "most_stable_false_candidate": "P-004",
+    "bridge_narrative_geometry_note": "1 bridge narrative candidate(s) detected at RATIONALE zone boundary. Bidirectional T_mu_nu load present. ExpressionResult(expressed_nodes=['ANC-001', 'ANC-002', 'ANC-003', 'ANC-004', 'ANC-005', 'P-001', 'P-001-b', 'P-003', 'P-005', 'P-006', 'P-007-rel'], silenced_nodes={'P-001-a': ['[contradiction_block]",
+    "structural_tension_note": "1 undeclared tension point(s) detected. See confidence_flags.",
+    "analyst_notes": "",
+    "reader_interpretation_note": "This summary describes geometric structure only. Classification of intent or moral judgment is left to the reader."
+  },
+  "confidence_flags": [
+    {
+      "flag_id": "FLAG-001",
+      "proposition_id": "P-007-rel",
+      "ambiguity_source": "classificatory",
+      "ambiguity_description": "The defensive-posture framing ('protection of southern brethren,' 'endangers our peace') operates as a bridge narrative connecting the true predicate P-002 (genuine political-system difference) to the normative authority claim P-001-b (US right to foreclose European hemispheric presence). P-004 (anchored_false non-intervention claim) provides adjacent false support. ANC-004 (Roosevelt Corollary and subsequent Caribbean interventions) confirms the doctrine's operative function was policing authority rather than mutual defense. High severity: the bridge narrative is structurally fundamental to the doctrine's rhetorical legitimacy. Signal 3 (epistatic suppression) requires pipeline confirmation.",
+      "resolution_attempted": false,
+      "resolution_description": null,
+      "resolution_status": "unresolved"
+    },
+    {
+      "flag_id": "FLAG-002",
+      "proposition_id": "P-004",
+      "ambiguity_source": "classificatory",
+      "ambiguity_description": "P-004 ('we have never taken any part in European wars') was delivered to Congress in 1823 by a president whose audience included veterans and participants in the War of 1812 (ended 9 years earlier) and the Quasi-War (ended 23 years earlier). The false claim was made in full awareness that a significant portion of Monroe's audience had direct memory of US military engagement against European powers. This makes P-004 not merely an error but a rhetorical choice. Pipeline should evaluate whether P-004's false support of the bridge narrative warrants elevated stress-energy weighting.",
+      "resolution_attempted": false,
+      "resolution_description": null,
+      "resolution_status": "unresolved"
+    },
+    {
+      "flag_id": "CF-CONTRADICTION-P-001-a",
+      "flag_type": "contradiction_detected",
+      "affected_proposition": "P-001-a",
+      "note": "Contradiction pair detected. Contradiction anchored at ANC-001",
+      "severity": "high"
+    },
+    {
+      "flag_id": "CF-CONTRADICTION-P-004",
+      "flag_type": "contradiction_detected",
+      "affected_proposition": "P-004",
+      "note": "Contradiction pair detected. Contradiction anchored at ANC-002",
+      "severity": "high"
+    },
+    {
+      "flag_id": "CF-CONTRADICTION-P-002",
+      "flag_type": "contradiction_detected",
+      "affected_proposition": "P-002",
+      "note": "Contradiction pair detected. Contradiction anchored at ANC-002",
+      "severity": "high"
+    },
+    {
+      "flag_id": "CF-TENSION-P-007-rel",
+      "flag_type": "undeclared_structural_tension",
+      "affected_proposition": "P-007-rel",
+      "note": "Tidal tension detected: unknown",
+      "severity": "medium"
+    },
+    {
+      "flag_id": "CF-SAL-COHERENCE",
+      "flag_type": "coherence_below_threshold",
+      "affected_proposition": null,
+      "note": "SAL coherence gate: should_commit=False. lambda2=unknown",
+      "severity": "medium"
+    },
+    {
+      "flag_id": "CF-CONTRADICTION-P-001-a",
+      "flag_type": "contradiction_detected",
+      "affected_proposition": "P-001-a",
+      "note": "Contradiction pair detected. Contradiction anchored at ANC-001",
+      "severity": "high"
+    },
+    {
+      "flag_id": "CF-CONTRADICTION-P-004",
+      "flag_type": "contradiction_detected",
+      "affected_proposition": "P-004",
+      "note": "Contradiction pair detected. Contradiction anchored at ANC-002",
+      "severity": "high"
+    },
+    {
+      "flag_id": "CF-CONTRADICTION-P-002",
+      "flag_type": "contradiction_detected",
+      "affected_proposition": "P-002",
+      "note": "Contradiction pair detected. Contradiction anchored at ANC-002",
+      "severity": "high"
+    },
+    {
+      "flag_id": "CF-TENSION-P-007-rel",
+      "flag_type": "undeclared_structural_tension",
+      "affected_proposition": "P-007-rel",
+      "note": "Tidal tension detected: unknown",
+      "severity": "medium"
+    },
+    {
+      "flag_id": "CF-SAL-COHERENCE",
+      "flag_type": "coherence_below_threshold",
+      "affected_proposition": null,
+      "note": "SAL coherence gate: should_commit=False. lambda2=unknown",
+      "severity": "medium"
+    },
+    {
+      "flag_id": "CF-CONTRADICTION-P-001-a",
+      "flag_type": "contradiction_detected",
+      "affected_proposition": "P-001-a",
+      "note": "Contradiction pair detected. Contradiction anchored at ANC-001",
+      "severity": "high"
+    },
+    {
+      "flag_id": "CF-CONTRADICTION-P-004",
+      "flag_type": "contradiction_detected",
+      "affected_proposition": "P-004",
+      "note": "Contradiction pair detected. Contradiction anchored at ANC-002",
+      "severity": "high"
+    },
+    {
+      "flag_id": "CF-CONTRADICTION-P-002",
+      "flag_type": "contradiction_detected",
+      "affected_proposition": "P-002",
+      "note": "Contradiction pair detected. Contradiction anchored at ANC-002",
+      "severity": "high"
+    },
+    {
+      "flag_id": "CF-TENSION-P-007-rel",
+      "flag_type": "undeclared_structural_tension",
+      "affected_proposition": "P-007-rel",
+      "note": "Tidal tension detected: unknown",
+      "severity": "medium"
+    },
+    {
+      "flag_id": "CF-SAL-COHERENCE",
+      "flag_type": "coherence_below_threshold",
+      "affected_proposition": null,
+      "note": "SAL coherence gate: should_commit=False. lambda2=unknown",
+      "severity": "medium"
+    }
+  ],
+  "falsifiability_record": [
+    {
+      "rule_id": "RULE-004",
+      "rule_summary": "Whether Latin American independence grants the US unilateral hemispheric authority is tested by the absence of any Latin American consultation or consent to the Monroe Doctrine and the subsequent use of the doctrine for interventionist purposes.",
+      "uncomfortable_output_direction_a": "A genuine defensive claim about US strategic interests could be over-flagged as a bridge narrative if the threat assessment's anchor chain length is underestimated.",
+      "uncomfortable_output_direction_b": "A normative authority claim embedded in a defensive framing could pass as a good-faith defense posture if the subsequent interventionist trajectory (ANC-004) is not admitted as a falsifying test.",
+      "kill_switch": "If independent primary sources confirm that Latin American governments in 1823 explicitly requested US hemispheric protection and consented to the doctrine's terms, the bridge_narrative classification of P-007-rel is miscalibrated.",
+      "falsifiability_confirmed": true,
+      "modifications_after_test": null
+    },
+    {
+      "rule_id": "RULE-001B",
+      "rule_summary": "Whether the US 'never took any part' in European wars is directly tested by the documented historical record of the Quasi-War (1798-1800) and the War of 1812, both military engagements against European powers.",
+      "uncomfortable_output_direction_a": "A true historical claim could be over-flagged if Monroe's implicit qualifier 'in matters relating to themselves' is read as genuinely limiting the scope of the non-intervention claim.",
+      "uncomfortable_output_direction_b": "A false normative claim could pass as anchored_true if the Quasi-War is miscategorized as a purely commercial dispute rather than a military engagement against a European power.",
+      "kill_switch": "If independent primary sources establish that contemporaneous legal and political usage consistently excluded the Quasi-War and War of 1812 from the category of 'wars of European powers in matters relating to themselves,' the anchored_false classification of P-004 is miscalibrated.",
+      "falsifiability_confirmed": true,
+      "modifications_after_test": null
+    },
+    {
+      "rule_id": "RULE-011",
+      "rule_summary": "Whether the Monroe Doctrine's protective framing conceals its function as a US hemispheric authority claim is tested by the subsequent operational use of the doctrine, particularly the Roosevelt Corollary (1904) and the pattern of Caribbean interventions documented in ANC-004.",
+      "uncomfortable_output_direction_a": "A genuine defensive doctrine could be over-classified as a bridge narrative if the trajectory analysis (ANC-004) is given more weight than the 1823 context in which deterrence, not intervention, was the immediate goal.",
+      "uncomfortable_output_direction_b": "A bridge narrative could pass as a genuine defense posture if the Roosevelt Corollary is treated as an independent extension rather than as evidence of the doctrine's inherent authority claim structure.",
+      "kill_switch": "If Signal 3 (epistatic suppression) is not confirmed by the pipeline, the bridge_narrative classification of P-007-rel must be downgraded to a secondary tag under an alternate primary classification.",
+      "falsifiability_confirmed": true,
+      "modifications_after_test": null
+    }
+  ],
+  "audit_trail": [
+    {
+      "module": "rga_pipeline",
+      "status": "started",
+      "timestamp": "2026-04-29T02:44:57.863827",
+      "note": "Pipeline started for DOC-18231202-006"
+    },
+    {
+      "module": "RGAGraphAdapter",
+      "status": "complete",
+      "timestamp": "2026-04-29T02:44:57.863827",
+      "note": "Graph built: 14 nodes, 3 blocked, 6 bridge edges"
+    },
+    {
+      "module": "HSHGeometry",
+      "status": "calibration",
+      "timestamp": "2026-04-29T02:44:57.863827",
+      "note": "Adaptive radii set for 14 nodes. governance_boundary=0.550, false_attractor_boundary=0.720"
+    },
+    {
+      "module": "HSHGeometry",
+      "status": "complete",
+      "timestamp": "2026-04-29T02:44:57.867744",
+      "note": "Fiedler value lambda2=0.2733"
+    },
+    {
+      "module": "StructuralTensionAuditor",
+      "status": "complete",
+      "timestamp": "2026-04-29T02:44:57.867744",
+      "note": "1 tension record(s)"
+    },
+    {
+      "module": "EpistaticGate",
+      "status": "complete",
+      "timestamp": "2026-04-29T02:44:57.867744",
+      "note": "0 latent conflict(s) detected"
+    },
+    {
+      "module": "SALCoherenceLayer",
+      "status": "complete",
+      "timestamp": "2026-04-29T02:44:57.867744",
+      "note": "should_commit=False"
+    },
+    {
+      "module": "rga_pipeline",
+      "status": "complete",
+      "timestamp": "2026-04-29T02:44:57.867744",
+      "note": "Pipeline complete. 17 confidence flag(s). 1 bridge narrative candidate(s)."
+    }
+  ]
+}

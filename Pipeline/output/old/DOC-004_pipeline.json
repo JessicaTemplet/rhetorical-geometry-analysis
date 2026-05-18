@@ -1,0 +1,650 @@
+{
+  "schema_version": "0.4",
+  "document_metadata": {
+    "document_id": "DOC-19350705-004",
+    "common_name": "National Labor Relations Act (Wagner Act, 1935)",
+    "primary_source_url": "https://www.nlrb.gov/guidance/key-reference-materials/national-labor-relations-act",
+    "date_of_document": "1935-07-05",
+    "date_of_analysis": "2026-04-27T00:00:00Z",
+    "analyst_id": "ANALYST-001",
+    "extraction_pass": 1,
+    "preregistration_repo_url": "https://github.com/JessicaTemplet/rhetorical-geometry-analysis",
+    "preregistration_commit_hash": "5ca3ec482746f01d92cdaa2651bd3c9fc9a182e8",
+    "preregistration_status": "confirmed",
+    "analyst_prior_note": "Pool asymmetry disclosed in methodology_v0.4.md. Note: the file analyzed is the NLRA as amended since 1935; the fourth paragraph of Section 1 (regarding labor organization practices burdening commerce) was added by Taft-Hartley (1947), not original 1935 text. Analysis focuses on the original 1935 findings (first three paragraphs of Sec. 1) and Section 7. Prior: Section 1's factual findings make causal and empirical claims that are testable against economic history. The diagnosis of 1930s labor unrest is historically supported (anchored_true). The 'experience has proved' effectiveness claim was made prospectively as a causal argument at enactment and is more contested — the relationship between NLRA passage and subsequent labor peace is empirically complex. The inequality-of-bargaining-power / business depression causal claim has substantial economic historiographical support but remains contested. Analyst expects mixed findings: more anchored_true than most corpus documents on the diagnostic claims, but contested findings on the causal effectiveness predictions. The Commerce Clause framing is constitutional necessity rather than a factual claim about normal trade flow, and should be evaluated as such. Extraction performed by Claude per bias-control protocol. Wavelet dual-band scoring not available this pass (workspace unavailable); band assignments analyst-derived."
+  },
+  "anchor_registry": [
+    {
+      "anchor_id": "ANC-001",
+      "anchor_text": "The National Labor Relations Act was enacted as a public law of the United States on July 5, 1935. It established the National Labor Relations Board and guaranteed employees the right to organize, form labor unions, and bargain collectively with employers.",
+      "anchor_classification": "direct_empirical_record",
+      "classification_source": "Statutes at Large, 74th Congress, Session 1, Ch. 372, p. 449 (1935).",
+      "chain_length_from_governance_zone": 1,
+      "chain_length_confidence": "exact",
+      "independent_genesis": {
+        "independent_source_exists": true,
+        "independent_source_citation": "Statutes at Large is a public congressional record and self-evidencing as to enactment date and content.",
+        "genesis_confidence_weight": "full",
+        "genesis_note": null
+      },
+      "notes": "Foundational enactment anchor for all provisions."
+    },
+    {
+      "anchor_id": "ANC-002",
+      "anchor_text": "The period 1933-1935, immediately preceding the NLRA's enactment, saw a major wave of labor unrest in the United States. In 1934 alone approximately 1.5 million workers participated in strikes, including the San Francisco General Strike, the Minneapolis Teamsters Strike, and the Toledo Auto-Lite Strike, all involving significant industrial violence. The Great Depression had produced documented wage deflation and declining purchasing power among industrial workers. These conditions are independently documented in contemporaneous federal and independent records.",
+      "anchor_classification": "direct_empirical_record",
+      "classification_source": "Bureau of Labor Statistics, 'Strikes in the United States, 1880-1936,' BLS Bulletin No. 651 (1938) — federal statistical record outside the executive chain that authored the NLRA; Irving Bernstein, The Turbulent Years: A History of the American Worker, 1933-1941 (Houghton Mifflin, 1970) — independent academic scholarship.",
+      "chain_length_from_governance_zone": 2,
+      "chain_length_confidence": "estimated",
+      "independent_genesis": {
+        "independent_source_exists": true,
+        "independent_source_citation": "BLS Bulletin No. 651 is an independent statistical record compiled by a federal statistical agency outside the legislative chain that produced the NLRA. Bernstein (1970) is independent academic scholarship.",
+        "genesis_confidence_weight": "full",
+        "genesis_note": null
+      },
+      "notes": "Evaluates P-001 (employer denial leads to industrial strife) and P-002 (inequality of bargaining power tends to aggravate business depressions). The historical context is the primary empirical predicate for both diagnostic claims."
+    },
+    {
+      "anchor_id": "ANC-003",
+      "anchor_text": "In NLRB v. Jones & Laughlin Steel Corp. (301 U.S. 1, 1937), the Supreme Court upheld the NLRA's constitutionality under the Commerce Clause, holding that the Act's regulation of labor relations in industries affecting interstate commerce fell within Congress's enumerated powers. This was the first judicial confirmation that the factual premise linking labor relations to commerce burdens was legally sufficient.",
+      "anchor_classification": "primary_source_attestation",
+      "classification_source": "NLRB v. Jones & Laughlin Steel Corp., 301 U.S. 1 (1937). Supreme Court decision is self-evidencing as to its holding.",
+      "chain_length_from_governance_zone": 1,
+      "chain_length_confidence": "exact",
+      "independent_genesis": {
+        "independent_source_exists": true,
+        "independent_source_citation": "The Supreme Court is constitutionally independent of the Congress that enacted the NLRA. The decision constitutes an independent judicial record.",
+        "genesis_confidence_weight": "full",
+        "genesis_note": null
+      },
+      "notes": "Evaluates the Commerce Clause jurisdictional framing of Section 1 and the legal sufficiency of the causal theory connecting labor relations to commerce burdens."
+    },
+    {
+      "anchor_id": "ANC-004",
+      "anchor_text": "Post-NLRA labor dispute data shows that strike activity in the United States did not substantially decline in the years immediately following the Act's passage. Strike frequency remained elevated through the late 1930s and peaked sharply in 1937 (4,740 strikes, 1.86 million workers), driven in part by organizing activity the Act itself enabled. The longer-term record of the Act's effect on industrial relations is contested among labor economists, with some studies finding reduced work stoppages and others finding the Act shifted conflict to organizing campaigns rather than eliminating it.",
+      "anchor_classification": "direct_empirical_record",
+      "classification_source": "BLS Historical Strike Data (1936-1945); National Bureau of Economic Research, 'Strike Activity and Wage Settlements,' Working Paper series; Lawrence Katz and Alan Krueger, eds., 'The Effects of the Minimum Wage on Employment,' NBER (1995) for labor market institutional context. Strike statistics are public BLS records.",
+      "chain_length_from_governance_zone": 2,
+      "chain_length_confidence": "estimated",
+      "independent_genesis": {
+        "independent_source_exists": true,
+        "independent_source_citation": "BLS strike data is a federal statistical record compiled independently of the legislative process that produced the NLRA. NBER working papers are independent academic scholarship.",
+        "genesis_confidence_weight": "partial",
+        "genesis_note": "Causality question is genuinely contested. The counterfactual (what strike activity would have looked like without the NLRA) is not directly observable. Genesis confidence marked partial to reflect this methodological limitation."
+      },
+      "notes": "Evaluates P-003 ('experience has proved that protection of collective bargaining safeguards commerce'). The post-enactment record is the primary empirical test of this prospective causal claim."
+    },
+    {
+      "anchor_id": "ANC-005",
+      "anchor_text": "Economists studying the Depression era generally support the causal connection between wage deflation, declining purchasing power, and deepening recession articulated in Section 1. Keynes's General Theory (1936), Irving Fisher's debt-deflation theory (1933), and subsequent macroeconomic consensus support the claim that depressed wages reduce consumer demand and aggravate economic downturns. The specific mechanism — that employer suppression of organizing rights depresses wages, which in turn aggravates business depressions — is more contested but has scholarly support in the labor economics literature.",
+      "anchor_classification": "scientific_consensus",
+      "classification_source": "John Maynard Keynes, The General Theory of Employment, Interest and Money (Macmillan, 1936); Irving Fisher, 'The Debt-Deflation Theory of Great Depressions,' Econometrica 1:4 (1933); Barry Eichengreen, Golden Fetters: The Gold Standard and the Great Depression, 1919-1939 (Oxford University Press, 1992).",
+      "chain_length_from_governance_zone": 3,
+      "chain_length_confidence": "estimated",
+      "independent_genesis": {
+        "independent_source_exists": true,
+        "independent_source_citation": "All cited works are independent academic scholarship and economic theory outside the administrative chain of the NLRA's drafters. Keynes (1936) is particularly strong as an independent contemporaneous theoretical framework.",
+        "genesis_confidence_weight": "partial",
+        "genesis_note": "The causal claim is directionally supported but the specific mechanism (union suppression → wage depression → cycle aggravation) involves contested empirical claims about the relative weight of institutional vs. monetary factors in the Depression."
+      },
+      "notes": "Evaluates P-002 (inequality of bargaining power tends to aggravate recurrent business depressions). The macroeconomic theory underpinning this claim has strong independent support, though the specific causal pathway remains debated."
+    }
+  ],
+  "proposition_table": [
+    {
+      "proposition_id": "P-001",
+      "verbatim_source_text": "The denial by some employers of the right of employees to organize and the refusal by some employers to accept the procedure of collective bargaining lead to strikes and other forms of industrial strife or unrest, which have the intent or the necessary effect of burdening or obstructing commerce",
+      "source_location": "Section 1 (Findings and Policies), paragraph 1",
+      "normalized_claim": "Employer denial of employee organizing rights and refusal of collective bargaining is a proximate cause of industrial strikes and labor unrest that burden interstate commerce.",
+      "is_compound": true,
+      "compound_resolution": {
+        "decomposition_required": true,
+        "sub_propositions": [
+          "P-001-a",
+          "P-001-b"
+        ],
+        "decomposition_note": "RULE-004 Pathway 1. P-001-a (employer denial of organizing rights leads to industrial strife: empirical causal claim, anchored_true against ANC-002 — the historical record of 1930s labor unrest in response to employer resistance to organizing is well documented) and P-001-b (such industrial strife has the 'necessary effect of burdening or obstructing commerce': legal/causal claim, evaluated against ANC-003 — courts accepted the connection, but 'necessary effect' is a stronger claim than the empirical record fully supports) are epistemically heterogeneous.",
+        "primary_classification_basis": "P-001-a"
+      },
+      "is_relational": false,
+      "relational_resolution": null,
+      "primary_classification": "anchored_true",
+      "secondary_tags": [],
+      "anchor_mappings": [
+        "ANC-001",
+        "ANC-002",
+        "ANC-003"
+      ],
+      "geodesic_distance_from_anchor": null,
+      "edge_sign": "positive",
+      "stress_energy_contribution": 0.3,
+      "confidence_flag_id": null
+    },
+    {
+      "proposition_id": "P-001-a",
+      "verbatim_source_text": "The denial by some employers of the right of employees to organize and the refusal by some employers to accept the procedure of collective bargaining lead to strikes and other forms of industrial strife or unrest",
+      "source_location": "Section 1, paragraph 1",
+      "normalized_claim": "Employer denial of employee organizing rights and collective bargaining is a proximate cause of industrial strikes and labor unrest.",
+      "is_compound": false,
+      "compound_resolution": null,
+      "is_relational": false,
+      "relational_resolution": null,
+      "primary_classification": "anchored_true",
+      "secondary_tags": [],
+      "anchor_mappings": [
+        "ANC-002"
+      ],
+      "geodesic_distance_from_anchor": null,
+      "edge_sign": "positive",
+      "stress_energy_contribution": 0.3,
+      "confidence_flag_id": null
+    },
+    {
+      "proposition_id": "P-001-b",
+      "verbatim_source_text": "which have the intent or the necessary effect of burdening or obstructing commerce",
+      "source_location": "Section 1, paragraph 1",
+      "normalized_claim": "Industrial strikes arising from employer denial of organizing rights necessarily burden or obstruct interstate commerce.",
+      "is_compound": false,
+      "compound_resolution": null,
+      "is_relational": false,
+      "relational_resolution": null,
+      "primary_classification": "anchored_true",
+      "secondary_tags": [
+        "contextually_misleading"
+      ],
+      "anchor_mappings": [
+        "ANC-003"
+      ],
+      "geodesic_distance_from_anchor": null,
+      "edge_sign": "positive",
+      "stress_energy_contribution": 0.3,
+      "confidence_flag_id": null
+    },
+    {
+      "proposition_id": "P-002",
+      "verbatim_source_text": "The inequality of bargaining power between employees who do not possess full freedom of association or actual liberty of contract and employers who are organized in the corporate or other forms of ownership association substantially burdens and affects the flow of commerce, and tends to aggravate recurrent business depressions, by depressing wage rates and the purchasing power of wage earners in industry",
+      "source_location": "Section 1, paragraph 2",
+      "normalized_claim": "The structural imbalance in bargaining power between unorganized employees and organized employers depresses wages and purchasing power, which tends to aggravate business downturns.",
+      "is_compound": false,
+      "compound_resolution": null,
+      "is_relational": false,
+      "relational_resolution": null,
+      "primary_classification": "anchored_true",
+      "secondary_tags": [],
+      "anchor_mappings": [
+        "ANC-002",
+        "ANC-005"
+      ],
+      "geodesic_distance_from_anchor": null,
+      "edge_sign": "positive",
+      "stress_energy_contribution": 0.3,
+      "confidence_flag_id": null
+    },
+    {
+      "proposition_id": "P-003",
+      "verbatim_source_text": "Experience has proved that protection by law of the right of employees to organize and bargain collectively safeguards commerce from injury, impairment, or interruption, and promotes the flow of commerce by removing certain recognized sources of industrial strife and unrest",
+      "source_location": "Section 1, paragraph 3",
+      "normalized_claim": "Empirical experience has established that legally protecting employees' right to organize and bargain collectively reduces industrial strife and safeguards commerce.",
+      "is_compound": false,
+      "compound_resolution": null,
+      "is_relational": false,
+      "relational_resolution": null,
+      "primary_classification": "anchored_false",
+      "secondary_tags": [
+        "contextually_misleading"
+      ],
+      "anchor_mappings": [
+        "ANC-004"
+      ],
+      "geodesic_distance_from_anchor": null,
+      "edge_sign": "negative",
+      "stress_energy_contribution": 0.3,
+      "confidence_flag_id": "FLAG-001"
+    },
+    {
+      "proposition_id": "P-004",
+      "verbatim_source_text": "Employees shall have the right to self-organization, to form, join, or assist labor organizations, to bargain collectively through representatives of their own choosing, and to engage in other concerted activities for the purpose of collective bargaining or other mutual aid or protection",
+      "source_location": "Section 7",
+      "normalized_claim": "Employees have the federally guaranteed right to organize, form unions, bargain collectively through chosen representatives, and engage in concerted activities for mutual aid.",
+      "is_compound": false,
+      "compound_resolution": null,
+      "is_relational": false,
+      "relational_resolution": null,
+      "primary_classification": "anchored_true",
+      "secondary_tags": [],
+      "anchor_mappings": [
+        "ANC-001"
+      ],
+      "geodesic_distance_from_anchor": null,
+      "edge_sign": "positive",
+      "stress_energy_contribution": 0.3,
+      "confidence_flag_id": null
+    },
+    {
+      "proposition_id": "P-005-rel",
+      "verbatim_source_text": "The denial by some employers...lead to strikes...which have the intent or the necessary effect of burdening or obstructing commerce [Section 1]; Experience has proved that protection by law...safeguards commerce [Section 1]",
+      "source_location": "Section 1 (Findings and Policies)",
+      "normalized_claim": "The Commerce Clause framing of the Act's findings positions labor relations regulation as a federal matter necessary to protect the free flow of interstate commerce, providing constitutional cover for federal jurisdiction over what had previously been considered a state-regulated domain.",
+      "is_compound": false,
+      "compound_resolution": null,
+      "is_relational": true,
+      "relational_resolution": {
+        "parent_proposition_a": "P-001",
+        "parent_proposition_b": "P-003",
+        "relation_type": "implies",
+        "relational_note": "The Commerce Clause framing (P-001-b: strife necessarily burdens commerce; P-003: protection of bargaining rights safeguards commerce) connects the labor relations problem to federal jurisdiction. This is constitutionally motivated: the Act needs findings of commerce effects to invoke federal power. The question for geometric analysis is whether the 'necessary effect' and 'experience has proved' language overstates the empirical basis — both claims are stronger than the evidentiary record strictly supports — suggesting the findings serve a jurisdictional-rhetorical function beyond their descriptive function. Evaluated against ANC-003 (constitutional validation) and ANC-004 (post-enactment effectiveness record)."
+      },
+      "primary_classification": "bridge_narrative",
+      "secondary_tags": [
+        "contextually_misleading"
+      ],
+      "anchor_mappings": [
+        "ANC-003",
+        "ANC-004"
+      ],
+      "geodesic_distance_from_anchor": null,
+      "edge_sign": "negative",
+      "stress_energy_contribution": 0.3,
+      "confidence_flag_id": "FLAG-001"
+    }
+  ],
+  "graph_structure": {
+    "nodes": [
+      {
+        "id": "ANC-001",
+        "type": "anchor",
+        "label": "ANC-001",
+        "classification": "direct_empirical_record",
+        "r": 0.25,
+        "theta": 0.0,
+        "geodesic_distance": 0.5108,
+        "zone": "governance",
+        "blocked": false
+      },
+      {
+        "id": "ANC-002",
+        "type": "anchor",
+        "label": "ANC-002",
+        "classification": "direct_empirical_record",
+        "r": 0.5,
+        "theta": 1.2566,
+        "geodesic_distance": 1.0986,
+        "zone": "governance",
+        "blocked": false
+      },
+      {
+        "id": "ANC-003",
+        "type": "anchor",
+        "label": "ANC-003",
+        "classification": "primary_source_attestation",
+        "r": 0.25,
+        "theta": 2.5133,
+        "geodesic_distance": 0.5108,
+        "zone": "governance",
+        "blocked": false
+      },
+      {
+        "id": "ANC-004",
+        "type": "anchor",
+        "label": "ANC-004",
+        "classification": "direct_empirical_record",
+        "r": 0.5,
+        "theta": 3.7699,
+        "geodesic_distance": 1.0986,
+        "zone": "governance",
+        "blocked": false
+      },
+      {
+        "id": "ANC-005",
+        "type": "anchor",
+        "label": "ANC-005",
+        "classification": "scientific_consensus",
+        "r": 0.75,
+        "theta": 5.0265,
+        "geodesic_distance": 1.9459,
+        "zone": "governance",
+        "blocked": false
+      },
+      {
+        "id": "P-001",
+        "type": "proposition",
+        "label": "P-001",
+        "classification": "anchored_true",
+        "secondary_tags": [],
+        "verbatim": "The denial by some employers of the right of employees to organize and the refusal by some employers to accept the procedure of collective bargaining lead to strikes and other forms of industrial strife or unrest, which have the intent or the necessary effect of burdening or obstructing commerce",
+        "normalized": "Employer denial of employee organizing rights and refusal of collective bargaining is a proximate cause of industrial strikes and labor unrest that burden interstate commerce.",
+        "stress": 0.3,
+        "r": 0.5,
+        "theta": 0.0,
+        "geodesic_distance": 1.0986,
+        "zone": "governance",
+        "blocked": false
+      },
+      {
+        "id": "P-001-a",
+        "type": "proposition",
+        "label": "P-001-a",
+        "classification": "anchored_true",
+        "secondary_tags": [],
+        "verbatim": "The denial by some employers of the right of employees to organize and the refusal by some employers to accept the procedure of collective bargaining lead to strikes and other forms of industrial strife or unrest",
+        "normalized": "Employer denial of employee organizing rights and collective bargaining is a proximate cause of industrial strikes and labor unrest.",
+        "stress": 0.3,
+        "r": 0.5,
+        "theta": 0.8976,
+        "geodesic_distance": 1.0986,
+        "zone": "governance",
+        "blocked": false
+      },
+      {
+        "id": "P-001-b",
+        "type": "proposition",
+        "label": "P-001-b",
+        "classification": "anchored_true",
+        "secondary_tags": [
+          "contextually_misleading"
+        ],
+        "verbatim": "which have the intent or the necessary effect of burdening or obstructing commerce",
+        "normalized": "Industrial strikes arising from employer denial of organizing rights necessarily burden or obstruct interstate commerce.",
+        "stress": 0.3,
+        "r": 0.28,
+        "theta": 1.7952,
+        "geodesic_distance": 0.5754,
+        "zone": "governance",
+        "blocked": false
+      },
+      {
+        "id": "P-002",
+        "type": "proposition",
+        "label": "P-002",
+        "classification": "anchored_true",
+        "secondary_tags": [],
+        "verbatim": "The inequality of bargaining power between employees who do not possess full freedom of association or actual liberty of contract and employers who are organized in the corporate or other forms of ownership association substantially burdens and affects the flow of commerce, and tends to aggravate recurrent business depressions, by depressing wage rates and the purchasing power of wage earners in industry",
+        "normalized": "The structural imbalance in bargaining power between unorganized employees and organized employers depresses wages and purchasing power, which tends to aggravate business downturns.",
+        "stress": 0.3,
+        "r": 0.5,
+        "theta": 2.6928,
+        "geodesic_distance": 1.0986,
+        "zone": "governance",
+        "blocked": false
+      },
+      {
+        "id": "P-003",
+        "type": "proposition",
+        "label": "P-003",
+        "classification": "anchored_false",
+        "secondary_tags": [
+          "contextually_misleading"
+        ],
+        "verbatim": "Experience has proved that protection by law of the right of employees to organize and bargain collectively safeguards commerce from injury, impairment, or interruption, and promotes the flow of commerce by removing certain recognized sources of industrial strife and unrest",
+        "normalized": "Empirical experience has established that legally protecting employees' right to organize and bargain collectively reduces industrial strife and safeguards commerce.",
+        "stress": 0.3,
+        "r": 0.795,
+        "theta": 3.5904,
+        "geodesic_distance": 2.1698,
+        "zone": "temporal_knowledge",
+        "blocked": false
+      },
+      {
+        "id": "P-004",
+        "type": "proposition",
+        "label": "P-004",
+        "classification": "anchored_true",
+        "secondary_tags": [],
+        "verbatim": "Employees shall have the right to self-organization, to form, join, or assist labor organizations, to bargain collectively through representatives of their own choosing, and to engage in other concerted activities for the purpose of collective bargaining or other mutual aid or protection",
+        "normalized": "Employees have the federally guaranteed right to organize, form unions, bargain collectively through chosen representatives, and engage in concerted activities for mutual aid.",
+        "stress": 0.3,
+        "r": 0.28,
+        "theta": 4.488,
+        "geodesic_distance": 0.5754,
+        "zone": "governance",
+        "blocked": false
+      },
+      {
+        "id": "P-005-rel",
+        "type": "proposition",
+        "label": "P-005-rel",
+        "classification": "bridge_narrative",
+        "secondary_tags": [
+          "contextually_misleading"
+        ],
+        "verbatim": "The denial by some employers...lead to strikes...which have the intent or the necessary effect of burdening or obstructing commerce [Section 1]; Experience has proved that protection by law...safeguards commerce [Section 1]",
+        "normalized": "The Commerce Clause framing of the Act's findings positions labor relations regulation as a federal matter necessary to protect the free flow of interstate commerce, providing constitutional cover for federal jurisdiction over what had previously been considered a state-regulated domain.",
+        "stress": 0.3,
+        "r": 0.6475,
+        "theta": 5.3856,
+        "geodesic_distance": 1.542,
+        "zone": "rationale",
+        "blocked": false
+      }
+    ],
+    "edges": [
+      {
+        "source": "P-001",
+        "target": "ANC-001",
+        "sign": "positive",
+        "weight": 0.3
+      },
+      {
+        "source": "P-001",
+        "target": "ANC-002",
+        "sign": "positive",
+        "weight": 0.3
+      },
+      {
+        "source": "P-001",
+        "target": "ANC-003",
+        "sign": "positive",
+        "weight": 0.3
+      },
+      {
+        "source": "P-001-a",
+        "target": "ANC-002",
+        "sign": "positive",
+        "weight": 0.3
+      },
+      {
+        "source": "P-001-b",
+        "target": "ANC-003",
+        "sign": "positive",
+        "weight": 0.3
+      },
+      {
+        "source": "P-002",
+        "target": "ANC-002",
+        "sign": "positive",
+        "weight": 0.3
+      },
+      {
+        "source": "P-002",
+        "target": "ANC-005",
+        "sign": "positive",
+        "weight": 0.3
+      },
+      {
+        "source": "P-003",
+        "target": "ANC-004",
+        "sign": "negative",
+        "weight": 0.3
+      },
+      {
+        "source": "P-004",
+        "target": "ANC-001",
+        "sign": "positive",
+        "weight": 0.3
+      },
+      {
+        "source": "P-005-rel",
+        "target": "ANC-003",
+        "sign": "negative",
+        "weight": 0.3
+      },
+      {
+        "source": "P-005-rel",
+        "target": "ANC-004",
+        "sign": "negative",
+        "weight": 0.3
+      }
+    ],
+    "manifold_zone_assignments": {
+      "governance": [
+        "ANC-001",
+        "ANC-002",
+        "ANC-003",
+        "ANC-004",
+        "ANC-005",
+        "P-001",
+        "P-001-a",
+        "P-001-b",
+        "P-002",
+        "P-004"
+      ],
+      "rationale": [
+        "P-005-rel"
+      ],
+      "work_knowledge": [],
+      "temporal_knowledge": [
+        "P-003"
+      ]
+    },
+    "adaptive_zone_boundaries": {
+      "governance": 0.55,
+      "false_attractor": 0.72
+    },
+    "node_radii": {
+      "ANC-001": 0.25,
+      "ANC-002": 0.5,
+      "ANC-003": 0.25,
+      "ANC-004": 0.5,
+      "ANC-005": 0.75,
+      "P-001-a": 0.5,
+      "P-001-b": 0.28,
+      "P-002": 0.5,
+      "P-003": 0.795,
+      "P-004": 0.28,
+      "P-001": 0.5,
+      "P-005-rel": 0.6475
+    },
+    "fragmentation_detected": false,
+    "polarization_detected": true,
+    "bridge_narrative_candidates": [
+      "P-005-rel"
+    ],
+    "false_attractor_candidates": [
+      "P-003"
+    ],
+    "contradiction_pairs": []
+  },
+  "geometric_summary": {
+    "manifold_description": "7 propositions placed on hyperbolic manifold. 5 governance-anchored (GOVERNANCE zone), 1 bridge_narrative candidate(s) (RATIONALE zone), 1 anchored_false attractor(s) (TEMPORAL_KNOWLEDGE zone), 0 ambiguous/contested (WORK/TEMPORAL zones). Fiedler value lambda2 = 0.0987 CoherenceState(zone='work_knowledge', timestamp='2026-04-28T14:35:24.696968+00:00', lambda2=0.0, lambda2_delta=0.0, lambda2_stable=False, lambda2_sufficient=False, mean_sheaf_consistency=0.0, sheaf_su",
+    "anchor_cluster_summary": "5 anchor(s) registered at governance zone (r=0). No contradictions detected.",
+    "highest_stress_region": "P-001 (stress=0.300)",
+    "least_stable_truth_candidate": "P-001",
+    "most_stable_false_candidate": "P-003",
+    "bridge_narrative_geometry_note": "1 bridge narrative candidate(s) detected at RATIONALE zone boundary. Bidirectional T_mu_nu load present. ExpressionResult(expressed_nodes=['ANC-001', 'ANC-002', 'ANC-003', 'ANC-004', 'ANC-005', 'P-001', 'P-001-a', 'P-001-b', 'P-002', 'P-003', 'P-004', 'P-005-rel'], silenced_nodes={}, inhibition_scores={'",
+    "structural_tension_note": "1 undeclared tension point(s) detected. See confidence_flags.",
+    "analyst_notes": "",
+    "reader_interpretation_note": "This summary describes geometric structure only. Classification of intent or moral judgment is left to the reader."
+  },
+  "confidence_flags": [
+    {
+      "flag_id": "FLAG-001",
+      "proposition_id": "P-003",
+      "flag_type": "bridge_narrative_candidate",
+      "description": "P-003 ('Experience has proved that protection by law of collective bargaining safeguards commerce') and P-005-rel are jointly flagged. P-003 makes a strong empirical claim ('experience has proved') that was made prospectively at enactment, not established by pre-existing empirical record. The post-enactment record (ANC-004) shows elevated strike activity in 1937, two years after passage. The 'experience has proved' framing may function rhetorically to present a predictive policy argument as a backward-looking empirical finding, lending the causal argument the epistemic authority of established fact rather than contested policy theory. P-005-rel: the Commerce Clause framing (connecting labor relations to commerce burdens) serves a jurisdictional-constitutional function, and the 'necessary effect' language is stronger than the evidentiary record supports. The combination of these two overstated claims warrants bridge narrative evaluation — the 'experience has proved' frame may insulate the constitutional jurisdictional claim (P-001-b) from scrutiny by presenting the connection as empirically settled. Signal 3 (epistatic suppression) deferred to pipeline.",
+      "severity": "medium"
+    },
+    {
+      "flag_id": "CF-TENSION-P-005-rel",
+      "flag_type": "undeclared_structural_tension",
+      "affected_proposition": "P-005-rel",
+      "note": "Tidal tension detected: unknown",
+      "severity": "medium"
+    },
+    {
+      "flag_id": "CF-SAL-COHERENCE",
+      "flag_type": "coherence_below_threshold",
+      "affected_proposition": null,
+      "note": "SAL coherence gate: should_commit=False. lambda2=unknown",
+      "severity": "medium"
+    },
+    {
+      "flag_id": "CF-TENSION-P-005-rel",
+      "flag_type": "undeclared_structural_tension",
+      "affected_proposition": "P-005-rel",
+      "note": "Tidal tension detected: unknown",
+      "severity": "medium"
+    },
+    {
+      "flag_id": "CF-SAL-COHERENCE",
+      "flag_type": "coherence_below_threshold",
+      "affected_proposition": null,
+      "note": "SAL coherence gate: should_commit=False. lambda2=unknown",
+      "severity": "medium"
+    },
+    {
+      "flag_id": "CF-TENSION-P-005-rel",
+      "flag_type": "undeclared_structural_tension",
+      "affected_proposition": "P-005-rel",
+      "note": "Tidal tension detected: unknown",
+      "severity": "medium"
+    },
+    {
+      "flag_id": "CF-SAL-COHERENCE",
+      "flag_type": "coherence_below_threshold",
+      "affected_proposition": null,
+      "note": "SAL coherence gate: should_commit=False. lambda2=unknown",
+      "severity": "medium"
+    }
+  ],
+  "falsifiability_record": [],
+  "audit_trail": [
+    {
+      "module": "rga_pipeline",
+      "status": "started",
+      "timestamp": "2026-04-28T14:35:24.693788",
+      "note": "Pipeline started for DOC-19350705-004"
+    },
+    {
+      "module": "RGAGraphAdapter",
+      "status": "complete",
+      "timestamp": "2026-04-28T14:35:24.694689",
+      "note": "Graph built: 12 nodes, 0 blocked, 2 bridge edges"
+    },
+    {
+      "module": "HSHGeometry",
+      "status": "calibration",
+      "timestamp": "2026-04-28T14:35:24.694689",
+      "note": "Adaptive radii set for 12 nodes. governance_boundary=0.550, false_attractor_boundary=0.720"
+    },
+    {
+      "module": "HSHGeometry",
+      "status": "complete",
+      "timestamp": "2026-04-28T14:35:24.695971",
+      "note": "Fiedler value lambda2=0.0987"
+    },
+    {
+      "module": "StructuralTensionAuditor",
+      "status": "complete",
+      "timestamp": "2026-04-28T14:35:24.696968",
+      "note": "1 tension record(s)"
+    },
+    {
+      "module": "EpistaticGate",
+      "status": "complete",
+      "timestamp": "2026-04-28T14:35:24.696968",
+      "note": "0 latent conflict(s) detected"
+    },
+    {
+      "module": "SALCoherenceLayer",
+      "status": "complete",
+      "timestamp": "2026-04-28T14:35:24.696968",
+      "note": "should_commit=False"
+    },
+    {
+      "module": "rga_pipeline",
+      "status": "complete",
+      "timestamp": "2026-04-28T14:35:24.696968",
+      "note": "Pipeline complete. 7 confidence flag(s). 1 bridge narrative candidate(s)."
+    }
+  ]
+}
